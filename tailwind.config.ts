@@ -51,15 +51,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        navy: {
-          DEFAULT: "hsl(var(--navy))",
-          light: "hsl(var(--navy-light))",
+        amber: {
+          DEFAULT: "hsl(var(--amber))",
+          hover: "hsl(var(--amber-hover))",
         },
-        orange: {
-          DEFAULT: "hsl(var(--orange))",
-          hover: "hsl(var(--orange-hover))",
+        dark: {
+          DEFAULT: "hsl(var(--dark))",
+          bg: "hsl(var(--dark-bg))",
         },
         "section-alt": "hsl(var(--section-alt))",
+        "red-accent": "hsl(var(--red-accent))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

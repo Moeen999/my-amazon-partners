@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,56 +7,51 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 30% 12%;
+    --foreground: 0 0% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 30% 12%;
+    --card-foreground: 0 0% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 30% 12%;
+    --popover-foreground: 0 0% 10%;
 
-    --primary: 224 50% 14%;
+    --primary: 0 0% 10%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 20% 96%;
-    --secondary-foreground: 224 50% 14%;
+    --secondary: 45 10% 96%;
+    --secondary-foreground: 0 0% 10%;
 
-    --muted: 220 20% 96%;
-    --muted-foreground: 220 10% 46%;
+    --muted: 45 10% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 28 100% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 100% 51%;
+    --accent-foreground: 0 0% 10%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 90%;
-    --input: 220 15% 90%;
-    --ring: 28 100% 55%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 45 100% 51%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 224 50% 14%;
-    --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 28 100% 55%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 224 45% 20%;
-    --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 224 40% 22%;
-    --sidebar-ring: 28 100% 55%;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 10%;
+    --sidebar-primary: 45 100% 51%;
+    --sidebar-primary-foreground: 0 0% 10%;
+    --sidebar-accent: 45 10% 96%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 45 100% 51%;
 
     /* Custom tokens */
-    --navy: 224 50% 14%;
-    --navy-light: 224 40% 22%;
-    --orange: 28 100% 55%;
-    --orange-hover: 28 100% 48%;
-    --orange-glow: 28 100% 55%;
-    --section-alt: 220 25% 97%;
-    --gradient-hero: linear-gradient(135deg, hsl(224 50% 14%) 0%, hsl(224 45% 20%) 100%);
-    --gradient-cta: linear-gradient(135deg, hsl(28 100% 55%) 0%, hsl(20 100% 50%) 100%);
-    --shadow-card: 0 4px 24px -4px hsl(224 50% 14% / 0.08);
-    --shadow-card-hover: 0 12px 32px -8px hsl(224 50% 14% / 0.15);
-    --shadow-cta: 0 8px 24px -4px hsl(28 100% 55% / 0.4);
+    --amber: 45 100% 51%;
+    --amber-hover: 45 100% 45%;
+    --dark: 0 0% 10%;
+    --dark-bg: 220 20% 14%;
+    --section-alt: 45 10% 97%;
+    --red-accent: 0 80% 50%;
   }
 }
 
@@ -77,36 +72,27 @@
 
 @layer components {
   .section-padding {
-    @apply px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+    @apply px-4 sm:px-6 lg:px-8 py-16 md:py-20;
   }
 
   .container-main {
     @apply max-w-7xl mx-auto;
   }
 
-  .gradient-hero {
-    background: var(--gradient-hero);
+  .bg-dark {
+    background-color: hsl(var(--dark-bg));
   }
 
-  .gradient-cta {
-    background: var(--gradient-cta);
+  .bg-section-alt {
+    background-color: hsl(var(--section-alt));
   }
 
   .shadow-card {
-    box-shadow: var(--shadow-card);
+    box-shadow: 0 1px 3px 0 hsl(0 0% 0% / 0.06), 0 1px 2px -1px hsl(0 0% 0% / 0.06);
   }
 
   .shadow-card-hover {
-    box-shadow: var(--shadow-card-hover);
-  }
-
-  .shadow-cta {
-    box-shadow: var(--shadow-cta);
-  }
-
-  .text-gradient-orange {
-    @apply bg-clip-text text-transparent;
-    background-image: var(--gradient-cta);
+    box-shadow: 0 10px 25px -5px hsl(0 0% 0% / 0.1), 0 8px 10px -6px hsl(0 0% 0% / 0.08);
   }
 }
 
@@ -116,38 +102,23 @@
   }
 
   .animate-fade-up-delay {
-    animation: fadeUp 0.6s ease-out 0.2s forwards;
+    animation: fadeUp 0.6s ease-out 0.15s forwards;
     opacity: 0;
   }
 
   .animate-fade-up-delay-2 {
-    animation: fadeUp 0.6s ease-out 0.4s forwards;
+    animation: fadeUp 0.6s ease-out 0.3s forwards;
     opacity: 0;
-  }
-
-  .animate-count-up {
-    animation: countUp 1s ease-out forwards;
   }
 }
 
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(24px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes countUp {
-  from {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
   }
 }
