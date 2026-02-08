@@ -1,46 +1,97 @@
 import { Link } from "react-router-dom";
+import { Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => (
-  <footer className="bg-primary text-primary-foreground">
-    <div className="container-main section-padding">
+  <footer className="bg-background border-t border-border">
+    {/* Email subscribe */}
+    <div className="border-b border-border">
+      <div className="container-main px-4 sm:px-6 lg:px-8 py-10 text-center">
+        <h3 className="text-xl font-heading font-bold text-foreground mb-4">Subscribe for Email Updates</h3>
+        <form className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-lg mx-auto" onSubmit={(e) => e.preventDefault()}>
+          <input
+            type="text"
+            placeholder="Type your name"
+            className="h-10 px-4 rounded-md border border-input bg-background text-sm w-full sm:w-auto flex-1"
+          />
+          <input
+            type="email"
+            placeholder="Type your email"
+            className="h-10 px-4 rounded-md border border-input bg-background text-sm w-full sm:w-auto flex-1"
+          />
+          <button
+            type="submit"
+            className="h-10 px-6 rounded-md bg-accent text-accent-foreground text-sm font-semibold hover:bg-amber-hover transition-colors"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div className="container-main px-4 sm:px-6 lg:px-8 py-12">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-        <div className="md:col-span-1">
-          <span className="text-xl font-heading font-bold">
-            your<span className="text-accent">amazon</span>guy
-          </span>
-          <p className="mt-4 text-sm text-primary-foreground/60 leading-relaxed">
-            Full-service Amazon agency helping brands scale revenue, optimize listings, and dominate the marketplace.
+        <div>
+          <div className="flex items-center gap-1.5 mb-4">
+            <div className="flex gap-0.5">
+              <div className="w-1 h-5 bg-red-accent rounded-sm" />
+              <div className="w-1 h-5 bg-accent rounded-sm" />
+              <div className="w-1 h-5 bg-accent rounded-sm" />
+            </div>
+            <span className="text-lg font-heading font-bold text-foreground ml-1">Your Amazon Guy</span>
+          </div>
+          <div className="flex gap-3 mb-4">
+            <a href="#" className="w-8 h-8 rounded-full bg-foreground flex items-center justify-center text-primary-foreground hover:opacity-80 transition-opacity">
+              <Linkedin size={14} />
+            </a>
+            <a href="#" className="w-8 h-8 rounded-full bg-foreground flex items-center justify-center text-primary-foreground hover:opacity-80 transition-opacity">
+              <Youtube size={14} />
+            </a>
+          </div>
+          <div className="space-y-2 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2"><MapPin size={14} /> Atlanta, GA</div>
+            <div className="flex items-center gap-2"><Phone size={14} /> +1 470-623-1951</div>
+            <div className="flex items-center gap-2"><Mail size={14} /> sales@youramazonguy.com</div>
+          </div>
+        </div>
+
+        <div>
+          <h4 className="font-heading font-bold text-foreground mb-4 text-sm">Services</h4>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li><Link to="/services" className="hover:text-foreground transition-colors">Full Service Management</Link></li>
+            <li><Link to="/services" className="hover:text-foreground transition-colors">Search Engine Optimization (SEO)</Link></li>
+            <li><Link to="/services" className="hover:text-foreground transition-colors">Advertising Management (PPC)</Link></li>
+            <li><Link to="/services" className="hover:text-foreground transition-colors">Listing Optimization</Link></li>
+            <li><Link to="/services" className="hover:text-foreground transition-colors">Design</Link></li>
+            <li><Link to="/services" className="hover:text-foreground transition-colors">Account Suspension</Link></li>
+            <li><Link to="/services" className="hover:text-foreground transition-colors">Trademark Registration</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="font-heading font-bold text-foreground mb-4 text-sm">Company</h4>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li><Link to="/results" className="hover:text-foreground transition-colors">Case Studies</Link></li>
+            <li><Link to="/results" className="hover:text-foreground transition-colors">Testimonials</Link></li>
+            <li><Link to="/about" className="hover:text-foreground transition-colors">About Us</Link></li>
+            <li><Link to="/contact" className="hover:text-foreground transition-colors">Contact</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="font-heading font-bold text-foreground mb-4 text-sm">Get Started</h4>
+          <p className="text-sm text-muted-foreground mb-4">
+            Ready to grow your Amazon business? Get a free listing audit today.
           </p>
-        </div>
-        <div>
-          <h4 className="font-heading font-semibold mb-4 text-sm uppercase tracking-wider text-primary-foreground/40">Services</h4>
-          <ul className="space-y-2 text-sm text-primary-foreground/70">
-            <li><Link to="/services" className="hover:text-accent transition-colors">PPC Management</Link></li>
-            <li><Link to="/services" className="hover:text-accent transition-colors">Listing Optimization</Link></li>
-            <li><Link to="/services" className="hover:text-accent transition-colors">Account Management</Link></li>
-            <li><Link to="/services" className="hover:text-accent transition-colors">Product Launch</Link></li>
-          </ul>
-        </div>
-        <div>
-          <h4 className="font-heading font-semibold mb-4 text-sm uppercase tracking-wider text-primary-foreground/40">Company</h4>
-          <ul className="space-y-2 text-sm text-primary-foreground/70">
-            <li><Link to="/about" className="hover:text-accent transition-colors">About Us</Link></li>
-            <li><Link to="/results" className="hover:text-accent transition-colors">Case Studies</Link></li>
-            <li><Link to="/contact" className="hover:text-accent transition-colors">Contact</Link></li>
-          </ul>
-        </div>
-        <div>
-          <h4 className="font-heading font-semibold mb-4 text-sm uppercase tracking-wider text-primary-foreground/40">Get Started</h4>
-          <p className="text-sm text-primary-foreground/70 mb-4">Ready to grow your Amazon business?</p>
           <Link
             to="/contact"
-            className="inline-block gradient-cta text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold shadow-cta hover:opacity-90 transition-opacity"
+            className="inline-block bg-accent text-accent-foreground px-5 py-2.5 rounded-full text-sm font-bold hover:bg-amber-hover transition-colors"
           >
-            Book a Free Call
+            Get a Free Audit
           </Link>
         </div>
       </div>
-      <div className="mt-12 pt-8 border-t border-navy-light text-center text-xs text-primary-foreground/40">
+
+      <div className="mt-10 pt-6 border-t border-border text-center text-xs text-muted-foreground">
         © {new Date().getFullYear()} youramazonguy. All rights reserved.
       </div>
     </div>

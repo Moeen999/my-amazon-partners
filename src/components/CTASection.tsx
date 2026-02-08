@@ -10,10 +10,10 @@ interface CTASectionProps {
 
 const CTASection = ({
   title = "Ready to Scale Your Amazon Business?",
-  subtitle = "Book a free strategy call and discover how we can help you grow revenue, reduce ACoS, and dominate your category.",
-  dark = true,
+  subtitle = "Contact us to get started with a free listing audit and discover how we can help you grow.",
+  dark = false,
 }: CTASectionProps) => (
-  <section className={dark ? "gradient-hero" : "bg-section-alt"}>
+  <section className={dark ? "bg-dark" : "bg-section-alt"}>
     <div className="container-main section-padding text-center">
       <h2 className={`text-3xl md:text-4xl font-heading font-bold mb-4 ${dark ? "text-primary-foreground" : "text-foreground"}`}>
         {title}
@@ -24,10 +24,10 @@ const CTASection = ({
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Button asChild variant="cta" size="lg">
           <Link to="/contact">
-            Book a Free Call <ArrowRight className="ml-2 h-4 w-4" />
+            Contact Us to Get Started <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
-        <Button asChild variant={dark ? "outline-light" : "outline"} size="lg">
+        <Button asChild variant="cta-outline" size="lg">
           <Link to="/services">View Our Services</Link>
         </Button>
       </div>

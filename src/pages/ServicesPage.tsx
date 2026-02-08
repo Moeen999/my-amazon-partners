@@ -1,93 +1,135 @@
-import { Target, BarChart3, ShieldCheck, Rocket, TrendingUp, Users, CheckCircle } from "lucide-react";
+import { Search, BarChart3, ShieldCheck, FileWarning, ListRestart, Palette, Wrench, Stamp, Globe, Package, Monitor, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import TrustLogos from "@/components/TrustLogos";
 import CTASection from "@/components/CTASection";
 
 const services = [
   {
-    icon: Target,
-    title: "PPC Management",
-    desc: "Our team of PPC specialists manages your Amazon advertising campaigns with precision, using advanced data analytics and bid optimization strategies.",
-    features: ["Campaign structure optimization", "Bid management & automation", "Keyword research & targeting", "ACoS reduction strategies"],
+    icon: Monitor,
+    title: "Full Service Management",
+    desc: "As a full service amazon agency, we manage all the pillars of Amazon – SEO, PPC, catalog, design, and others – to have them work in sync with each other for a better chance at getting success.",
+    features: ["Click through rate", "Platform management", "Brand and content optimization", "Search engine optimization", "Paid advertising (PPC)", "Troubleshooting", "Reporting and monitoring"],
   },
   {
-    icon: BarChart3,
-    title: "Listing Optimization",
-    desc: "We craft compelling, SEO-optimized listings that rank higher in search results and convert browsers into buyers with persuasive copy and imagery.",
-    features: ["Keyword-rich title optimization", "Bullet point & description copy", "A+ Content design", "Image strategy & guidelines"],
+    icon: Search,
+    title: "Search Engine Optimization",
+    desc: "Our Amazon SEO experts identify the best keywords to use and optimize listings for improved organic ranking to make it easier for shoppers to find your products.",
+    features: ["4-phase SEO plan", "Keyword & Competitor Research", "Targeted Keyword Selection", "Ongoing Rank Tracking", "Optimized listings for SEO"],
   },
   {
     icon: ShieldCheck,
-    title: "Account Management",
-    desc: "Full-service Amazon account management that handles everything from inventory planning to case resolution, so you can focus on your business.",
-    features: ["Daily account monitoring", "Inventory & supply chain planning", "Case management & resolution", "Brand protection & enforcement"],
+    title: "Amazon Account Audit",
+    desc: "Get a thorough analysis of your seller central account to identify areas of improvement and avoid costly mistakes.",
+    features: ["Advertising (PPC) segmentation, structure, and bidding", "SEO indexing and rankings", "Product listings – merchandising and design", "Brand registry", "Account Health", "Growth Areas"],
   },
   {
-    icon: Rocket,
-    title: "Product Launch Services",
-    desc: "Strategic product launches designed to build momentum fast with ranking strategies, review generation, and promotional campaigns.",
-    features: ["Pre-launch market analysis", "Launch strategy & execution", "Review generation campaigns", "Ranking acceleration tactics"],
+    icon: FileWarning,
+    title: "Account Suspensions",
+    desc: "Has your seller listing or account been suspended or deactivated? We can help get things back up and running with our expert Amazon specialists.",
+    features: ["Metrics (order defect) suspensions", "Copyright, trademark, patent suspensions", "Validation Issue Suspensions", "Multiple account suspensions"],
   },
   {
-    icon: TrendingUp,
-    title: "Growth Strategy",
-    desc: "Custom growth roadmaps built on deep market analysis, competitive intelligence, and proven expansion frameworks.",
-    features: ["Market opportunity analysis", "Competitive intelligence", "Expansion planning", "Revenue forecasting"],
+    icon: ListRestart,
+    title: "Listing Reinstatement",
+    desc: "Has Amazon deactivated your top-selling ASIN? Need help reinstating the yanked listing? We can assist quickly and efficiently.",
+    features: ["Copyright claims takedown", "Trademark infringement yank", "Medical claims takedown", "Listing condition complaints", "Restricted item type claims"],
   },
   {
-    icon: Users,
-    title: "Consulting",
-    desc: "Expert Amazon consulting for brands that want strategic guidance without full-service management. Perfect for in-house teams that need direction.",
-    features: ["Strategy audits", "Team training & enablement", "Performance reviews", "Custom recommendations"],
+    icon: Palette,
+    title: "Design",
+    desc: "Engage and inform shoppers with captivating imagery. Showcase your products with professional design to help boost conversion rates.",
+    features: ["Brand guidelines", "Brand story", "Brand storefront", "Enhanced brand content A+", "Full listing optimization", "Listing images design", "Main image CTR hack"],
+  },
+  {
+    icon: Wrench,
+    title: "Troubleshooting",
+    desc: "Everything from UPC issues, page updates, catalog problems, brand changes — we help get things right and identify areas of improvement.",
+    features: ["Brand name change", "UPC to GS1 changes", "Gated categories", "Catalog problems", "Hazmat review errors", "Account and listing reinstatement"],
+  },
+  {
+    icon: Stamp,
+    title: "Trademark Registration",
+    desc: "We file your trademark for your brand and sign you up for Amazon Brand Registry — protecting your products from infringement.",
+    features: ["Free trademark assessment", "Trademark search", "Trademark filing", "Dedicated trademark attorney", "Assistance in Amazon Brand Registry"],
+  },
+  {
+    icon: Globe,
+    title: "SEO for Websites",
+    desc: "Effective website search engine optimization (SEO) is the key to getting your products seen online beyond Amazon.",
+    features: ["On-page SEO optimization", "Content strategy", "Technical SEO audit", "Link building"],
+  },
+  {
+    icon: Package,
+    title: "FBA Returns",
+    desc: "Amazon owes 99% of sellers money for lost/damaged units, refunds and mishandled returns. We make the process of getting your money back quick and easy.",
+    features: ["Lost and damaged inventory", "Lost inbound shipment", "Destroyed units"],
+  },
+  {
+    icon: BarChart3,
+    title: "Vendor Central Full Service",
+    desc: "Get expert help managing Vendor Central and sell your products directly to Amazon with confidence.",
+    features: ["PPC", "SEO", "A+ Content", "Brand Store", "Listing optimization", "Logistics", "Reporting", "Troubleshooting"],
   },
 ];
 
 const ServicesPage = () => (
   <>
-    <section className="gradient-hero section-padding">
-      <div className="container-main text-center">
-        <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-2">Our Services</p>
-        <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-primary-foreground">
-          Amazon Growth Solutions
-        </h1>
-        <p className="mt-4 text-lg text-primary-foreground/70 max-w-2xl mx-auto">
-          Comprehensive services designed to help your brand thrive on the Amazon marketplace.
-        </p>
+    {/* Hero */}
+    <section className="bg-background">
+      <div className="container-main px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+        <div className="max-w-2xl">
+          <p className="text-sm font-medium text-muted-foreground mb-2">Amazon Services</p>
+          <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-foreground leading-tight">
+            The support you need to succeed on Amazon
+          </h1>
+          <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
+            With over 400 brands currently managed, we know what it takes to be successful on Amazon. From SEO to PPC, design, and troubleshooting, our Amazon experts can provide the service you need to grow.
+          </p>
+          <div className="mt-6 flex flex-col sm:flex-row gap-3">
+            <Button asChild variant="cta" size="lg">
+              <Link to="/contact">Contact Us to Get Started</Link>
+            </Button>
+          </div>
+          <p className="mt-4 text-sm text-muted-foreground">
+            Start easy with our{" "}
+            <Link to="/contact" className="text-foreground font-semibold underline underline-offset-2">
+              FREE listing checkup
+            </Link>.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section className="bg-background section-padding">
-      <div className="container-main space-y-16">
-        {services.map((s, i) => (
-          <div
-            key={s.title}
-            className={`flex flex-col lg:flex-row gap-8 items-start ${i % 2 === 1 ? "lg:flex-row-reverse" : ""}`}
-          >
-            <div className="flex-1">
-              <div className="w-14 h-14 rounded-xl gradient-cta flex items-center justify-center mb-4">
-                <s.icon className="h-7 w-7 text-accent-foreground" />
+    {/* Service cards */}
+    <section className="bg-section-alt section-padding">
+      <div className="container-main px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {services.map((s) => (
+            <div key={s.title} className="bg-card rounded-xl p-6 border border-border shadow-card hover:shadow-card-hover transition-shadow">
+              <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
+                <s.icon className="h-6 w-6 text-accent" />
               </div>
-              <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground">{s.title}</h2>
-              <p className="mt-3 text-muted-foreground leading-relaxed">{s.desc}</p>
-              <Button asChild variant="cta" size="sm" className="mt-6">
-                <Link to="/contact">Get Started</Link>
-              </Button>
-            </div>
-            <div className="flex-1 bg-section-alt rounded-xl p-6 border border-border w-full">
-              <h3 className="font-heading font-semibold text-foreground mb-4">What's Included</h3>
-              <ul className="space-y-3">
+              <h3 className="text-lg font-heading font-bold text-foreground">{s.title}</h3>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
+              <ul className="mt-4 space-y-2">
                 {s.features.map((f) => (
-                  <li key={f} className="flex items-start gap-3 text-sm text-muted-foreground">
-                    <CheckCircle className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                  <li key={f} className="flex items-start gap-2 text-sm text-muted-foreground">
+                    <CheckCircle className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
                     {f}
                   </li>
                 ))}
               </ul>
+              <Link to="/services" className="inline-flex items-center mt-4 text-sm font-semibold text-accent hover:text-amber-hover transition-colors">
+                Learn more →
+              </Link>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
+
+    <TrustLogos />
 
     <CTASection />
   </>
