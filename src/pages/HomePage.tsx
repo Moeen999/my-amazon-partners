@@ -74,12 +74,12 @@ const HomePage = () => (
             <div className="mt-8 flex flex-col sm:flex-row gap-3 animate-fade-up-delay">
               <Button asChild variant="cta" size="lg">
                 <Link to="/contact">
-                  Grow your Amazon sales <ArrowRight className="ml-2 h-4 w-4" />
+                  Get a free Audit <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
               <Button asChild variant="cta-outline" size="lg">
                 <Link to="/contact">
-                  Solve an Amazon problem <ArrowRight className="ml-2 h-4 w-4" />
+                  Schedule an Icebreaker <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>
