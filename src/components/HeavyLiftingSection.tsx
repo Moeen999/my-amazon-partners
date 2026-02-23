@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HeavyLiftingSection = () => {
   return (
     <section className="w-full max-w-7xl mx-auto px-6 py-2 md:py-12">
@@ -19,7 +21,7 @@ const HeavyLiftingSection = () => {
             </p>
 
             <button className="mt-8 inline-flex items-center justify-center bg-yellow-400 text-black font-semibold px-8 py-2.5 rounded-full transition hover:bg-green-500 hover:text-white">
-              Let's talk results
+              <Link to="/contact">Let's talk results</Link>
             </button>
           </div>
         </div>

@@ -9,7 +9,7 @@ const topNav = [{ label: "Contact Us", path: "/contact" }];
 const bottomNav = [
   { label: "Services", path: "/services", hasDropdown: true },
   { label: "Case Studies", path: "/case-studies" },
-  { label: "Testimonials", path: "/case-studies#testimonials" },
+  { label: "Testimonials", path: "/testimonials" },
   { label: "About Us", path: "/about" },
   { label: "Coaching", path: "/contact" },
 ];
@@ -143,7 +143,7 @@ const Navbar = () => {
                 ].map((item) => (
                   <Link
                     to={item.link}
-                    onClick={()=>setServicesOpen(!servicesOpen)}
+                    onClick={()=>setServicesOpen(false)}
                     key={item.link}
                     className="flex items-center gap-3 font-semibold hover:bg-gray-200/60 px-2 py-1.5 rounded-sm"
                   >
@@ -197,6 +197,7 @@ const Navbar = () => {
                 ].map((item) => (
                   <Link
                     to={item.link}
+                    onClick={() => setServicesOpen(false)}
                     key={item.title}
                     className="flex items-center gap-3  hover:bg-gray-200/60 px-2 py-1.5 rounded-sm"
                   >
@@ -242,6 +243,7 @@ const Navbar = () => {
                   },
                 ].map((item) => (
                   <Link
+                    onClick={() => setServicesOpen(false)}
                     to={item.link}
                     key={item.title}
                     className="flex items-center gap-3  hover:bg-gray-200/60 px-2 py-1.5 rounded-sm"
@@ -289,6 +291,7 @@ const Navbar = () => {
                 ].map((item) => (
                   <Link
                     key={item.title}
+                    onClick={() => setServicesOpen(false)}
                     to={item.link}
                     className="flex items-center gap-3 hover:bg-gray-200/60 px-2 py-1.5 rounded-sm"
                   >

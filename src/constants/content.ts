@@ -229,15 +229,15 @@ export const fullServiceFeatures = [
 ];
 
 export const trustedBrands = [
-  { id: 1, imgSrc: "/honeywell.png" },
-  { id: 2, imgSrc: "/deathwish.png" },
-  { id: 3, imgSrc: "/chirp.png" },
-  { id: 4, imgSrc: "/alen.png" },
-  { id: 5, imgSrc: "/chinook.png" },
-  { id: 6, imgSrc: "/rarebeauty.png" },
-  { id: 7, imgSrc: "/macuhealth.png" },
-  { id: 8, imgSrc: "/heavenlyhunks.png" },
-  { id: 9, imgSrc: "/revel.png" },
+  { id: 1, imgSrc: "/brandImages/blum.png" },
+  { id: 2, imgSrc: "/brandImages/epicdrops.png" },
+  { id: 3, imgSrc: "/brandImages/popana.png" },
+  { id: 4, imgSrc: "/brandImages/mantra.png" },
+  { id: 5, imgSrc: "/brandImages/starbaby.png" },
+  { id: 6, imgSrc: "/brandImages/gps.png" },
+  { id: 7, imgSrc: "/brandImages/luxonthego.png" },
+  { id: 8, imgSrc: "/brandImages/koala.png" },
+  { id: 9, imgSrc: "/brandImages/essexware.png" },
 ];
 
 
@@ -572,25 +572,25 @@ export const brandConsultingContent = {
   checklist: [
     {
       id: 1,
-      icon: "check",
+      icon: FaCheck,
       text: "Amazon brand growth",
       href: "brandGrowth"
     },
     {
       id: 2,
-      icon: "check",
+      icon: FaCheck,
       text: "Drive sales, fix issues",
       href: "targetedSolutions"
     },
     {
       id: 3,
-      icon: "check",
+      icon: FaCheck,
       text: "Strategic business considerations",
       href: "customSolutions"
     },
   ],
 
-  rightImageSrc: "/consultingImages/hero.png",
+  rightImageSrc: "/consultingImages/hero.jpeg",
 };
 
 export const servicesContent = [
@@ -673,7 +673,7 @@ export const tagetedSolutions = [
 export const customSolutionsContent = {
   heading: "Custom solutions to scale on Amazon",
   subheading:
-    "My Amazon Guy tackles your unique challenges, from growth to tariffs, step-by-step.",
+    "My Amazon Partners tackles your unique challenges, from growth to tariffs, step-by-step.",
 
   points: [
     {
@@ -847,3 +847,861 @@ export const betterDesignData = [
     description: 'Professional graphic design helps your listings outperform competitors, making your products more memorable and appealing to buyers.',
   },
 ]
+
+
+//! Testimonials Section Data
+export const testimonialAgencyData = {
+  header: {
+    badge: "CLIENT TESTIMONIALS & REVIEWS",
+    headingMain: "Real brands.",
+    headingHighlight: "Real results.",
+    description: "See how we’ve helped brands reach their full potential and solve their Amazon problems. Don’t take our word for it, hear it directly from our clients."
+  },
+  stats: [
+    {
+      platform: "Trustpilot",
+      stars: 5,
+      rating: "4.5 Stars",
+      reviews: "443+ Reviews"
+    },
+    {
+      platform: "Google Reviews",
+      stars: 5,
+      rating: "4.6 Stars",
+      reviews: "133+ Reviews"
+    }
+  ]
+};
+
+export const testimonialStatsData = [
+  { value: "450+", label: "Brands Managed" },
+  { value: "$1.2B+", label: "Revenue on Amazon Annually" },
+  { value: "460+", label: "Team Members" },
+  { value: "★★★★★", label: "5-Star Rated Agency" }
+];
+
+export const testimonialData = {
+  label: "WHAT OUR CLIENTS SAY",
+  mainHeading: "Trusted across every category on Amazon",
+  subHeading: "From new launches to established sellers here’s what working with My Amazon Partners actually looks like.",
+  review: {
+    growthTag: "📈 340% Sales Growth · 6 Months",
+    comment: "My Amazon Partners transformed our Amazon presence completely. Before working with them, we were losing ranking every time we ran out of stock. They fixed our catalog, sorted our compliance issues, and built an ad structure that actually works. Sales increased 340% in just 6 months. Their SEO and PPC strategies are next level.",
+    author: "Sarah Mitchell",
+    designation: "CEO, NatureBrand",
+    initials: "SM",
+    stars: 5
+  }
+};
+
+export const reviewCardsData = [
+  {
+    id: 1,
+    stars: 5,
+    tag: "🔍 Page 5 → Page 1",
+    quote: "We went from page 5 to page 1 for our main keywords. The team’s expertise in Amazon’s algorithm is unmatched. They knew exactly which levers to pull and when. Highly recommend!",
+    author: "James Rodriguez",
+    role: "Founder, TechGear Pro",
+    initials: "JR",
+    theme: "light"
+  },
+  {
+    id: 2,
+    stars: 5,
+    tag: "⚡ Full Account Rebuild",
+    quote: "Professional, responsive, and results-driven. They handle everything so we can focus on product development. From catalog cleanup to ad restructure it’s been seamless. Best decision we made.",
+    author: "Emily Chen",
+    role: "Brand Manager, FitLife",
+    initials: "EC",
+    theme: "dark"
+  },
+  {
+    id: 3,
+    stars: 5,
+    tag: "🚀 $333 → $100K/Month",
+    quote: "In 14 months, my account went from $333 a month to over $100,000. I couldn’t believe how structured and methodical their process was. Every step made sense and the results followed.",
+    author: "Jeffrey L.",
+    role: "Amazon FBA Seller",
+    initials: "JL",
+    theme: "light"
+  }
+];
+
+export const beforeAfterData = {
+  label: "BEFORE & AFTER",
+  heading: "Numbers that speak for themselves",
+  subHeading: "Real results from real clients built on structure and discipline, not inflated ad spend.",
+  stats: [
+    {
+      id: 1,
+      percentage: "293%",
+      description: "Monthly revenue increase for a Home & Consumer Goods brand"
+    },
+    {
+      id: 2,
+      percentage: "$333 → $100K",
+      description: "Monthly sales growth achieved in just 14 months for an FBA seller"
+    },
+    {
+      id: 3,
+      percentage: "225% + 106%",
+      description: "Year-over-year growth across two consecutive years for one client"
+    }
+  ]
+};
+
+export const caseStudiesData = [
+  {
+    id: 1,
+    category: "FITNESS RECOVERY BRAND",
+    duration: "6 Months",
+    metricLeft: "~$0",
+    labelLeft: "STARTING REVENUE",
+    metricRight: "$100K",
+    labelRight: "MONTH 6",
+    quote: "We were constantly getting suppressed listings and running out of stock. MAP stabilized everything first before even thinking about scaling. By month 6 we'd hit $100K. I wish we'd found them sooner.",
+    author: "Zachary Quinn",
+    role: "Founder, Fitness Recovery Brand",
+    initials: "ZQ"
+  },
+  {
+    id: 2,
+    category: "POWER SOLUTIONS BRAND",
+    duration: "30 Days",
+    metricLeft: "Base",
+    labelLeft: "MONTHLY REVENUE",
+    metricRight: "+37%",
+    labelRight: "FIRST MONTH",
+    quote: "Buy Box losses and compliance issues were killing our momentum. MAP restructured our campaigns, fixed our catalog, and we hit a record $223K month. The B2B side grew 122% year over year.",
+    author: "Michael R.",
+    role: "VP Operations, Power Solutions Brand",
+    initials: "MR"
+  },
+  {
+    id: 3,
+    category: "OUTDOOR CANOPY BRAND",
+    duration: "Buy Box Control",
+    metricLeft: "Lost",
+    labelLeft: "BUY BOX STATUS",
+    metricRight: "95%",
+    labelRight: "WIN RATE",
+    quote: "We were losing the Buy Box constantly to third-party resellers. MAP took control of our listings, rebuilt our storefront, and fixed our pricing. Revenue went up 243% and we've held that ground since.",
+    author: "Tom L.",
+    role: "CEO, Outdoor Canopy Brand",
+    initials: "TL"
+  },
+  {
+    id: 4,
+    category: "LANDSCAPING BRAND",
+    duration: "90 Days",
+    metricLeft: "$245K",
+    labelLeft: "STARTING REVENUE",
+    metricRight: "$512K",
+    labelRight: "MONTH 3",
+    quote: "Over 1,300 SKUs and 350+ campaigns but most of it wasn't performing. MAP identified our best opportunities, restructured everything, and doubled revenue in 90 days while keeping TACoS under 11%.",
+    author: "Amanda P.",
+    role: "E-Commerce Manager, Landscaping Brand",
+    initials: "AP"
+  }
+];
+
+export const finalReviewsData = {
+  label: "In Their Own Words",
+  heading: "What long-term partnership looks like",
+  subHeading: "Some of our strongest relationships have been built over years, not weeks.",
+
+  mainReview: {
+    stars: 5,
+    quote: "I truly appreciate the way you have embraced my vision as if it were your own. Your commitment to the success of my business is evident in every task you undertake. You consistently go above and beyond, demonstrating a genuine care for not only the work but also for the well-being of the business as a whole. It is rare to find someone who possesses such a strong sense of ownership and responsibility. Your insights and contributions have been invaluable, and I am continually impressed by your ability to navigate challenges with grace and efficiency. You have become a huge asset to me, and I am grateful for your support and the positive energy you bring.",
+    author: "Curt Harden",
+    role: "Owner, TwinTech LLC",
+    initials: "CH"
+  },
+  bottomCards: [
+    {
+      id: 1,
+      stars: 5,
+      tag: "🛡️ Brand Protection",
+      quote: "We were constantly hit with listing suppressions and patent infringement from copycats. MAP navigated Brand Registry, got infringers removed, and cleaned up our account health. Revenue stabilized almost immediately after.",
+      author: "Nicole B.",
+      role: "Brand Director, Consumer Goods",
+      initials: "NB",
+      isDark: false
+    },
+    {
+      id: 2,
+      stars: 5,
+      tag: "📉 ACoS 19.5% → 6.7%",
+      quote: "In 15 days our ACoS dropped from nearly 20% to under 7%. Same budget, almost 3x the return. The keyword precision they brought to our campaigns was something we simply couldn't figure out on our own.",
+      author: "Kevin T.",
+      role: "Founder, Outdoor Apparel Brand",
+      initials: "KT",
+      isDark: true
+    },
+    {
+      id: 3,
+      stars: 5,
+      tag: "🌍 5 Years of Partnership",
+      quote: "I've worked with MAP for about five years. They're the only team I go to when it comes to Amazon. They've earned that trust over time not just from results, but from how they communicate and how genuinely they care.",
+      author: "Rustu S.",
+      role: "Long-term Client · 5 Years with MAP",
+      initials: "RS",
+      isDark: false
+    }
+  ]
+};
+
+export const clientVoicesData = {
+  label: "CLIENT VOICES",
+  heading: "From the brands behind the results",
+  subHeading: "Across every category from outdoor gear to pet supplies here’s the consistent theme.",
+  reviews: [
+    {
+      id: 1,
+      brandName: "Clam.",
+      quote: "They didn't pitch us a one-size-fits-all plan. They understood our distribution challenges and built a strategy specifically around them. The results followed naturally 243% revenue growth and 95% Buy Box control.",
+      author: "Tom L.",
+      role: "CEO, Clam Outdoors",
+      stars: 5
+    },
+    {
+      id: 2,
+      brandName: "Koala+",
+      quote: "Our best sellers were losing ground and we couldn't figure out why. MAP ran a full audit, rebuilt our PPC, and within 8 weeks we saw $275K in incremental revenue. The $4.7M YoY increase across Q1 and Q2 validated everything they committed to.",
+      author: "Rachel S.",
+      role: "Head of Growth, Koala",
+      stars: 5
+    },
+    {
+      id: 3,
+      brandName: "NatureBrand",
+      quote: "I was skeptical about outsourcing our Amazon management but the team earned our trust quickly. They're proactive, transparent, and genuinely invested in our growth not just hitting short-term numbers. We felt like we finally found the right fit.",
+      author: "Sarah Mitchell",
+      role: "CEO, NatureBrand",
+      stars: 5
+    },
+    {
+      id: 4,
+      brandName: "Pet&Horse",
+      quote: "Over two years working together our units sold grew 83% and revenue is up 28% year over year. It's not flashy it's consistent, disciplined management that compounds over time. That's exactly what our brand needed.",
+      author: "Linda K.",
+      role: "Owner, Pet & Equestrian Brand",
+      stars: 5
+    }
+  ]
+};
+
+export const designBenefitsData = [
+  {
+    id: 1,
+    title: "Time and efficiency",
+    description: "You’ve got a business to run. Let a pro handle the design while you focus on scaling.",
+    imgSrc: "/designImages/timenefficiency.png",
+  },
+  {
+    id: 2,
+    title: "Consistent branding",
+    description: "Ensure that your listings stay sharp and on-brand across the board, building trust with customers.",
+    imgSrc: "/designImages/consistbranding.png",
+  },
+  {
+    id: 3,
+    title: "Stand out from competitors",
+    description: "Make your listings pop. If you’re not standing out, you’re blending in. A designer makes sure you stand tall.",
+    imgSrc: "/designImages/standout.png",
+  },
+  {
+    id: 4,
+    title: "Expertise that works",
+    description: "We’ve crafted our design service across five years and more than 500 clients. We understand what works on Amazon.",
+    imgSrc: "/designImages/expertise.png",
+  },
+];
+
+// ! FAQ's Data
+export const faqData = {
+  mainHeading: "Frequently Asked Questions",
+  questions: [
+    {
+      id: 1,
+      question: "Why is professional graphic design important for my Amazon listings?",
+      description: "High-quality visuals grab shoppers’ attention, communicate product features quickly, and increase perceived value. Great design improves click-through rates (CTR) and conversion, helping your listings stand out in Amazon’s crowded marketplace.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "What design services do you offer specifically for Amazon sellers?",
+      description: "We provide a full suite of design services, including:",
+      items: [
+        "Brand design guidelines for a cohesive, professional look",
+        "Brand storytelling to engage and build trust",
+        "Amazon storefront design for a branded shopping experience",
+        "Listing image design to showcase your product in the best light",
+        "Enhanced Brand Content (A+ content) to provide richer product details",
+        "Main image CTR optimization for catching shoppers’ eyes",
+        "Full listing optimization integrating keywords, images, and descriptions"
+      ],
+    },
+    {
+      id: 3,
+      question: "How does good design increase my sales on Amazon?",
+      description: "Eye-catching product images and well-structured A+ content help shoppers quickly understand your product benefits and trust your brand, leading to higher sales. Listings with poor visuals often get overlooked, no matter how great the product is.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Can you help create or improve my Amazon storefront?",
+      description: "Yes, we design Amazon storefronts that provide a branded, seamless shopping experience to boost trust and customer loyalty beyond just listing products.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "What is Enhanced Brand Content (A+ content), and why do I need it?",
+      description: "A+ content lets you add detailed images, comparison charts, and rich copy to your product pages. This helps educate shoppers and builds confidence, increasing sales and reducing returns.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "How do you ensure my brand looks consistent across all listings?",
+      description: "We create brand design guidelines tailored to your identity and apply them across images, storefront, and content for a unified, professional look that builds recognition and trust.",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "Is it better to hire a professional designer or do the design myself?",
+      description: "While DIY may seem cheaper, a professional designer versed in Amazon’s requirements brings expertise that leads to higher sales and saves you time. It’s a valuable investment for serious sellers.",
+      items: [],
+    },
+    {
+      id: 8,
+      question: "How long does it take to get design assets completed?",
+      description: "Typical turnaround depends on your project size, but we offer efficient workflows and flexible communication options to keep you informed, often completing projects within 1–3 weeks.",
+      items: [],
+    },
+    {
+      id: 9,
+      question: "Will better design improve my product’s visibility on Amazon?",
+      description: "Yes, improved images and enhanced content can increase your listing’s CTR, leading to better Amazon algorithm signals and higher ranking potential.",
+      items: [],
+    },
+    {
+      id: 10,
+      question: "How do you work with clients during the design process?",
+      description: "We hold regular bi-weekly calls and offer flexible communication to review progress, gather feedback, and ensure your vision aligns with the final design.",
+      items: [],
+    },
+  ]
+}
+
+// ! Brand GL Data
+export const brandGlData = {
+  heading: "Brand guidelines",
+
+  subHeading: "",
+
+  description:
+    "Tired of blending in? Strong branding creates trust, boosts sales, and sets you apart. Our Amazon experts craft clear guidelines for a consistent, professional brand image. ",
+
+  ctaText: "View consultation options",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Define your brand's personality, values, and mission to ensure a unified and consistent message.",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Drive sales, fix issues",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Create a consistent brand image for instant recognition and trustworthiness across all touch points.",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/brandGlImages/hero.png",
+}
+
+export const brandGlFeatureCardData = [
+  {
+    id: 1,
+    title: "Consistency builds trust",
+    description: "Customers trust brands they recognize. Consistent branding across listings, ads, and packaging builds trust as well as familiarity."
+  },
+  {
+    id: 2,
+    title: "Professionalism matters",
+    description: "Clear guidelines ensure all your Amazon content appear professional and high-quality, setting you apart from less-polished competitors."
+  },
+  {
+    id: 3,
+    title: "Save time and resources",
+    description: "Brand guidelines streamline content creation by providing a clear framework for design and messaging. No more guesswork."
+  },
+  {
+    id: 4,
+    title: "Empower your team",
+    description: "Equip everyone involved in your Amazon business with the knowledge and tools to represent your brand accurately."
+  },
+  {
+    id: 5,
+    title: "Future-proof your brand",
+    description: "Brand guidelines evolve alongside your brand, ensuring your image stays fresh and relevant."
+  },
+  {
+    id: 6,
+    title: "Clear and concise documentation",
+    description: "Our brand guidelines come in a user-friendly format for easy access and implementation."
+  },
+]
+
+export const brandGlQsData = {
+  heading: "What are brand guidelines?",
+
+  subHeading: "",
+
+  description:
+    "Brand guidelines are a roadmap for using your brand effectively. They outline the visual and verbal elements that define your brand, ensuring a consistent and professional experience for your customers. ",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Logo Usage - Proper logo placement, sizing, and color variations.",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Color Palette - Primary, secondary, and accent colors with hex codes for perfect color consistency.",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Typography - Defined fonts for headlines, body text, and other elements to maintain a unified look.",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Imagery Style - Preferred photography styles, illustrations, and graphic elements that reflect your brand personality.",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "Voice and tone - Guidelines for the language and tone you use in your marketing materials, and customer interactions.",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/brandGlImages/brandGlQs.png",
+}
+
+
+//! HOME PAGE CONTENT
+
+export const homeHeroData = {
+  badge: "Full-Service Amazon Agency · Atlanta, GA",
+  headingMain: "Your Amazon",
+  headingItalic: "growth",
+  headingEnd: "starts right here.",
+  subtext: "Have great products but sluggish sales? Our 460+ Amazon specialists handle PPC, SEO, design & platform management — so you scale faster, with less stress.",
+  brandsTrustText: "450+ brands trust us including Nestlé & Honeywell",
+  statsCards: [
+    {
+      label: "AGENCY OVERVIEW",
+      metric: "$1.2B+",
+      subMetric: "Revenue generated on Amazon",
+      specialists: "460+",
+      specialistsLabel: "Full-time Amazon specialists"
+    },
+    {
+      type: "STAMP HUB — CLIENT WIN",
+      metric: "293%",
+      subMetric: "Higher monthly revenue",
+      tag: "Creative refresh + PPC rebuild",
+      icon: "⚡"
+    },
+    {
+      type: "CHIRP — CLIENT WIN",
+      metric: "519%",
+      subMetric: "Growth in a loaded market",
+      tag: "Full-service strategy",
+      icon: "🚀"
+    }
+  ]
+};
+
+export const homeServicesData = {
+  label: "WHAT WE DO",
+  headingMain: "Your Amazon presence,",
+  headingItalic: "fully handled.",
+  description: "A holistic approach that drives traffic, boosts conversions, and builds long-term brand equity on Amazon.",
+  services: [
+    {
+      id: 1,
+      title: "Amazon PPC",
+      desc: "Higher revenue, lower ACOS, fully transparent ad management. We build campaigns that actually convert and scale.",
+      icon: "Pulse",
+      bgColor: "bg-[#FFF4E0]"
+    },
+    {
+      id: 2,
+      title: "SEO",
+      desc: "Our 4-phase SEO plan is best-in-class and delivers dramatic search ranking improvements within 90 days.",
+      icon: "Search", // Magnifying glass icon
+      bgColor: "bg-[#FFF9F0]"
+    },
+    {
+      id: 3,
+      title: "Design",
+      desc: "Top-tier A+ content, Brand Stores, and product graphics that make customers stop scrolling and start buying.",
+      icon: "Layout", // Dashboard/Layout icon
+      bgColor: "bg-[#FFF9F0]"
+    },
+    {
+      id: 4,
+      title: "Platform Management",
+      desc: "We optimize your brand continuously — maintaining gains and building forward momentum month after month.",
+      icon: "Pencil", // Edit/Pencil icon
+      bgColor: "bg-[#FFF9F0]"
+    }
+  ],
+  footerLink: "Explore all 7 services →"
+};
+
+export const homeProcessData = {
+  label: "HOW IT WORKS",
+  headingMain: "Simple 3-step process,",
+  headingItalic: "serious results.",
+  steps: [
+    {
+      id: "01",
+      title: "Onboarding",
+      description: "We start with an onboarding survey, a kick-off call, deep competitor analysis, and a full account audit to understand exactly where you stand.",
+      rightSide: {
+        stepLabel: "Step 01 — Onboarding",
+        heading: "Setting the foundation for growth.",
+        list: ["Onboarding Survey", "Strategy Kick-Off Call", "Competitor Analysis", "Full Account Audit"]
+      }
+    },
+    {
+      id: "02",
+      title: "Optimization",
+      description: "A never-ending cycle of improvement across your catalog, PPC campaigns, SEO, and creative — always pushing the needle forward.",
+      rightSide: {
+        stepLabel: "Step 02 — Optimization",
+        heading: "A never-ending cycle of improvement.",
+        list: ["Catalog Optimization", "PPC Campaign Build", "SEO & Keyword Strategy", "Design & Creative"]
+      }
+    },
+    {
+      id: "03",
+      title: "Results",
+      description: "Watch your traffic, conversion rates, and sales climb — with fully transparent reporting so you always know exactly what's happening.",
+      rightSide: {
+        stepLabel: "Step 03 — Results",
+        heading: "Watch your sales climb and scale.",
+        list: ["Traffic Growth", "Conversion Uplift", "Revenue Increase", "Sales Momentum"]
+      }
+    }
+  ]
+};
+
+export const homeCaseStudies = [
+  {
+    brand: "STAMP HUB",
+    metric: "293%",
+    badge: "Revenue Growth",
+    title: "293% higher monthly revenue after creative + PPC overhaul",
+    description:
+      "A dramatic jump in sales driven by a complete revamp of creative assets — improved listing images, A+ content, and a fully restructured PPC strategy that finally put them in front of the right buyers.",
+  },
+  {
+    brand: "CHIRP",
+    metric: "519%",
+    badge: "Market Growth",
+    title: "519% growth for a well-known brand in a saturated market",
+    description:
+      "We were able to produce more success for a recognizable brand in a highly competitive category — proving our full-service strategy works even when the marketplace is crowded and the odds are stacked.",
+  },
+];
+
+export const homeTestimonialsData = [
+  {
+    rating: 5,
+    text:
+      "I thought it was time for a little thank you. I'm just feeling extra grateful — I sent the survey over, just tens all across the board. You guys are incredible.",
+    name: "Chad Littlefield",
+    role: "Co-Founder, We and Me",
+    initials: "CL",
+  },
+  {
+    rating: 5,
+    text:
+      "Honestly the only team that I speak to about Amazon and the only people I trust. They've completely changed the trajectory of my business.",
+    name: "Matt",
+    role: "Amazon FBA Seller",
+    initials: "MT",
+  },
+  {
+    rating: 5,
+    text:
+      "We started to make 80% growth in just four months — over 200% compared to the previous period. Results we never thought were possible so quickly.",
+    name: "Cynthia Li",
+    role: "Founder & Co-owner, Whole Parts",
+    initials: "CL",
+  },
+];
+
+export const homeCtaContent = {
+  label: "— READY TO GROW?",
+  headingStart: "Increase your reach",
+  headingMiddle: "and revenue",
+  headingAccent: "the right way.",
+  description:
+    "With our full-service Amazon agency, we understand exactly what it takes to drive meaningful, lasting growth on Amazon.",
+  primaryBtn: "Contact Us to Get Started",
+  secondaryBtn: "View Our Services",
+};
+
+// ! HOME FAQ Section
+export const homeFaqData = {
+  mainHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "What is an Amazon Agency?",
+      description: "An Amazon agency specializes in managing and growing brands on Amazon — handling advertising, SEO, design, and strategy. Hiring one simplifies selling, boosts growth, and frees you to focus on building your business.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How do you optimize product listings?",
+      description: "We combine keyword research, competitor analysis, compelling copywriting, and premium creative assets. Our 4-phase SEO plan delivers measurable ranking improvements within 90 days.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "How do you manage advertising campaigns?",
+      description: "Our PPC team builds and continuously optimizes Sponsored Products, Sponsored Brands, and Sponsored Display campaigns — targeting higher revenue and lower ACOS with full transparency.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Can you improve our search rankings?",
+      description: "Absolutely. Our SEO specialists use proven techniques to improve organic visibility, driving more traffic to your listings without relying purely on paid ads.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "How do I get started?",
+      description: "Start with a free listing audit — we'll review your Amazon presence and provide actionable suggestions. Then we'll schedule an icebreaker call to understand your goals and build a tailored plan.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "Do you provide reporting and analytics?",
+      description: "Yes — you'll receive detailed, fully transparent reporting on all efforts. You'll always know exactly what we're doing, why we're doing it, and what results it's generating.",
+      items: [],
+    },
+  ]
+}
+
+export const designServicesData = [
+  {
+    id: 1,
+    title: "Professional design service",
+    description: "We handle the hard work of logo design, crafting a perfect fit for your brand and audience, complete with a comprehensive Brand Guideline.",
+    image: "/brandGlImages/designservice.png"
+  },
+  {
+    id: 2,
+    title: "Trust with consistency",
+    description: "A brand guidelines ensures consistent, professional marketing—from Amazon listings to social media—boosting trust and sales.",
+    image: "/brandGlImages/trust.png"
+  },
+  {
+    id: 3,
+    title: "Strong logo, stronger brand",
+    description: "A strong logo is essential for brand consistency, helping shoppers recognize your business, whether on Amazon or social media.",
+    image: "/brandGlImages/strongbrand.png"
+  }
+];
+
+export const brandGlForBusiness = [
+  {
+    id: 1,
+    icon: FaCheck,
+    description: "Serious sellers: You’re committed to building a strong brand presence on Amazon and want to elevate your customer experience."
+  },
+  {
+    id: 2,
+    icon: FaCheck,
+    description: "Growing businesses: Your brand is expanding, and you need a system to maintain consistency across multiple product lines."
+  },
+  {
+    id: 3,
+    icon: FaCheck,
+    description: "Multi-channel sellers: You sell across various platforms, and you need brand guidelines to ensure a unified brand image everywhere."
+  }
+]
+
+// ! brandGL FAQ Data
+
+export const brandGlFaqData = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "What are the key steps involved in your standard process for branding?",
+      description: "The standard process we have for branding includes the following steps:",
+      items: [
+        "Gathering information: Ask client to answer a survey or questionnaire to gather relevant information about the client's industry, competitors, and market trends.",
+        "Research and analysis: Conduct research to understand the market, competitors, and target audience.",
+        "Define brand elements: Define the core elements that make up the brand, such as its values, mission, and vision.",
+        "Logo design: Create a logo that rep  resents the brand's identity and values.",
+        "Voice and tone guidelines: Establish guidelines for the brand's voice and tone in communications.",
+        "Imagery style: Define the style of imagery that will be used to represent the brand.",
+        "Typography: Select fonts that reflect the brand's personality and values.",
+        "Color palette: Choose a color palette that evokes the desired emotions and aligns with the brand's identity.",
+        "Brand application: Apply the brand elements across various touchpoints, such as packaging, website, and marketing materials.",
+        "Review and update: Review the brand application to ensure consistency and relevance.",
+        "Approval and finalization: Get approval from the client on the final brand elements.",
+        "Implementation: Implement the brand elements across all relevant platforms and materials.",
+      ],
+    },
+    {
+      id: 2,
+      question: "What key information do you gather from clients during the branding process?",
+      description: "During the branding process, we gather crucial information through a series of questions:",
+      items: [
+        "Your Brand Story: Understanding the inspiration behind your brand's inception.",
+        "Target Audience: Describing your ideal customers in terms of demographics and interests.",
+        "Brand Personality: Imagining your brand as a person and defining their personality.",
+        "Brand Values: Identifying the values your brand stands for and wants to convey.",
+        "Brand Voice: Determining the tone and style of communication your brand will use.",
+        "Competitive Landscape: Identifying your main competitors and your unique selling points.",
+        "Visual Preferences: Gathering your preferences for visual elements like colors, fonts, and imagery.",
+        "Existing Brand Assets: If you already have a logo or tagline, we'll assess them.",
+        "Brand Usage: Understanding how and where you plan to use your brand assets.",
+        "Additional Comments: Providing an opportunity for you to share any specific requirements or preferences for your branding guidelines."
+      ],
+    },
+    {
+      id: 3,
+      question: "How do you initiate the branding process with a client?",
+      description: "We send a survey or questionnaire to gather pertinent information about the client's industry, competitors, and market trends.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "What steps are involved in researching and analyzing a client's brand?",
+      description: "We conduct in-depth research on their target audience, competitors, and industry landscape. This analysis helps us identify key insights that inform the branding strategy.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "How do you define the core elements of a brand?",
+      description: "We determine the logo, color palette, typography, and imagery style, ensuring they align with the brand's personality, values, and target audience preferences.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "What is involved in designing a logo for a client?",
+      description: "We create or refine the client's logo design, ensuring it is versatile, memorable, and representative of the brand. We also provide clear guidelines for logo usage.",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "What is involved in designing a logo for a client?",
+      description: "We create or refine the client's logo design, ensuring it is versatile, memorable, and representative of the brand. We also provide clear guidelines for logo usage.",
+      items: [
+        "Essential Brand Kit: Includes main logos and variations, a color palette, and typography selections, sometimes with additional graphical elements or patterns.",
+        "Professional Brand Kit Offers detailed specifications for logo usage, color codes, typography guidelines, imagery styles, and voice/tone recommendations."
+      ],
+    },
+    {
+      id: 8,
+      question: "How do you select a color palette for a brand?",
+      description: "We choose a cohesive color palette that reflects the brand identity and evokes the desired emotions. We define primary and secondary colors and provide guidance on their usage.",
+      items: [],
+    },
+    {
+      id: 9,
+      question: "What is the process for selecting typography for a brand?",
+      description: "We choose fonts that complement the brand personality and enhance readability. We establish guidelines for headline, subheadline, body text, and other typographic elements.",
+      items: [],
+    },
+    {
+      id: 10,
+      question: "How do you determine the imagery style for a brand?",
+      description: "We define the visual style for images, illustrations, and graphics that align with the brand aesthetic. We specify preferred photography techniques and image types.",
+      items: [],
+    },
+    {
+      id: 11,
+      question: "How do you establish voice and tone guidelines for a brand?",
+      description: "We define the tone of voice that reflects the brand personality and resonates with the target audience. We provide examples of appropriate language and communication styles.",
+      items: [],
+    },
+    {
+      id: 12,
+      question: "How do you demonstrate brand application across various touch points?",
+      description: "We show how to apply brand elements consistently across print, digital, and other touch points. We include examples of stationery, marketing materials, website layouts, and social media posts.",
+      items: [],
+    },
+    {
+      id: 13,
+      question: "How do you specify usage restrictions and permissions for a brand?",
+      description: "We specify restrictions on brand usage and outline permissions for third-party use, including guidelines for co-branding and partnerships.",
+      items: [],
+    },
+    {
+      id: 14,
+      question: "What is involved in documenting and disseminating branding guidelines?",
+      description: "We compile all guidelines into a comprehensive document and conduct training sessions to ensure understanding and adherence across the organization.",
+      items: [],
+    },
+    {
+      id: 15,
+      question: "How do you review and update branding guidelines?",
+      description: "We regularly review and update guidelines to ensure they remain relevant and aligned with the brand's evolving needs. We solicit feedback from stakeholders and make necessary revisions.",
+      items: [],
+    },
+    {
+      id: 16,
+      question: "How do you finalize branding guidelines with a client?",
+      description: "We present the finalized guidelines to the client for approval and obtain their sign-off to signify their agreement and acceptance.",
+      items: [],
+    },
+    {
+      id: 17,
+      question: "How do you implement branding guidelines?",
+      description: "We implement the guidelines across all communication channels and touch points, monitoring adherence and addressing any deviations or issues.",
+      items: [],
+    },
+    {
+      id: 18,
+      question: "What support do you provide for maintaining branding guidelines?",
+      description: "We offer ongoing support for implementing and maintaining guidelines, assisting with questions or challenges that may arise.",
+      items: [],
+    },
+    {
+      id: 19,
+      question: "How do you archive branding guidelines?",
+      description: "We maintain a digital and physical archive of guidelines for future reference and use.",
+      items: [],
+    },
+  ]
+}

@@ -10,7 +10,7 @@ const SplitTestimonialSection = () => {
         >
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight text-black">
             {pathname === "/services/advertising-management"
-              ? "MAG Ads - PPC advertising upgrade"
+              ? "MAP Ads - PPC advertising upgrade"
               : "We do the heavy lifting so you can take it light and easy "}
           </h1>
 

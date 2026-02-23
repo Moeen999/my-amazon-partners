@@ -3,12 +3,12 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useScrollToTop } from "@/hooks/use-scroll-to-top";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HomePage from "@/pages/HomePage";
 import ServicesPage from "@/pages/ServicesPage";
 import AboutPage from "@/pages/AboutPage";
-import ResultsPage from "@/pages/ResultsPage";
 import ContactPage from "@/pages/ContactPage";
 import NotFound from "@/pages/NotFound";
 import DesignPage from "./pages/DesignPage";
@@ -17,8 +17,16 @@ import PpcManagement from "./ServicesRoutes/PpcManagement";
 import AmazonSEO from "./ServicesRoutes/AmazonSEO";
 import AccountAudit from "./ServicesRoutes/AccountAudit";
 import Consulting from "./ServicesRoutes/Consulting";
+import CaseStudies from "@/pages/CaseStudies";
+import Testimonials from "./pages/Testimonials";
+import BrandGuideLines from "./pages/BrandGuideLines";
 
 const queryClient = new QueryClient();
+
+const ScrollToTop = () => {
+  useScrollToTop();
+  return null;
+};
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -26,6 +34,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <main className="flex-1">
@@ -38,9 +47,11 @@ const App = () => (
               <Route path="/services/amazon-account-audit" element={<AccountAudit />} />
               <Route path="/services/amazon-brand-growth-consulting" element={<Consulting />} />
               <Route path="/about" element={<AboutPage />} />
-              <Route path="/case-studies" element={<ResultsPage />} />
+              <Route path="/case-studies" element={<CaseStudies />} />
+              <Route path="/testimonials" element={<Testimonials />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/services/design" element={<DesignPage />} />
+              <Route path="/services/design/amazon-brand-guidelines" element={<BrandGuideLines />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

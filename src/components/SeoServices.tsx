@@ -1,5 +1,6 @@
 import { seoPhasesData } from "@/constants/content";
 import ArrowIcon from "./ArrowIcon";
+import { Link } from "react-router-dom";
 
 const SeoServices = () => {
   return (
@@ -14,9 +15,9 @@ const SeoServices = () => {
             {seoPhasesData[0].heading}
           </h2>
           <p className="text-lg leading-relaxed mb-6">
-            <span className="font-bold">
+            {/* <span className="font-bold">
               {seoPhasesData[0].description.split(".")[0]}.
-            </span>
+            </span> */}
             {seoPhasesData[0].description.split(".").slice(1).join(".")}
           </p>
         </div>
@@ -33,7 +34,9 @@ const SeoServices = () => {
             })}
           </ul>
           <button className="bg-[#FFD200] hover:bg-green-500 hover:text-white hover:underline transition-colors text-black font-bold py-3 px-8 rounded-full w-fit text-sm">
+            <Link to="/contact">
             Get Search Term Optimization
+            </Link>
           </button>
         </div>
       </div>

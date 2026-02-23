@@ -8,11 +8,19 @@ import {
   servicesContent,
   tagetedSolutions,
 } from "@/constants/content";
+import { Link } from "react-router-dom";
 
 const Consulting = () => {
   return (
     <div className="w-full py-8 md:py-12">
       <CommonHeader content={brandConsultingContent} />
+      <div className="w-full flex px-4 md:px-36 mt-4 justify-start md:justify-center items-center">
+        <Link to="/contact">
+          <button className="text-foreground font-semibold hover:underline-offset-2 border px-5 py-4 rounded-full bg-yellow-500 text-black hover:bg-green-500 hover:text-white">
+            View consultation options
+          </button>
+        </Link>
+      </div>
 
       {/* Common Heading */}
       <CommonHeading
@@ -64,6 +72,13 @@ const Consulting = () => {
           "Get the strategic help you need to manage the hurdles of Amazon selling and business ownership."
         }
       />
+      <div className="w-full flex justify-center items-center">
+        <Link to="/contact">
+          <button className="text-foreground font-semibold hover:underline-offset-2 border px-5 py-4 rounded-full bg-yellow-500 text-black hover:bg-green-500 hover:text-white">
+            View consultation options
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };

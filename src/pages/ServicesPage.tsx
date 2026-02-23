@@ -81,7 +81,7 @@ const ServicesPage = () => (
 
     <TrustedBrands />
 
-    <ResultsSection/>
+    {/* <ResultsSection/> */}
 
     <CTASection />
   </>

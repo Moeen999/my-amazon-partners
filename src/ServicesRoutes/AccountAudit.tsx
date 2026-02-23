@@ -2,15 +2,16 @@ import AuditBenefitsSection from "@/components/AuditBenefitsSection";
 import AuditFeatureCard from "@/components/AuditFeatureCard";
 import CommonHeading from "@/components/CommonHeading";
 import { accountAuditData, auditFeatures } from "@/constants/content";
+import { Link } from "react-router-dom";
 
 const AccountAudit = () => {
-  const { description, heading, auditList, title, imgSrc } = accountAuditData;
+  const { description, heading, auditList, imgSrc } = accountAuditData;
   return (
-    <section className="w-full md:px-16">
+    <section className="w-full">
       <div className="container grid grid-cols-1 justify-center md:grid-cols-2 gap-12 py-20 mx-auto md:px-16">
         <div className="flex flex-col gap-2">
           <h1 className="text-3xl md:text-5xl font-semibold">{heading}</h1>
-          <p className="font-semibold">{title}</p>
+          {/* <p className="font-semibold">{title}</p> */}
           <p className="text-md max-w-3xl font-light">{description}</p>
           <ul className=" flex flex-col gap-2 mt-4">
             {auditList.map((auditData, index) => {
@@ -26,6 +27,9 @@ const AccountAudit = () => {
               );
             })}
           </ul>
+          <button className="bg-[#FFD200] hover:bg-green-500 hover:text-white hover:underline transition-colors text-black font-bold py-3 px-8 rounded-full w-fit text-sm mt-2">
+            <Link to="/contact">Get an Account Audit</Link>
+          </button>
         </div>
         <div className="w-3/2 overflow-hidden">
           <img src={imgSrc} alt="" className="w-full h-full object-cover" />

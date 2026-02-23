@@ -48,8 +48,8 @@ const Footer = () => (
             </a>
           </div>
           <div className="space-y-2 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2"><MapPin size={14} /> Atlanta, GA</div>
-            <div className="flex items-center gap-2"><Phone size={14} /> +1 470-623-1951</div>
+            <div className="flex items-center gap-2"><MapPin size={14} />London United Kingdom</div>
+            <div className="flex items-center gap-2"><Phone size={14} /> 00447824760953 </div>
             <div className="flex items-center gap-2"><Mail size={14} /> sales@myamazonpartners.com</div>
           </div>
         </div>

@@ -1,6 +1,14 @@
+import CommonHeading from "@/components/CommonHeading";
 import DesignServiceCard from "@/components/DesignServiceCard";
+import FAQAccordion from "@/components/FAQAccordion";
 import FeatureHighlightCard from "@/components/FullServiceCard";
-import { betterDesignData, servicesData } from "@/constants/content";
+import ServiceCard from "@/components/ServiceCard";
+import {
+  betterDesignData,
+  designBenefitsData,
+  servicesData,
+} from "@/constants/content";
+import { Link } from "react-router-dom";
 
 const DesignPage = () => {
   return (
@@ -59,6 +67,30 @@ const DesignPage = () => {
       </div>
 
       {/* Design Service Page */}
+      <section className="w-full px-12 py-12 md:px-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+          {designBenefitsData.map((cardData, index) => {
+            return <ServiceCard {...cardData} key={index} />;
+          })}
+        </div>
+      </section>
+
+      <div className="w-full px-16 py-4">
+        <h1 className="text-2xl font-light md:text-4xl md:font-bold">
+          Design drives sales on Amazon
+        </h1>
+        <p className="text-sm font-light max-w-2xl mt-4">
+          Professional graphic design ensures your Amazon listings stand out and
+          perform. With expert design, you’ll see better results—polished,
+          consistent, and ready to compete.
+        </p>
+        <button className="bg-[#FFD200] hover:bg-green-500 hover:text-white hover:underline transition-colors text-black font-semibold md:py-3 py-2 px-3 md:px-8 rounded-full w-fit text-sm mt-4 mr-4">
+          <Link to="/contact">Contact us for more details</Link>
+        </button>
+      </div>
+
+      {/* FAQ Accordion */}
+      <FAQAccordion/>
     </div>
   );
 };

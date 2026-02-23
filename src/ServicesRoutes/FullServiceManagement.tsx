@@ -43,7 +43,7 @@ const FullServiceManagement = () => {
       </section>
 
       {/* Growth section */}
-      <section className="w-full px-12 md:px-16">
+      {/* <section className="w-full px-12 md:px-16">
         <div className=" border-t border-b border-zinc-400 min-h-32 h-auto w-full flex flex-col justify-center md:flex-row gap-4 md:gap-12 py-2 px-4">
           <div className="absolute w-10/12 h-[1px] md:h-24 md:w-[1px] bg-zinc-400 mx-auto self-center" />
           {growthAreaContent.map((data, index) => {
@@ -65,7 +65,7 @@ const FullServiceManagement = () => {
             );
           })}
         </div>
-      </section>
+      </section> */}
 
       {/* Services Section */}
       <section className="w-full px-12 py-12 md:px-16">
@@ -133,9 +133,9 @@ const FullServiceManagement = () => {
       </section>
 
       {/* Testimonial Splitter */}
-      <section className="w-full px-12 py-12 md:px-16">
+      {/* <section className="w-full px-12 py-12 md:px-16">
         <SplitTestimonialSection />
-      </section>
+      </section> */}
 
       {/* AiIcons */}
       <section className="w-full px-12 py-12 md:px-16">

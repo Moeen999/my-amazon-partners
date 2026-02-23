@@ -38,9 +38,9 @@ const PpcManagement = () => {
       <TrustedBrands/>
     </section>
 
-    <section className="w-full px-0 py-12 md:px-16">
+    {/* <section className="w-full px-0 py-12 md:px-16">
       <SplitTestimonialSection/>
-    </section>
+    </section> */}
     </div>
   );
 };
