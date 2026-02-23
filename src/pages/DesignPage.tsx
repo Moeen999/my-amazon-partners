@@ -1,4 +1,3 @@
-import CommonHeading from "@/components/CommonHeading";
 import DesignServiceCard from "@/components/DesignServiceCard";
 import FAQAccordion from "@/components/FAQAccordion";
 import FeatureHighlightCard from "@/components/FullServiceCard";

@@ -1705,3 +1705,298 @@ export const brandGlFaqData = {
     },
   ]
 }
+
+
+// ! CASE STUDEIS Content
+
+export const caseStudiesHeroContent = {
+  tag: "CASE STUDIES",
+  heading: "Transformative Amazon Growth",
+  description:
+    "We work hand in hand with brands to create tailor-made strategies that help drive growth and hit new heights on Amazon.",
+  points: [
+    "Brand case studies",
+    "Performance success stories",
+  ],
+};
+
+export const caseStudiesStats = [
+  {
+    value: "450+",
+    label: "Brands Currently Managed",
+  },
+  {
+    value: "$1.2B+",
+    label: "Revenue Generated on Amazon Annually",
+  },
+  {
+    value: "460+",
+    label: "Employees",
+  },
+  {
+    value: "95%",
+    label: "Buy Box Win Rate",
+  },
+  {
+    value: "243%",
+    label: "Peak Revenue Growth",
+  },
+];
+
+export const caseStudyDetail = {
+  category: "HOME & CONSUMER GOODS",
+  headline: "+$7.5M Annual Sales Increase",
+  badge: "FULL ACCOUNT TURNAROUND",
+
+  topStats: [
+    {
+      icon: "📈",
+      value: "293%",
+      title: "Higher Monthly Revenue",
+      desc: "Monthly avg grew from $9,100K to $35,800K",
+    },
+    {
+      icon: "🧠",
+      value: "20%",
+      title: "Increased Market Share",
+      desc: "Market share grew from 1% to 20% since onboarding",
+    },
+    {
+      icon: "🚀",
+      value: "15",
+      title: "New Products Launched",
+      desc: "Successfully launched products boosting revenue and share",
+    },
+  ],
+
+  challenges: [
+    "Inconsistent catalog health & broken store connections",
+    "Recurring account health & policy violations",
+    "Rampant brand infringement from copycat sellers",
+    "Unclear profitability — SFP vs FBA cost unknown",
+    "High return rates triggering investigations",
+    "Failing international expansion (Canada/NARF)",
+    "Inventory blind spots & aging storage fees",
+    "Unstructured advertising — reactive spending",
+    "Lightning Deals & PEDs suppressed repeatedly",
+    "Utility patent & trade dress infringement unchecked",
+    "Amazon return rate 2–4× higher than website",
+  ],
+
+  revenueNote:
+    "Revenue uplift achieved through structural discipline and full account rebuild — not inflated ad spend.",
+};
+
+export const launchCaseStudy = {
+  category: "NICHE COLLECTIBLES & STAMPS BRAND",
+  title: {
+    normal: "Zero to",
+    highlight: "Full Market Presence",
+  },
+  badge: "BRAND NEW LAUNCH",
+
+  startingChallenges: [
+    "Brand-new catalog — parentages incorrect, products in wrong categories",
+    "Below-average conversion rate despite unique product proposition",
+    "Creative assets not retail-ready — failed to explain product value on Amazon",
+    "No advertising infrastructure — campaigns built entirely from scratch",
+    "Messaging not aligned with broader audience potential",
+  ],
+
+  fixes: [
+    "Rebuilt catalog architecture — correct parentages & category placement",
+    "Redesigned creative assets to clearly communicate product value",
+    "Rewrote messaging to appeal to a wider audience segment",
+    "Built full PPC campaign structure from the ground up",
+    "Optimized conversion rate through listing + creative alignment",
+  ],
+
+  roadmap: [
+    {
+      title: "FOUNDATION",
+      desc: "Catalog cleanup — fixed parentages, corrected categories, removed misplaced listings across the full SKU range",
+    },
+    {
+      title: "CREATIVE OVERHAUL",
+      desc: "Produced retail-ready assets explaining product value. Infographics, lifestyle imagery, and A+ Content rebuilt to convert",
+    },
+    {
+      title: "MESSAGING REFINEMENT",
+      desc: "Repositioned brand messaging to connect with a wider audience — moving beyond the core collector niche",
+    },
+    {
+      title: "AD INFRASTRUCTURE",
+      desc: "Built campaign architecture from scratch — keyword research, match-type segmentation, and structured scaling",
+    },
+    {
+      title: "CONVERSION OPTIMIZATION",
+      desc: "Aligned listing copy, visuals, and targeting to close the gap with — and surpass — category CVR averages",
+    },
+  ],
+
+  resultCards: [
+    { title: "Fixed", desc: "Catalog Architecture from Day 1", color: "green" },
+    { title: "Built", desc: "Full Ad Stack from Scratch", color: "blue" },
+    { title: "Above Avg", desc: "Category CVR Achieved", color: "orange" },
+    { title: "Wider", desc: "Audience Reach Unlocked", color: "red" },
+  ],
+};
+
+export const revenueCaseStudy = {
+  category: "FITNESS RECOVERY — OCEANFOAM™",
+  title: {
+    highlight: "$100K",
+    normal: "in 6 Months",
+  },
+  badge: "STRUCTURAL TURNAROUND",
+
+  coreProblems: [
+    "Frequent stockouts damaging organic ranking",
+    "Patent flags & listing suppressions freezing revenue",
+    "Unsustainable TACoS from rank-recovery campaigns",
+    "Merged SKUs corrupting catalog architecture",
+  ],
+
+  strategy: [
+    {
+      phase: "PHASE 1 — STABILIZE",
+      desc: "Resolved compliance flags, rebuilt variation architecture, established SEO baseline & inventory planning",
+    },
+    {
+      phase: "PHASE 2 — SCALE",
+      desc: "Brand tailored promotions, lifecycle monetization, competitor & keyword gap analysis, Q1 demand capture",
+    },
+  ],
+};
+
+export const performanceCaseStudy = {
+  category: "POWER SOLUTIONS — IRON BOX ELECTRIC",
+  title: {
+    highlight: "37%",
+    normal: "Revenue in 30 Days",
+  },
+  badge: "RECORD MONTH",
+
+  coreProblems: [
+    "Unstable ad performance eating margin",
+    "Compliance disruptions & Buy Box losses",
+    "Catalog structure limiting scale",
+    "No unified A+ Content or Brand Story",
+  ],
+
+  actions: [
+    "Restructured PPC with match-type segmentation & dayparting",
+    "Deployed SEO master keyword + backend indexing strategy",
+    "Competitor conquesting campaigns launched",
+    "B2B-focused promotions with tiered discounts",
+  ],
+};
+
+export const caseStudyData = {
+  category: "PET & EQUESTRIAN — MULTI-CATEGORY BRAND",
+  headline: "28% YoY + 83% More Units Sold",
+  daysManaged: "780+ DAYS MANAGED",
+  coreProblems: [
+    "Fragmented catalog with redundant \"used\" listings",
+    "Broken variation logic across size & color SKUs",
+    "Search suppression & category misclassification",
+    "Seasonal inventory gaps eroding margins",
+    "High ad spend without structured targeting"
+  ],
+  strategicReset: [
+    "Catalog & compliance cleanup — removed redundant listings",
+    "Phase 1 backend keyword overhaul + infographic stacks",
+    "PPC reorganized to eliminate waste & protect margins",
+    "Brand Stories unified across all product lines"
+  ]
+};
+
+export const caseStudyOutdoor = {
+  category: "OUTDOOR / CANOPY — CLAM OUTDOORS",
+  headline: "243% Revenue + 95% Buy Box Control",
+  badgeText: "MARKET DOMINATION",
+  coreProblems: [
+    "Revenue leakage from inconsistent 3P partnerships",
+    "Pricing instability causing Buy Box losses",
+    "Stockouts on top pop-up canopy SKUs",
+    "Weak content positioning & unclear differentiation"
+  ],
+  strategicIntervention: [
+    "Back-fill fulfillment partner — eliminated stockouts",
+    "Stabilized pricing to lock in Buy Box ownership",
+    "Rebuilt full Amazon storefront & pop-up listing control",
+    "Expanded into additional major marketplaces"
+  ]
+};
+
+export const caseStudyLandscaping = {
+  category: "LANDSCAPING — 1,300 SKU BRAND",
+  headline: "110% Revenue Growth in 90 Days",
+  badgeText: "TACOS CONTROLLED",
+  coreProblems: [
+    "85% of revenue from just 8 of 100+ categories",
+    "35-40% YoY keyword search volume decline",
+    "350+ campaigns with inefficient ASIN grouping",
+    "FBM-heavy listings struggling to rank competitively"
+  ],
+  execution: [
+    "Identified top 10 scalable ASINs by Sales, TACoS & CVR",
+    "Precision keyword expansion via SQP & Brand Analytics",
+    "Rebuilt 350+ campaigns with controlled segmentation",
+    "Sponsored Brand Video on high-intent long-tail terms"
+  ]
+};
+
+export const caseStudyApparel = {
+  category: "OUTDOOR APPAREL — NICHE PREMIUM BRAND",
+  headline: "ACoS Reduced 65% in Just 15 Days",
+  badgeText: "15× ROAS BOOST",
+  coreProblems: [
+    "Small niche limiting discoverability",
+    "Semi-relevant keywords diluting targeting precision",
+    "45% price premium vs. market average",
+    "Inefficient match-type usage reducing ad efficiency"
+  ],
+  precisionExecution: [
+    {
+      step: "STEP 1",
+      text: "Advanced keyword expansion via SQP & competitor click-share targeting in a low-volume niche"
+    },
+    {
+      step: "STEP 2",
+      text: "Match-type funnel: Phrase → Exact migration → selective Broad expansion for reach"
+    },
+    {
+      step: "STEP 3",
+      text: "Spend concentrated only on high-intent terms capable of supporting the premium price point"
+    }
+  ]
+};
+
+export const caseStudyKoala = {
+  category: "MULTI-PARENT ASIN BRAND — KOALA",
+  headline: "$4.7M YoY + $275K in 8 Weeks",
+  badgeText: "LARGEST SCALE",
+  coreProblems: [
+    "Market share eroding to smaller competitors",
+    "TACoS rising with flat revenue — strategic misalignment",
+    "Organic keyword rankings declining across catalog",
+    "New product launches failing to gain traction",
+    "No structured product-level profitability targets"
+  ],
+  growthBlueprint: [
+    "Product-level custom strategies for 10+ parent ASINs",
+    "Conversion-focused content — benefits over features",
+    "Clear TACoS targets per SKU; rebuilt PPC architecture",
+    "Placement domination: Top of Search, RoS & Product Pages"
+  ]
+};
+
+export const caseStudyCtaContent = {
+  overline: "MY AMAZON PARTNERS",
+  heading: "Want to be our next",
+  headingAccent: "success story?",
+  description: "Contact us to get started with a free strategy call and discover how we can help you grow.",
+  primaryBtn: "Contact Us to Get Started →",
+  secondaryBtn: "View Our Services"
+};
