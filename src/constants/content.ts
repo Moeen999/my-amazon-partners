@@ -2000,3 +2000,953 @@ export const caseStudyCtaContent = {
   primaryBtn: "Contact Us to Get Started →",
   secondaryBtn: "View Our Services"
 };
+
+// ! Brand Story Data
+export const brandStoryData = {
+  heading: "Sell more with an Amazon Brand Story",
+
+  subHeading: "",
+
+  description:
+    "Captivate more shoppers with a Brand Story — a proven way to build trust, increase conversions, and drive more sales on Amazon.",
+
+  ctaText: "View consultation options",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Showcase your brand's identity in a captivating way",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Feature your best products and build trust with shoppers",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Designed by Amazon experts who know what works",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/brandStoryImages/hero.png",
+};
+
+export const bsFeatureCardData = [
+  {
+    id: 1,
+    title: "Rank higher in search results",
+    description: "Boost rankings with keyword-rich content, increase engagement, and improve conversion — factors favored by  Amazon’s algorithm."
+  },
+  {
+    id: 2,
+    title: "Increase conversion rate",
+    description: "Turn browsers into buyers by using informative content, building trust by showcasing product benefits to keep shoppers engaged."
+  },
+  {
+    id: 3,
+    title: "Showcase more products",
+    description: "The scrollable carousel of Brand Stories allow sellers to highlight multiple items, cross-sell, and drive traffic across their catalog."
+  },
+  {
+    id: 4,
+    title: "Tell a story that sells",
+    description: "Blend visuals, text, and your brand’s unique messaging to create a memorable shopping experience for shoppers."
+  }
+];
+
+export const bsStoryTellingData = {
+  heading: "Engage and convert with storytelling",
+
+  subHeading: "",
+
+  description:
+    "Done right, Brand Stories are a proven way to boost engagement and conversion on Amazon, while subtly strengthening your search rankings with the right keywords. A weak or missing Brand Story is a missed sale, and having one craft well can be the thing that pushes customers to choose you over the competition.",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Keyword-rich copywriting for better discoverability",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "professional design tailored to your brand",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Image editing for enhanced visuals",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Fast turnaround of under 5 business days",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "3 rounds of revisions to ensure perfection",
+      href: ""
+    },
+    {
+      id: 6,
+      icon: FaCheck,
+      text: "Seamless Seller Central publishing",
+      href: ""
+    },
+    {
+      id: 7,
+      icon: FaCheck,
+      text: "Alt text optimization for added search visibility",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/brandStoryImages/storytelling.png",
+}
+
+export const bsFaqData = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "What do you need to make an Amazon Brand Story?",
+      description: "We'll need any existing graphics, logos, photos/images, text or documents, and other assets that could be helpful for us to make your Brand Story.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How can we handover files that you can use to make a Brand Story?",
+      description: "We can make use of different platforms such as Google Drive, Dropbox, WeTransfer, or other similar services that make file transfer convenient for images, documents, videos, and other files.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Will I get the source files for all graphics made for the Brand Story?",
+      description: "Yes. All source files can be provided to you upon completion of your Brand Story.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "How many ASINs can the Brand Story be applied to?",
+      description: "We will publish the Amazon Brand Story to a list of up to 20 ASINs. Should you need to apply it to more than 20 ASINs, we charge $100 per template load required. Each template can load up to 10,000 ASINs per batch.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "Will having Brand Registry issues affect my ability to use a Brand Story?",
+      description: "Yes. Brand Registry is required for sellers to use a Brand Story in Seller Central. Any existing issues that should be resolved related to Brand Registry in your Seller Central account fall outside the scope of our Brand Story service. Below are examples of issues that could prevent an account's ability to use a Brand Story:",
+      items: ["incorrect or missing Brand Node ID", "any system or SKU restrictions, and", "other issues"],
+    },
+  ]
+}
+
+
+// ! Brand Store Data
+
+export const brandStoreData = {
+  heading: "Your Amazon brand store, done right",
+
+  subHeading: "",
+
+  description:
+    "Go beyond templates. Our Amazon agency creates custom brand stores to showcase your products, boost sales, and build loyalty. ",
+
+  ctaText: "View consultation options",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Guide shoppers to buy with a strategic design",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Turn your Amazon store into a sales machine",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Build customer confidence and conversion",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/brandStoreImages/hero.png",
+};
+
+export const brandStoreFeatureCardData = [
+  {
+    id: 1,
+    title: "Build a stronger brand presence",
+    description: "A professional store reinforces your brand, builds trust and credibility, and differentiates you from the competition."
+  },
+  {
+    id: 2,
+    title: "Generate higher conversions",
+    description: "Guide shoppers to buy with a clear, structured layout with smooth navigation, highlighting key products to boosts sales."
+  },
+  {
+    id: 3,
+    title: "Have better product visibility",
+    description: "Feature your full catalog in your own space without competitor ads to keep customers focused on your brand."
+  },
+  {
+    id: 4,
+    title: "Improve customer experience",
+    description: "With high-quality images, videos, and a seamless design, you engage buyers, flaunt your brand, and encourage repeat purchases."
+  },
+  {
+    id: 5,
+    title: "Insightful metrics",
+    description: "Brand stores come with built-in analytics to help you track and optimize performance so you can optimize it and sell more products."
+  },
+]
+
+export const brandShowCaseData = {
+  heading: "Showcase your brand on Amazon",
+
+  subHeading: "With over six years of helping Amazon business grow, we understand what makes a Brand Store work for sellers.",
+
+  description:
+    "A professional store has your products in full display, strengthens your brand, and improves the shopping experience. We design custom stores that boost visibility, drive conversions, and keep customers focused on your catalog. We can also design additional category pages to better organize your products and improve navigation for customers.",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Customized page templates",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Professional store design",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Image editing for enhanced visuals",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Vanity URL creation (amazon.com/brandname)",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/brandStoreImages/brandshowcase.png",
+}
+
+export const brandShowcaseFaqData = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "Why is the Amazon Brand Store homepage so important?",
+      description: "Your homepage is often the first stop for customers exploring your brand. It should be designed for easy shopping, showcasing trending and best-selling products to drive conversions.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How do I find an Amazon brand store?",
+      description: 'On the product detail page, click the hyperlinked "Visit the (brand name) store"',
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Are Amazon brand store and Amazon storefront the same?",
+      description: "No, they are not the same. An Amazon Brand Store is fully customizable to reflect a seller’s brand, while a storefront is not. Learn more about the key differences in this article.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "How do I check my Amazon Brand Store metrics?",
+      description: "Go to your Seller Central Dashboard → Stores → Manage Stores → Select your store → Click See Insights (if available). This will show key performance metrics like visitors, sales, and unit orders.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "How does a well-designed Brand Store increase sales?",
+      description: "A strategic layout ensures high-demand products are front and center, makes it easy for shoppers to add to cart, and encourages cross-selling of related items.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "What are the key elements of a high-performing Amazon Brand Store?",
+      description: "Effective Brand Stores include the following characteristics:",
+      items: [
+        "A clear and compelling banner featuring your brand name and product offerings.",
+        "A well-crafted meta description to improve discoverability and encourage clicks.",
+        "Multiple subpages for different product categories to mimic a real website experience.",
+        "Engaging videos, such as unboxings, to increase conversions.",
+        "Optimized social posts that reinforce brand messaging and appear in your store.",
+        "Follower engagement tools that allow you to market directly to potential customers."
+      ],
+    },
+    {
+      id: 7,
+      question: "How does a strong Brand Store impact my SEO and discoverability?",
+      description: "Your Brand Store’s meta description is indexed by Google, meaning it can help your store rank for branded and non-branded keywords. By optimizing your meta description with high-intent keywords, your store can appear in top search results, bringing more organic traffic to your listings.",
+      items: [],
+    },
+  ]
+}
+
+
+// ! Listing Images Data
+export const listingImagesData = {
+  heading: "High-impact Amazon listing images",
+
+  subHeading: "",
+
+  description:
+    "Top sellers don’t rely on average images. They use professionally designed visuals that drive more conversions. Our expert designers specialize in crafting Amazon listing images that look great and helps generate more sales.",
+
+  ctaText: "View Listing Images Options",
+
+  checklist: [],
+
+  rightImageSrc: "/listingImages/hero.png",
+};
+
+export const imageBenefits = [
+  {
+    id: 1,
+    title: "Grab attention, generate sales",
+    description:
+      "Buyers judge by images. Dull photos lose sales. Compelling visuals convert clicks and help increase your sales.",
+  },
+  {
+    id: 2,
+    title: "Showcase products’ best features",
+    description:
+      "Images highlighting key features help shoppers understand your product and how it can benefit them.",
+  },
+  {
+    id: 3,
+    title: "Build trust with shoppers",
+    description:
+      "Detailed images build trust and show product value. Building buyer confidence contributes to more purchases.",
+  },
+  {
+    id: 4,
+    title: "Improve customer experience",
+    description:
+      "Clear and understandable images make shopping easier. Use proper visuals and text to accurately inform shoppers and avoid confusion.",
+  },
+  {
+    id: 5,
+    title: "Communicate with style",
+    description:
+      "Dull doesn’t drive clicks. Images that communicate your product’s value and appeal turn viewers into buyers.",
+  },
+  {
+    id: 6,
+    title: "Expert photo editing and design",
+    description:
+      "Our skilled graphic designers can help elevate your Amazon listing images design for maximum impact.",
+  },
+];
+
+
+export const listingImagesFaqData1 = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "What do you require to get started?",
+      description: "We'll need existing product images that are available, and details/information about your product that can be useful to design images. If possible, explain how your product is different from other sellers. Reference images or listings that you like. We recommend taking product images by a professional photographer. Supplier-provided photos can be used, too. If none are available, you can also take photos using your camera phone.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "Do you also do photo manipulation?",
+      description: "Yes. Our expert graphic designers can edit existing photos to create the images that you need. From seamless photo manipulation to realistic lifestyle edits, we enhance every detail to create better images for your listings. Whether you need models showcasing your product or a polished final touch, we bring your vision to life.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "What if I need something made that's not included in any of the packages?",
+      description: "Let us know what you need in detail, and we'll provide quality service to help you out. Feel free to contact us for any questions or clarification needed.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Is it possible to request a quantity of images different from what are in the packages?",
+      description: "If you need more than seven images, let us know and we'll get back to with the appropriate fee for the quantity you need.",
+      items: [],
+    },
+  ]
+}
+
+export const threeDsecData = {
+  heading: "Bring product packaging to life with versatile 3D renders",
+
+  subHeading: "",
+
+  description:
+    "3D-rendered images give you the realism of photography with the flexibility of digital design. With a 3D model, you can generate high-quality visuals from any angle, with ideal lighting and a clean, professional backdrop—every time. Showcase your packaging in the best possible light to attract more shoppers.",
+
+  ctaText: "Get 3D images",
+
+  checklist: [],
+
+  rightImageSrc: "/listingImages/threeD.png",
+};
+
+export const threeDRenderBenefits = [
+  {
+    id: 1,
+    title: "Complete control",
+    description:
+      "Unlike photography where lighting and angles can be tricky, 3D renders let you showcase your packaging flawlessly in any way you need, highlighting every feature.",
+  },
+  {
+    id: 2,
+    title: "Cost-effective",
+    description:
+      "While initial setup require an investment, 3D renders can save you money on professional photography in the long run, especially for variations of the same packaging.",
+  },
+  {
+    id: 3,
+    title: "Versatility",
+    description:
+      "Need a close-up of a specific detail? Want to show the packaging in different colors or settings? Easy! 3D renders allow for endless customization.",
+  },
+  {
+    id: 4,
+    title: "Increased clicks",
+    description:
+      "Eye-catching and informative, 3D renders grab attention and make shoppers want to learn more about your packaging and building trust with them.",
+  },
+];
+
+// ! Enhanced Content Data 
+
+
+export const enhancedContentData = {
+  heading: "Stand out from your competition with A+ Content",
+
+  subHeading: "",
+
+  description:
+    "With smart design and integrated SEO elements, A+ content helps your product shine, while also helping Amazon show it to more shoppers.",
+
+  ctaText: "View A+ Content Options",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Improve conversion rates",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Showcase product features and benefits",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Helps improve SEO ranking",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/enhancedBrandImages/hero.png",
+};
+
+export const imageListingBenefits = [
+  {
+    id: 1,
+    title: "Grab attention, generate sales",
+    description:
+      "Buyers judge by images. Dull photos lose sales. Compelling visuals convert clicks and help increase your sales.",
+  },
+  {
+    id: 2,
+    title: "Showcase products’ best features",
+    description:
+      "Images highlighting key features help shoppers understand your product and how it can benefit them.",
+  },
+  {
+    id: 3,
+    title: "Build trust with shoppers",
+    description:
+      "Detailed images build trust and show product value. Building buyer confidence contributes to more purchases.",
+  },
+  {
+    id: 4,
+    title: "Improve customer experience",
+    description:
+      "Clear and understandable images make shopping easier. Use proper visuals and text to accurately inform shoppers and avoid confusion.",
+  },
+  {
+    id: 5,
+    title: "Communicate with style",
+    description:
+      "Dull doesn’t drive clicks. Images that communicate your product’s value and appeal turn viewers into buyers.",
+  },
+  {
+    id: 6,
+    title: "Expert photo editing and design",
+    description:
+      "Our skilled graphic designers can help elevate your Amazon listing images design for maximum impact.",
+  },
+];
+
+export const enhancedCardsContentData = [
+  {
+    id: 1,
+    heading: "Improve search rankings",
+    description: "Boost listings’ visibility, rank higher on Amazon, and get found by more shoppers.",
+    imgSrc: "/enhancedBrandImages/rankings.png"
+  },
+  {
+    id: 2,
+    heading: "Increase conversion rate",
+    description: "Turn browsers into buyers. A+ Content helps seal the deal with better presentation.",
+    imgSrc: "/enhancedBrandImages/conversionrate.png"
+  },
+  {
+    id: 3,
+    heading: "Share your brand story",
+    description: "Build trust and customer loyalty by showcasing your brand’s journey creatively..",
+    imgSrc: "/enhancedBrandImages/brandstory.png"
+  },
+  {
+    id: 4,
+    heading: "Showcase products",
+    description: "Highlight features, demonstrate uses, and display products beautifully.",
+    imgSrc: "/enhancedBrandImages/products.png"
+  },
+];
+
+
+export const enhancedContentCopyWriteContent = {
+  heading: "Copywriting for Amazon",
+
+  subHeading: "",
+
+  description:
+    "Great copy turns browsers into buyers. Our copywriting service helps your Amazon listings stand out with clear, persuasive descriptions that highlight your product’s benefits and connect with customers on a personal level.We combine strong messaging with SEO-boosting keywords in your titles, bullets, and descriptions to help your products rank higher and get seen more often. That means more clicks, more conversions, and better sales. If your current listing feels flat, vague, or forgettable, we’ll fix that. From compelling product copy to effective backend keywords, we craft listings that convert and speak directly to your target audience. Whether you’re launching a new product or refreshing an old listing, our expert writers are ready to create listings that drive results.",
+
+  ctaText: "",
+
+  checklist: [],
+
+  rightImageSrc: "/enhancedBrandImages/copywrite.png",
+}
+
+export const enhancedContentFaqData = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "What files do you need from us to get started?",
+      description: "Any graphics, logos, pictures, images, or copy that you would prefer to use and placed into your A+ Content.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How do we send over files to you that you can use?",
+      description: "We can use common tools online such as Google Drive to Dropbox, WeTransfer and Sigma Files.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Can I get the source files for what you make for us?",
+      description: "Yes. Upon request we are happy to provide the source files to you.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "What if we're experiencing some brand registry issues?",
+      description: "If you have any brand registry issues, the brand is not set with a proper brand node ID, or the A+ content won’t be attached to the SKU, or any other issues that prevent A+ content from publishing, this is out of scope for this service. You will need to avail of additional troubleshooting services to get the existing issues resolved. In any case, we can still deliver the A+ content to you on the account and you can decide how to move forward with it while you have existing brand registry issues to resolve.",
+      items: [],
+    },
+  ]
+}
+// ! Main Image CTR hack
+
+// ! Lsiting Optimizations
+export const heroContent = {
+  heading: "Amazon listing optimization",
+
+  subHeading: "",
+
+  description:
+    " We apply this same expert approach to your product page, overhauling copy and graphics to turn more clicks into customers.",
+
+  ctaText: "Optimize your listing",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Strategically selected backend search terms",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Data-driven SEO for titles, bullets, and descriptions",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Click-generating main and secondary images",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/listingOptImages/hero.png",
+}
+
+export const listingOptCardsData = [
+  {
+    id: 1,
+    title: "Effective SEO",
+    description: "For us, SEO is second nature. Our 4-phase plan, proven on 3,000+ brands, drives visibility from initial keywords to SQR analysis.",
+    image: "/listingOptImages/effectiveseo.png"
+  },
+  {
+    id: 2,
+    title: "Keyword research",
+    description: "We find untapped keywords by analyzing competitors and integrate them in your listing to capture sales and rank higher.",
+    image: "/listingOptImages/kwresearch.png"
+  },
+  {
+    id: 3,
+    title: "Professional images",
+    description: "Our images stop the scroll to win the click, then use compelling infographics to explain benefits and secure the sale.",
+    image: "/listingOptImages/profimages.png"
+  },
+  {
+    id: 4,
+    title: "Engaging A+ Content",
+    description: "We design immersive A+ Content that visually dominates the page, keeping shoppers focused solely on your brand.",
+    image: "/listingOptImages/engagingcontent.png"
+  },
+  {
+    id: 5,
+    title: "Crafted copywriting",
+    description: "Our copy expertly weaves in keywords favorable for Amazon search results, and helps convert shoppers by being informative and clear.",
+    image: "/listingOptImages/copywriting.png"
+  },
+  {
+    id: 6,
+    title: "Impactful brand story",
+    description: "We tell your unique story to move beyond a transaction, building the customer trust that creates long-term loyalty.",
+    image: "/listingOptImages/brandstory.png"
+  },
+];
+
+export const listingOptimizationBenefits = [
+  {
+    id: 1,
+    title: "Improve sessions & CTR",
+    description:
+      "Through intensive keyword research and effective copy, we drive more relevant traffic and increase your click-through rate on Amazon.",
+  },
+  {
+    id: 2,
+    title: "Boost conversion rates",
+    description:
+      "By highlighting your product’s features with effective copy and informational listing images, we guide more visitors to make a purchase.",
+  },
+  {
+    id: 3,
+    title: "Engage and educate buyers",
+    description:
+      "Custom-made graphics and clear, benefit-driven copy keep shoppers on your page longer and answer their questions before they ask.",
+  },
+  {
+    id: 4,
+    title: "Achieve higher sales",
+    description:
+      "Every aspect of our service, from copy to keywords, is aligned with applying best practices to achieve significant sales growth.",
+  },
+];
+
+export const listingOptFaqData = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "How do I know if my listing actually needs optimization?",
+      description: "If your product isn’t ranking, getting clicks, or converting consistently, there’s likely an issue with your listing that you aren't aware of. Start with our free ASIN review, where are Amazon specialists take a look in to your listing and identify exactly which parts of your listing need improvement.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "Can you help if my listing has already been optimized before?",
+      description: "Yes. Most of the listings we check, even those previously “optimized”, can still have major gaps in keyword indexing, copy strategy, and backend setup. We fix what others miss.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "How quickly will I see results after optimization?",
+      description: "Improvements in indexing and visibility can happen within days, but ranking and conversion gains typically build over 2–6 weeks. We provide recommendations to maintain momentum post-optimization.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Is this service for new products or for improving existing ones?",
+      description: "It’s essential for both.For new products, our optimization provides a solid foundation to ensure you launch with the best possible visibility and conversion potential. For existing products, it’s a vital tool to diagnose performance issues, boost stagnant sales, improve ranking, and gain a competitive edge over other sellers.",
+      items: [],
+    },
+  ]
+}
+
+// ! FUll Listing Opt
+export const fullListingOptHeroContent = {
+  heading: "Full listing optimization",
+
+  subHeading: "",
+
+  description:
+    "Give your underperforming listings an overhaul and convert more shoppers. Let are team of Amazon specialists take it to the next level:",
+
+  ctaText: "Optimize your listing",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Title, bullets, and product description optimization",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "A+ Content design with 500 words of crawlable text",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Professional brand story",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "6 fully optimized graphics images",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "Improved backend search terms",
+      href: ""
+    },
+    {
+      id: 6,
+      icon: FaCheck,
+      text: "Competitor report",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/listingOptImages/hero.png",
+}
+
+export const fullListAPlusAndSEOBenefits = [
+  {
+    id: 1,
+    title: "Professional A+ content",
+    description:
+      "Boost conversions with bespoke A+ Content, featuring crawlable text, alt text, and compelling visuals that drive sales.",
+  },
+  {
+    id: 2,
+    title: "SEO optimization",
+    description:
+      "Improve rankings with our 4-phase Amazon SEO — optimized search terms, keyword updates, strike zone targeting, and query analysis.",
+  },
+  {
+    id: 3,
+    title: "Backend search terms",
+    description:
+      "We have a structured SEO approach for optimizing search terms to boost indexing, rankings, and product visibility.",
+  },
+  {
+    id: 4,
+    title: "Competitor research",
+    description:
+      "Stay ahead of the competition with detailed research on prices, rankings, sales, and reviews to optimize your listings for success.",
+  },
+  {
+    id: 5,
+    title: "Brand story module",
+    description:
+      "Add a compelling brand story to connect with customers, showcase your mission, and build trust for stronger brand loyalty.",
+  },
+  {
+    id: 6,
+    title: "Optimized listing images",
+    description:
+      "Enhance CTR, conversion rates, and rankings with optimized Amazon images—main, infographics, lifestyle, and 3D rendered visuals.",
+  },
+];
+
+export const optimizingResultData = {
+  heading: "Optimized listing images",
+
+  subHeading: "",
+
+  description:
+    "Impress and inform shoppers with optimized listing images designed by our expert designers.",
+
+  ctaText: "Optimize your listing",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Six listing images",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Improved main image",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Lifestyle images",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Infographics",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "Professional graphic design",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/fullListOptImages/listingres.png",
+}
+
+export const shopperInformingData = {
+  heading: "Optimized listing images",
+
+  subHeading: "",
+
+  description:
+    "Impress and inform shoppers with optimized listing images designed by our expert designers.",
+
+  ctaText: "Optimize your listing",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Use an attractive background image that goes well with the overall look of the various modules.",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Use the text modules to tell the story behind your company or brand.",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Use the Brand ASIN and Store Showcase module where you can show four different products that will be linked to their listing page.",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Brand Stories scroll horizontally, so using more modules won’t eat up more space in the page.",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "They display differently when viewed from a computer and a mobile phone, so plan your design accordingly.",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/fullListOptImages/brandstory.png",
+}
+
+
+// ! Main Image CTR Data
+
+export const mainImageCtrData = {
+  heading: "Upgrade your Amazon main image CTR",
+
+  subHeading: "",
+
+  description:
+    "Is your Amazon main image attractive enough to generate clicks from the search page? Make a good first impression and have more shoppers discover your products on Amazon.",
+
+  ctaText: "Get a Main Image Upgrade",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "fixed price per main image",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Photo editing and compositing",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Deliverables: final main image and all raw and edited files used",
+      href: ""
+    }
+  ],
+
+  rightImageSrc: "/ctrImages/hero.png",
+}
+
+export const ctrSectionContent = {
+  mainHeading: "More image examples that 2x CTR on Amazon",
+  subDescription: "Having an improved Amazon main image will help not just your CTR. With more shoppers viewing your listing, the more chances there are of people buying your product.",
+  productName: "Manuka oil",
+  improvementNote: "Added packaging and a live ingredient."
+};

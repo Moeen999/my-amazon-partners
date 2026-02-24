@@ -20,6 +20,13 @@ import Consulting from "./ServicesRoutes/Consulting";
 import CaseStudies from "@/pages/CaseStudies";
 import Testimonials from "./pages/Testimonials";
 import BrandGuideLines from "./pages/BrandGuideLines";
+import BrandStory from "./pages/BrandStory";
+import BrandStore from "./pages/BrandStore";
+import ListingImages from "./pages/ListingImages";
+import EnhancedBrandContent from "./pages/EnhancedBrandContent";
+import ListingOptimizations from "./pages/ListingOptimizations";
+import FullListingOptimizations from "./pages/FullListingOptimizations";
+import MainImageCtrUpgrade from "./pages/MainImageCtrUpgrade";
 
 const queryClient = new QueryClient();
 
@@ -52,6 +59,13 @@ const App = () => (
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/services/design" element={<DesignPage />} />
               <Route path="/services/design/amazon-brand-guidelines" element={<BrandGuideLines />} />
+              <Route path="/services/design/amazon-brand-story" element={<BrandStory />} />
+              <Route path="/services/design/amazon-brand-store" element={<BrandStore />} />
+              <Route path="/services/design/listing-images-design" element={<ListingImages />} />
+              <Route path="/services/design/amazon-enhanced-brand-a-plus-content" element={<EnhancedBrandContent />} />
+              <Route path="/services/listing-optimization" element={<ListingOptimizations />} />
+              <Route path="/services/listing-optimization/end-to-end-listing" element={<FullListingOptimizations />} />
+              <Route path="/services/design/amazon-main-image-ctr-upgrade" element={<MainImageCtrUpgrade />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

@@ -1,9 +1,7 @@
-import { amazonFeatureCards } from "@/constants/content";
-
-const AmazonFeatureCard = () => {
+const AmazonFeatureCard = ({ content }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {amazonFeatureCards.map((data, index) => {
+      {content.map((data, index) => {
         const { heading, description, imgSrc } = data;
         return (
           <div

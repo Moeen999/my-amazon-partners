@@ -17,13 +17,13 @@ const CommonHeader = ({ content }) => {
             {heading}
           </h1>
 
-          <p className="mt-6 font-semibold text-foreground">{subHeading}</p>
+          {subHeading && <p className="mt-2 font-semibold text-foreground">{subHeading}</p>}
 
-          <p className="mt-4 text-muted-foreground max-w-xl leading-relaxed">
+          {description && <p className="mt-2 text-muted-foreground max-w-xl leading-relaxed">
             {description}
-          </p>
+          </p>}
 
-          <ul className="mt-10 space-y-4">
+          {checklist.length > 0 && <ul className="mt-10 space-y-2">
             {checklist.map((item) => {
               const { href, icon: Icon, text } = item;
               return (
@@ -43,7 +43,7 @@ const CommonHeader = ({ content }) => {
                 </a>
               );
             })}
-          </ul>
+          </ul>}
         </div>
 
         <div className="relative flex justify-center">

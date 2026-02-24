@@ -26,9 +26,7 @@ const CaseStudyFooterCTA = () => {
           </button>
 
           <button className="px-8 py-4 bg-transparent hover:bg-zinc-100 text-zinc-800 font-bold border border-zinc-300 rounded-full transition-all duration-300">
-            <Link to="/services">
-            {caseStudyCtaContent.secondaryBtn}
-            </Link>
+            <Link to="/services">{caseStudyCtaContent.secondaryBtn}</Link>
           </button>
         </div>
       </div>

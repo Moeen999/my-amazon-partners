@@ -1,4 +1,13 @@
-import { brandGlFaqData, faqData, homeFaqData } from "@/constants/content";
+import {
+  brandGlFaqData,
+  bsFaqData,
+  faqData,
+  homeFaqData,
+  brandShowcaseFaqData,
+  listingImagesFaqData1,
+  enhancedContentFaqData,
+  listingOptFaqData,
+} from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
 import { useLocation } from "react-router-dom";
@@ -18,7 +27,18 @@ const FAQAccordion = () => {
           ? faqData.mainHeading
           : pathname === "/services/design/amazon-brand-guidelines"
             ? brandGlFaqData.mainHeading
-            : homeFaqData.mainHeading}
+            : pathname === "/services/design/amazon-brand-story"
+              ? bsFaqData.mainHeading
+              : pathname === "/services/design/amazon-brand-store"
+                ? brandShowcaseFaqData.mainHeading
+                : pathname === "/services/design/listing-images-design"
+                  ? listingImagesFaqData1.mainHeading
+                  : pathname ===
+                      "/services/design/amazon-enhanced-brand-a-plus-content"
+                    ? enhancedContentFaqData.mainHeading
+                    : pathname === "/services/listing-optimization"
+                      ? listingOptFaqData.mainHeading
+                      : homeFaqData.mainHeading}
       </h2>
 
       <div className="border-t border-gray-200">
@@ -26,7 +46,18 @@ const FAQAccordion = () => {
           ? faqData.questions
           : pathname === "/services/design/amazon-brand-guidelines"
             ? brandGlFaqData.questions
-            : homeFaqData.questions
+            : pathname === "/services/design/amazon-brand-story"
+              ? bsFaqData.questions
+              : pathname === "/services/design/amazon-brand-store"
+                ? brandShowcaseFaqData.questions
+                : pathname === "/services/design/listing-images-design"
+                  ? listingImagesFaqData1.questions
+                  : pathname ===
+                      "/services/design/amazon-enhanced-brand-a-plus-content"
+                    ? enhancedContentFaqData.questions
+                    : pathname === "/services/listing-optimization"
+                      ? listingOptFaqData.questions
+                      : homeFaqData.questions
         ).map((item) => (
           <AccordionItem
             key={item.id}

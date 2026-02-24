@@ -2,7 +2,7 @@ import AmazonFeatureCard from "@/components/AmazonFeatureCard";
 import ArrowIcon from "@/components/ArrowIcon";
 import CommonHeading from "@/components/CommonHeading";
 import SeoServices from "@/components/SeoServices";
-import { amazonSeoContent } from "@/constants/content";
+import { amazonFeatureCards, amazonSeoContent } from "@/constants/content";
 import { Link } from "react-router-dom";
 
 const AmazonSEO = () => {
@@ -60,7 +60,7 @@ const AmazonSEO = () => {
 
       {/* Cards Container */}
       <div className="max-w-7xl mx-auto p-6 bg-white">
-        <AmazonFeatureCard />
+        <AmazonFeatureCard content={amazonFeatureCards} />
       </div>
 
       {/* Listing Section */}
