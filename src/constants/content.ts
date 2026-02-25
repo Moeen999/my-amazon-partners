@@ -3117,3 +3117,131 @@ export const tsFaqsData = {
     },
   ]
 }
+
+
+// ! Listing ReInstatement
+
+export const listingReinstHeroContent = {
+  heading: "Amazon Listing Reinstatement",
+
+  subHeading: "",
+
+  description:
+    "We help reinstate deactivated Amazon listings, taking them from “Page Not Found” to back in business to restore selling momentum. We handle various types of listing take-downs quickly and efficiently:",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Copyright claims takedowns",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Trademark infringement yanks",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Medical claims takedowns",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Listing condition complaint takedowns",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "Restricted item/ingredient takedowns type claims",
+      href: ""
+    },
+    {
+      id: 6,
+      icon: FaCheck,
+      text: "Brand takedowns",
+      href: ""
+    },
+    {
+      id: 7,
+      icon: FaCheck,
+      text: "Item safety breakdowns",
+      href: ""
+    },
+    {
+      id: 8,
+      icon: FaCheck,
+      text: "And more, not limited to categories above",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/listingReinstImages/hero.png",
+}
+
+export const reInstProcessCardData = [
+  {
+    id: 1,
+    title: "Extensive experience",
+    description: "We have a long track record of helping Amazon sellers, gaining deep knowledge of Amazon policies and the best practices for getting listings reinstated.",
+    image: "/listingReinstImages/experience.png"
+  },
+  {
+    id: 2,
+    title: "Full Amazon compliance",
+    description: "With experience across hundreds of accounts, we remove the uncertainty from Amazon compliance, making sure listings are , approved, and ready to sell.",
+    image: "/listingReinstImages/compilance.png"
+  },
+  {
+    id: 3,
+    title: "Over 90% success rate",
+    description: "Our team’s structured approach and deep expertise consistently lead to over 90% of listings being successfully reinstated.",
+    image: "/listingReinstImages/success.png"
+  },
+];
+
+export const reInstFaqsData = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "What is listing reinstatement in Amazon?",
+      description: 'Listing reinstatement is the process of reactivating a suppressed or "yanked" ASIN after Amazon removes it for policy violations. We identify the specific root cause and submit a compliant Plan of Action (POA) to restore your listing to active status.',
+      items: [],
+    },
+    {
+      id: 2,
+      question: "Do I really need professional help when reinstating a product listing?",
+      description: "While you can do the appeal yourself, professional help prevents lost revenue and weeks of trial and error. We navigate Amazon’s complex internal systems to get your listing back faster, avoiding the frustration of repeated rejections.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Is your service guaranteed to work?",
+      description: "We do not offer a guarantee, due to not being able to control Amazon’s response. But we average a 90% success rate and have a very public reputation to uphold. We would not offer this service if we were not confident we could do it.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Are there kinds of listings that you're not able to reinstate?",
+      description: "We are not able to reinstate the following kinds of products:",
+      items: [
+        "Children’s toys that contain water beads",
+        "Crib bumpers",
+        "Assault rifles and explosives"
+      ],
+    },
+    {
+      id: 5,
+      question: "How long does the listing reinsatement process take?",
+      description: "With our approach, most listings (70%) return within 72 hours, though the overall timeline depends on multiple factors and can differ from case to case.",
+      items: [],
+    },
+  ]
+}
