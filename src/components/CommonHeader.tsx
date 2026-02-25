@@ -17,42 +17,50 @@ const CommonHeader = ({ content }) => {
             {heading}
           </h1>
 
-          {subHeading && <p className="mt-2 font-semibold text-foreground">{subHeading}</p>}
+          {subHeading && (
+            <p className="mt-2 font-semibold text-foreground">{subHeading}</p>
+          )}
 
-          {description && <p className="mt-2 text-muted-foreground max-w-xl leading-relaxed">
-            {description}
-          </p>}
+          {description && (
+            <p className="mt-2 text-muted-foreground max-w-xl leading-relaxed">
+              {description}
+            </p>
+          )}
 
-          {checklist.length > 0 && <ul className="mt-10 space-y-2">
-            {checklist.map((item) => {
-              const { href, icon: Icon, text } = item;
-              return (
-                <a
-                  href={`#${href}`}
-                  key={item.id}
-                  className="flex items-center gap-3"
-                >
-                  {Icon ? (
-                    <span className="text-green-600">
-                      <Icon />
-                    </span>
-                  ) : (
-                    <ArrowIcon />
-                  )}
-                  <span className="text-foreground text-sm">{text}</span>
-                </a>
-              );
-            })}
-          </ul>}
+          {checklist.length > 0 && (
+            <ul className="mt-10 space-y-2">
+              {checklist.map((item) => {
+                const { href, icon: Icon, text } = item;
+                return (
+                  <a
+                    href={`#${href}`}
+                    key={item.id}
+                    className="flex items-center gap-3"
+                  >
+                    {Icon ? (
+                      <span className="text-green-600">
+                        <Icon />
+                      </span>
+                    ) : (
+                      <ArrowIcon />
+                    )}
+                    <span className="text-foreground text-sm">{text}</span>
+                  </a>
+                );
+              })}
+            </ul>
+          )}
         </div>
 
-        <div className="relative flex justify-center">
-          <img
-            src={rightImageSrc}
-            alt=""
-            className="w-full max-w-2xl object-contain"
-          />
-        </div>
+        {rightImageSrc && (
+          <div className="relative flex justify-center">
+            <img
+              src={rightImageSrc}
+              alt=""
+              className="w-full max-w-2xl object-contain"
+            />
+          </div>
+        )}
       </div>
     </section>
   );

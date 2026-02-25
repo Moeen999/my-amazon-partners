@@ -3245,3 +3245,146 @@ export const reInstFaqsData = {
     },
   ]
 }
+
+// ! Account Suspension  Data
+
+export const accountSusReinstData = {
+  heading: "Account Reinstatement",
+
+  subHeading: "",
+
+  description:
+    "We help restore suspended and deactivated Amazon accounts so your Amazon account gets back online and selling again.",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Metrics (order defect) suspensions",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Copyright, trademark, patent or product authenticity suspensions",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Safety suspensions",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Validation issue suspensions",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "And others",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "",
+}
+
+
+export const reinstatementContent = {
+  title: "Scope of Account Reinstatement",
+  description: "We handle the full reinstatement process from start to finish, keeping you informed at every step. Every action is done to meet Amazon's policies and maximize your chances of success. Here's what's included:",
+  features: [
+    "Initial consultation and research",
+    "Creating and submitting a plan of action to the correct Amazon team.",
+    "Following up and managing cases",
+    "Making any catalog changes to listings when applicable in order for listing to be in compliance with Amazon policies"
+  ],
+  guarantee: "We do not stop working until your account is active.*",
+  statsTitle: "Success in numbers",
+  statsSubtitle: "Trusted by sellers, proven by results.",
+  stats: [
+    { label: "Success rate", value: "94%" },
+    { label: "Total orders", value: "68" },
+    { label: "Successful Reinstatements", value: "64" }
+  ]
+};
+
+export const accSuspensionsCardData = [
+  {
+    id: 1,
+    title: "Extensive experience",
+    description: "We have a long track record of helping Amazon sellers, gaining deep knowledge of Amazon policies, best practices, and effective solutions to seller’s problems.",
+    image: "/accSuspensionImages/experience.png"
+  },
+  {
+    id: 2,
+    title: "Dedicated specialists",
+    description: "Our team of over 300 Amazon specialists work together to tackle your toughest problems effectively to help your business run uninterrupted and stress-free.",
+    image: "/accSuspensionImages/specialists.png"
+  },
+  {
+    id: 3,
+    title: "Tailored solutions",
+    description: "Get a tailored approach to solving specific Amazon problems you encounter. No guesswork here, just reliable strategies that work.",
+    image: "/accSuspensionImages/solutions.png"
+  },
+]
+
+export const accSuspensionFaqData = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "How long does Amazon take to respond to suspension appeals?",
+      description: 'A variable depending on each situation. If suspension is fresh on a active high producing account a response within 48 hours is common. But on non active or new accounts if frequently takes 7-14 days to get an initial response.',
+      items: [],
+    },
+    {
+      id: 2,
+      question: "Is your account reinstatement service guaranteed to work?",
+      description: "No. Each reinstatement process is unique, and many factors are involved in the nature of the account suspension and appeal process needed.Nonetheless, we are proud to have a 94% success rate with our account reinstatement service. ",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "What types of Amazon account suspensions can My Amazon Guy help reinstate?",
+      description: "We fix suspensions for order mistakes like late shipping or bad feedback. We also resolve complex issues like fraud claims, linked accounts, and trademark violations.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "What is included in the My Amazon Guy reinstatement process?",
+      description: "We research your issue and write a Plan of Action to send to Amazon. We also manage the case logs and fix your listings to follow the rules.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "What is the success rate for your reinstatement services?",
+      description: "We have a 94% success rate for bringing accounts back online. Our team uses past data to help solve hard cases.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "Is there a guarantee that my Amazon account will be reinstated?",
+      description: "No, we cannot guarantee your account will come back. Amazon has the final say on all decisions",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "How long does the reinstatement process take?",
+      description: "Active accounts often get an answer from Amazon within 48 hours. We will keep working on your case for up to 45 days.",
+      items: [],
+    },
+    {
+      id: 8,
+      question: "What happens if Amazon rejects the initial Plan of Action (POA)?",
+      description: "We will keep trying and send new plans to Amazon. We work on your case until the account is fixed or 45 days pass.",
+      items: [],
+    },
+  ]
+}

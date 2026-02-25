@@ -29,6 +29,7 @@ import FullListingOptimizations from "./pages/FullListingOptimizations";
 import MainImageCtrUpgrade from "./pages/MainImageCtrUpgrade";
 import TroubleShooting from "./pages/TroubleShooting";
 import ListingReinstatement from "./pages/ListingReinstatement";
+import AccSuspension from "./pages/AccSuspension";
 
 const queryClient = new QueryClient();
 
@@ -70,6 +71,7 @@ const App = () => (
               <Route path="/services/design/amazon-main-image-ctr-upgrade" element={<MainImageCtrUpgrade />} />
               <Route path="/services/other-services/amazon-troubleshooting" element={<TroubleShooting />} />
               <Route path="/services/account-suspension-reinstatement/amazon-listing-reinstatement" element={<ListingReinstatement />} />
+              <Route path="/services/account-suspension-reinstatement" element={<AccSuspension />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

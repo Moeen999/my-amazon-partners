@@ -9,6 +9,7 @@ import {
   listingOptFaqData,
   tsFaqsData,
   reInstFaqsData,
+  accSuspensionFaqData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
@@ -46,7 +47,10 @@ const FAQAccordion = () => {
                         : pathname ===
                             "/services/account-suspension-reinstatement/amazon-listing-reinstatement"
                           ? reInstFaqsData.mainHeading
-                          : homeFaqData.mainHeading}
+                          : pathname ===
+                              "/services/account-suspension-reinstatement"
+                            ? accSuspensionFaqData.mainHeading
+                            : homeFaqData.mainHeading}
       </h2>
 
       <div className="border-t border-gray-200">
@@ -71,7 +75,10 @@ const FAQAccordion = () => {
                         : pathname ===
                             "/services/account-suspension-reinstatement/amazon-listing-reinstatement"
                           ? reInstFaqsData.questions
-                          : homeFaqData.questions
+                          : pathname ===
+                              "/services/account-suspension-reinstatement"
+                            ? accSuspensionFaqData.questions
+                            : homeFaqData.questions
         ).map((item) => (
           <AccordionItem
             key={item.id}
