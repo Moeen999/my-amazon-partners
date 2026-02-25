@@ -3352,13 +3352,13 @@ export const accSuspensionFaqData = {
     },
     {
       id: 3,
-      question: "What types of Amazon account suspensions can My Amazon Guy help reinstate?",
+      question: "What types of Amazon account suspensions can My Amazon Partners help reinstate?",
       description: "We fix suspensions for order mistakes like late shipping or bad feedback. We also resolve complex issues like fraud claims, linked accounts, and trademark violations.",
       items: [],
     },
     {
       id: 4,
-      question: "What is included in the My Amazon Guy reinstatement process?",
+      question: "What is included in the My Amazon Partners reinstatement process?",
       description: "We research your issue and write a Plan of Action to send to Amazon. We also manage the case logs and fix your listings to follow the rules.",
       items: [],
     },
@@ -3384,6 +3384,107 @@ export const accSuspensionFaqData = {
       id: 8,
       question: "What happens if Amazon rejects the initial Plan of Action (POA)?",
       description: "We will keep trying and send new plans to Amazon. We work on your case until the account is fixed or 45 days pass.",
+      items: [],
+    },
+  ]
+}
+
+
+// ! Advertising Audit Data
+
+export const advertisingAuditData = {
+  heading: "Advertising Audit",
+
+  subHeading: "400+ Advertising Accounts Managed",
+
+  description:
+    "Effective Amazon PPC campaigns start with understanding what’s not working. Our Advertising Audit helps uncover weak and faulty campaigns, then rebuild stronger, more profitable PPC ads.",
+
+  ctaText: "Get Advertising Audit",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "In depth SKU analysis",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Ad spend breakdown",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Missed opportunities",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Ad type check (running all types and targets?)",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/advertisingAuditImages/hero.png",
+}
+
+export const advertisingAuditCardData = [
+  {
+    id: 1,
+    title: "Full SKU Analysis",
+    description: "See exactly how much ad spend goes to each SKU. Our audit shows how each product performs and whether it delivers a strong ROI, giving you the clarity to plan smarter and optimize campaigns.",
+    image: "/advertisingAuditImages/skuanalysis.png"
+  },
+  {
+    id: 2,
+    title: "PPC Ad Spend Breakdown",
+    description: "Keyword targets need adjustment to prevent PPC ads from showing on irrelevant searches. We’ll shift to highly relevant terms that support ranking and tighten ACOS for more efficient spend.",
+    image: "/advertisingAuditImages/adspendbreakdown.png"
+  },
+  {
+    id: 3,
+    title: "Cut Weak Keywords",
+    description: "Keywords that don’t generate impressions, sales, or clicks should be paused to effectively cut down on ad spending. We’ll optimize click-through rates and target CTR of over 1%.",
+    image: "/advertisingAuditImages/cutweakkw.png"
+  },
+]
+
+export const advertisingAuditFaqData = {
+  mainHeading: "Frequently asked questions",
+  subHeading:"Feel free to contact us for other questions or concerns.",
+  questions: [
+    {
+      id: 1,
+      question: "Why is an Amazon PPC account audit necessary?",
+      description: 'An audit is the specific diagnostic tool we use to identify wasted spend on underperforming targets and uncover gaps in your current campaign coverage. It provides a data-driven roadmap to fix inefficiencies, such as high CPCs with low returns, ensuring your budget actually drives growth.',
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How do I know if my budget is being spent efficiently?",
+      description: "We analyze your budget allocation to ensure the majority of your spend funds top-performing targets rather than being drained by broad, automated testing. We also review your balance of manual versus auto campaigns to ensure you have the granular control needed to optimize bids and RoAS.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Can an audit help fix inconsistent ad performance?",
+      description: 'Yes, we identify significant variations in Cost Per Click (CPC) and Click-Through Rate (CTR) to flag "bleeding" targets that drain your budget. By cutting these outliers, we redirect funds toward keywords that have a conversion rate higher than your account average.',
+      items: [],
+    },
+    {
+      id: 4,
+      question: "How does product coverage and listing quality affect my ads?",
+      description: "We verify that all your products have adequate campaign coverage and ensure your conversion rate is higher than the category median. If your listings are underperforming, we recommend optimizing your content first so you don't pay for traffic that fails to convert.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "Will an audit help improve my Brand metrics and Satisfaction numbers?",
+      description: "We benchmark your Branded search volume and Detail Page Views against the category to see if you are capturing enough market share. We also analyze your Sales and Satisfaction (S and S) metrics to build a plan that improves your search ranking and long-term customer retention.",
       items: [],
     },
   ]

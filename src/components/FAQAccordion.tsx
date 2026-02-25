@@ -10,10 +10,11 @@ import {
   tsFaqsData,
   reInstFaqsData,
   accSuspensionFaqData,
+  advertisingAuditFaqData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const FAQAccordion = () => {
   const { pathname } = useLocation();
@@ -50,9 +51,20 @@ const FAQAccordion = () => {
                           : pathname ===
                               "/services/account-suspension-reinstatement"
                             ? accSuspensionFaqData.mainHeading
-                            : homeFaqData.mainHeading}
+                            : pathname ===
+                                "/services/other-services/advertising-audit"
+                              ? advertisingAuditFaqData.mainHeading
+                              : homeFaqData.mainHeading}
       </h2>
-
+      {pathname === "/services/other-services/advertising-audit" && (
+        <p className="m-6">
+          Feel free to{" "}
+          <Link to="/contact" className="underline">
+            Contact Us{" "}
+          </Link>
+          for other questions or concerns.
+        </p>
+      )}
       <div className="border-t border-gray-200">
         {(pathname === "/services/design"
           ? faqData.questions
@@ -78,7 +90,10 @@ const FAQAccordion = () => {
                           : pathname ===
                               "/services/account-suspension-reinstatement"
                             ? accSuspensionFaqData.questions
-                            : homeFaqData.questions
+                            : pathname ===
+                                "/services/other-services/advertising-audit"
+                              ? advertisingAuditFaqData.questions
+                              : homeFaqData.questions
         ).map((item) => (
           <AccordionItem
             key={item.id}

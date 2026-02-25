@@ -30,6 +30,7 @@ import MainImageCtrUpgrade from "./pages/MainImageCtrUpgrade";
 import TroubleShooting from "./pages/TroubleShooting";
 import ListingReinstatement from "./pages/ListingReinstatement";
 import AccSuspension from "./pages/AccSuspension";
+import AdvertisingAudit from "./pages/AdvertisingAudit";
 
 const queryClient = new QueryClient();
 
@@ -72,6 +73,7 @@ const App = () => (
               <Route path="/services/other-services/amazon-troubleshooting" element={<TroubleShooting />} />
               <Route path="/services/account-suspension-reinstatement/amazon-listing-reinstatement" element={<ListingReinstatement />} />
               <Route path="/services/account-suspension-reinstatement" element={<AccSuspension />} />
+              <Route path="/services/other-services/advertising-audit/" element={<AdvertisingAudit />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
