@@ -27,6 +27,7 @@ import EnhancedBrandContent from "./pages/EnhancedBrandContent";
 import ListingOptimizations from "./pages/ListingOptimizations";
 import FullListingOptimizations from "./pages/FullListingOptimizations";
 import MainImageCtrUpgrade from "./pages/MainImageCtrUpgrade";
+import TroubleShooting from "./pages/TroubleShooting";
 
 const queryClient = new QueryClient();
 
@@ -66,6 +67,7 @@ const App = () => (
               <Route path="/services/listing-optimization" element={<ListingOptimizations />} />
               <Route path="/services/listing-optimization/end-to-end-listing" element={<FullListingOptimizations />} />
               <Route path="/services/design/amazon-main-image-ctr-upgrade" element={<MainImageCtrUpgrade />} />
+              <Route path="/services/other-services/amazon-troubleshooting" element={<TroubleShooting />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

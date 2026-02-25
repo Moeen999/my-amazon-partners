@@ -7,6 +7,7 @@ import {
   listingImagesFaqData1,
   enhancedContentFaqData,
   listingOptFaqData,
+  tsFaqsData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
@@ -14,7 +15,7 @@ import { useLocation } from "react-router-dom";
 
 const FAQAccordion = () => {
   const { pathname } = useLocation();
-  const [openId, setOpenId] = useState(null); // Pehla wala open rakha hai as per image
+  const [openId, setOpenId] = useState(null);
 
   const handleToggle = (id) => {
     setOpenId(openId === id ? null : id);
@@ -38,7 +39,10 @@ const FAQAccordion = () => {
                     ? enhancedContentFaqData.mainHeading
                     : pathname === "/services/listing-optimization"
                       ? listingOptFaqData.mainHeading
-                      : homeFaqData.mainHeading}
+                      : pathname ===
+                          "/services/other-services/amazon-troubleshooting"
+                        ? tsFaqsData.mainHeading
+                        : homeFaqData.mainHeading}
       </h2>
 
       <div className="border-t border-gray-200">
@@ -57,7 +61,10 @@ const FAQAccordion = () => {
                     ? enhancedContentFaqData.questions
                     : pathname === "/services/listing-optimization"
                       ? listingOptFaqData.questions
-                      : homeFaqData.questions
+                      : pathname ===
+                          "/services/other-services/amazon-troubleshooting"
+                        ? tsFaqsData.questions
+                        : homeFaqData.questions
         ).map((item) => (
           <AccordionItem
             key={item.id}

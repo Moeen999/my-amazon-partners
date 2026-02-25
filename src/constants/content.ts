@@ -2950,3 +2950,170 @@ export const ctrSectionContent = {
   productName: "Manuka oil",
   improvementNote: "Added packaging and a live ingredient."
 };
+
+
+// ! TROUBLESHOOTING Content
+
+export const tsHeroContent = {
+  heading: "Troubleshooting Hours for Amazon",
+
+  subHeading: "",
+
+  description:
+    "Whether it’s UPC mismatches, catalog glitches, or listing update failures, we help solve Amazon problems while identifying improvement opportunities to avoid potential issues. We can diagnose and fix issues slowing your Amazon sales.",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "UPC issues",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Inventory issues",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Catalog problems",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Page updates",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "Buy box loss",
+      href: ""
+    },
+    {
+      id: 6,
+      icon: FaCheck,
+      text: "And more",
+      href: ""
+    }
+  ],
+
+  rightImageSrc: "/troubleshootingImages/hero.png",
+}
+
+export const tsIssuesCardsData = [
+  {
+    id: 1,
+    title: "Extensive experience",
+    description: "We have a long track record of helping Amazon sellers, gaining deep knowledge of Amazon policies, best practices, and effective solutions to seller’s problems.",
+    image: "/troubleshootingImages/experience.png"
+  },
+  {
+    id: 2,
+    title: "Dedicated specialists",
+    description: "Our team of over 300 Amazon specialists work together to tackle your toughest problems effectively to help your business run uninterrupted and stress-free.",
+    image: "/troubleshootingImages/specialists.png"
+  },
+  {
+    id: 3,
+    title: "Tailored solutions",
+    description: "Get a tailored approach to solving specific Amazon problems you encounter. No guesswork here, just reliable strategies that work.",
+    image: "/troubleshootingImages/solutions.png"
+  },
+];
+
+export const tsFaqsData = {
+  mainHeading: "Frequently asked questions",
+  questions: [
+    {
+      id: 1,
+      question: "What is the 5-Hour Amazon Catalog Troubleshooting Service?",
+      description: "This service provides five hours of dedicated support to diagnose and resolve various Amazon seller account and catalog challenges, including suppressed listings, brand name changes, UPC issues, page updates, and other backend issues. Our team of over 300 specialists stays fully aligned with Amazon Seller Central policies, Amazon FBA best practices, and Amazon fulfillment center requirements to ensure accurate and timely resolutions.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "What types of issues are included in the service?",
+      description: "The 5-hour package covers troubleshooting for:",
+      items: [
+        "Brand name changes",
+        "UPC issues",
+        "Page updates",
+        "Catalog problems",
+        "Issues affecting your Amazon",
+        "storefront, Amazon store, or Amazon seller account"
+      ],
+    },
+    {
+      id: 3,
+      question: "What is not included in the service?",
+      description: "This service does not cover calls, listing creation, or account reinstatement. However, we offer specialized services tailored to those needs if required.",
+      items: [],
+    },
+    {
+      id: 4,
+      question: "How do you communicate updates?",
+      description: "Our team conducts structured email check-ins every Monday, Wednesday, and Friday (EST) to keep you informed of progress, hours used, and next steps. Consistent communication is central to our service, keeping your Amazon Seller Central login, Amazon seller account, and catalog fully up-to-date.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "What if my issue takes less than 5 hours?",
+      description: "Any unused hours can be applied to additional tasks within the project scope. There is a two-week window after the initial request completion to submit extra tasks. If no further tasks are submitted, the project is officially closed. We maximize every hour to improve your Amazon storefront, Amazon FBA, and listings.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "What if I need more than 5 troubleshooting hours?",
+      description: "If additional time is needed, we offer an optional 6-hour package at a supplementary cost.",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "Can you guarantee that Amazon will approve the changes?",
+      description: "While we follow Amazon Seller Central, Amazon FBA, Amazon logistics, and Amazon fulfillment center best practices to maximize approval, final decisions rest with Amazon. Some back-and-forth may occur, as reopened cases are often reviewed by different agents.Rest assured, our team leverages knowledge of Amazon US, Amazon online, and Amazon storefront processes to tackle challenges efficiently.",
+      items: [],
+    },
+    {
+      id: 8,
+      question: "Will you interact with Amazon on my behalf?",
+      description: "Yes, we handle case submissions, escalations, and communication with Seller Support so you can focus on your business. We take care of the technical side while you manage your Amazon store, Amazon FBA, and Amazon seller account.",
+      items: [],
+    },
+    {
+      id: 9,
+      question: "Do you support brand-registered listings?",
+      description: "Yes. We work with both brand-registered and unregistered ASINs. If Amazon requires verification, we’ll help gather and submit the proper documentation.Your brand integrity is our priority, protected across your Amazon storefront, Amazon seller account, and Amazon store.",
+      items: [],
+    },
+    {
+      id: 10,
+      question: "How long will the project take to complete?",
+      description: "Projects operate Monday through Friday. Completion times vary depending on the complexity of issues, but most finish within 4–5 weeks after onboarding. Timelines may differ based on your unique challenges.We proactively manage your project to ensure smooth results for your Amazon US listings, Amazon FBA, and Amazon seller account.",
+      items: [],
+    },
+    {
+      id: 11,
+      question: "What challenges could arise during the troubleshooting process?",
+      description: "Unexpected issues may occur, such as platform changes, technical problems, or delayed information. Our team has a proven track record of navigating these challenges. We turn obstacles into actionable solutions for your Amazon seller central login, Amazon store, and catalog.",
+      items: [],
+    },
+    {
+      id: 12,
+      question: "What happens after my 5 troubleshooting hours are completed?",
+      description: "Once your initial 5 hours are used, you have a two-week window to submit additional tasks. If no further requests are submitted, the project is closed. Additional 6-hour packages are available if needed. We ensure continuity and flexibility to resolve all Amazon FBA, Amazon storefront, and Amazon seller account issues.",
+      items: [],
+    },
+    {
+      id: 13,
+      question: "Can I submit multiple issues at once during the troubleshooting hours?",
+      description: "Yes, you can submit multiple catalog or listing issues within your 5-hour package. Our team prioritizes tasks by urgency and complexity. Every issue is handled efficiently, maximizing impact on your Amazon seller account.",
+      items: [],
+    },
+  ]
+}
