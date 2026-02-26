@@ -13,6 +13,7 @@ import {
   advertisingAuditFaqData,
   amazonBrandNameChangeFaqsData,
   barcodeChangeServiceFaqsData,
+  otherServicesFaqsData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
@@ -58,10 +59,13 @@ const FAQAccordion = () => {
                               ? advertisingAuditFaqData.mainHeading
                               : pathname ===
                                   "/services/listing-optimization/amazon-brand-name-change"
-                                ? amazonBrandNameChangeFaqsData.mainHeading : pathname ===
-                                  "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon"
-                                ? barcodeChangeServiceFaqsData.mainHeading
-                                : homeFaqData.mainHeading}
+                                ? amazonBrandNameChangeFaqsData.mainHeading
+                                : pathname ===
+                                    "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon"
+                                  ? barcodeChangeServiceFaqsData.mainHeading
+                                  : pathname === "/services/other-services"
+                                    ? otherServicesFaqsData.mainHeading
+                                    : homeFaqData.mainHeading}
       </h2>
       <p className="m-6">
         Feel free to{" "}
@@ -103,10 +107,13 @@ const FAQAccordion = () => {
                               ? advertisingAuditFaqData.questions
                               : pathname ===
                                   "/services/listing-optimization/amazon-brand-name-change"
-                                ? amazonBrandNameChangeFaqsData.questions : pathname ===
-                                  "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon"
-                                ? barcodeChangeServiceFaqsData.questions
-                                : homeFaqData.questions
+                                ? amazonBrandNameChangeFaqsData.questions
+                                : pathname ===
+                                    "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon"
+                                  ? barcodeChangeServiceFaqsData.questions
+                                  : pathname === "/services/other-services"
+                                    ? otherServicesFaqsData.questions
+                                    : homeFaqData.questions
         ).map((item) => (
           <AccordionItem
             key={item.id}

@@ -3713,7 +3713,7 @@ export const barcodeChangeServiceInfoCards = [
     id: 1,
     title: "Time Frame",
     description:
-      "My Amazon Guy will work on your listing and update the existing UPC barcode to your registered GS1 barcode within 5–45 days.",
+      "My Amazon Partners will work on your listing and update the existing UPC barcode to your registered GS1 barcode within 5–45 days.",
     note:
       "*Time frame might vary depending on specific factors such as brand registry on Amazon, etc.",
     list: [],
@@ -3826,6 +3826,129 @@ export const barcodeChangeServiceFaqsData = {
       id: 14,
       question: "When I put stickers on the box in the meantime with the Amazon barcode, do I need to cover the GS1 barcode until the process is done?",
       description: "If Amazon has not accepted your GS1 barcode, yes, you do need to cover that with the amazon barcode. Amazon requires that there is only one scannable barcode on incoming units.",
+      items: [],
+    },
+  ]
+}
+
+// ! Other Services Cards Data
+export const otherServicesCardsData = [
+  {
+    id: 1,
+    title: "Ad Cost Reduction",
+    description:
+      "We work to decrease your ACOS and overall ad spend. Once optimized, it paves the way for profitable and scalable growth.",
+    image: "/otherServicesImages/costreduction.png",
+  },
+  {
+    id: 2,
+    title: "Advertising Audit",
+    description:
+      "Identify why your campaigns are underperforming and uncover opportunities to improve effectiveness and ROI.",
+    image: "/otherServicesImages/adAudit.png",
+  },
+  {
+    id: 3,
+    title: "Amazon DSP",
+    description:
+      "We manage and optimize Amazon DSP ads across multiple formats to expand reach, refine targeting, and boost visibility.",
+    image: "/otherServicesImages/amazonDsp.png",
+  },
+  {
+    id: 4,
+    title: "Parentage Setup",
+    description:
+      "Link variations like size or color under one parent listing to improve customer experience and conversions.",
+    image: "/otherServicesImages/parentageSetup.png",
+  },
+  {
+    id: 5,
+    title: "PickFu A/B Testing",
+    description:
+      "Certified PickFu testing to gather reliable A/B insights and make data-driven decisions that increase sales.",
+    image: "/otherServicesImages/abTesting.png",
+  },
+  {
+    id: 6,
+    title: "Trademark Registration",
+    description:
+      "Protect your brand and unlock A+ Content, Stores, and full Brand Registry benefits on Amazon.",
+    image: "/otherServicesImages/tradeMarkReg.png",
+  },
+  {
+    id: 7,
+    title: "Remote Fulfillment",
+    description:
+      "Expand to Amazon Canada and Mexico without sending inventory outside the US.",
+    image: "/otherServicesImages/remoteFullFilment.png",
+  },
+  {
+    id: 8,
+    title: "Vendor Central Full Service",
+    description:
+      "End-to-end Vendor Central support, from eligibility prep to resolving chargebacks for smoother operations.",
+    image: "/otherServicesImages/vendorservice.png",
+  },
+  {
+    id: 9,
+    title: "Walmart Account Audit",
+    description:
+      "A comprehensive Walmart account review highlighting risks, opportunities, and competitive gaps.",
+    image: "/otherServicesImages/walmartAccAudit.png",
+  },
+  {
+    id: 10,
+    title: "Walmart Advertising Audit",
+    description:
+      "Analyze Walmart PPC campaigns to improve ad efficiency, targeting accuracy, and overall performance.",
+    image: "/otherServicesImages/walmartAdAudit.png",
+  },
+];
+
+export const otherServicesFaqsData = {
+  mainHeading: "Frequently asked questions",
+  subHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "How can I protect my brand on Amazon marketplaces outside of the United States?",
+      description: 'My Amazon Partners offers trademark registration services specifically for Canada and international markets (via the Madrid Protocol). These services provide a serial number quickly, allowing you to remove hijackers on foreign marketplaces often within 24 hours of the order.',
+      items: [],
+    },
+    {
+      id: 2,
+      question: "Is there a way to sell in Canada and Mexico without shipping inventory to those countries?",
+      description: "Yes. The Remote Fulfillment service enables you to list and sell items on Amazon Canada and Amazon Mexico while fulfilling those orders directly from your existing inventory stored in US warehouses.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "How can I test different product images or concepts before making them live?",
+      description: 'The agency offers certified PickFu A/B testing. This service gathers real consumer feedback on your creative assets, helping you make data-backed decisions to improve conversion rates and sales.',
+      items: [],
+    },
+    {
+      id: 4,
+      question: "What service helps organize listings that have multiple sizes or colors?",
+      description: "The Parentage service (Connect Variations) merges related items into a single family listing. This consolidates reviews and allows customers to easily select between different options like size, color, or flavor on one page.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "My advertising costs are too high; can My Amazon Partners help lower them?",
+      description: "Yes. The Ad Cost Reduction service focuses on optimizing your campaigns to decrease your Advertising Cost of Sales (ACoS) and total ad spend, creating a more profitable foundation for future growth.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "What is included in an Advertising Audit?",
+      description: "An Advertising Audit provides a comprehensive review of your current PPC campaigns to diagnose why they may be underperforming. It identifies inefficiencies and offers actionable insights to increase campaign effectiveness.",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "How does the agency determine the overall health of an Amazon account?",
+      description: "They perform a detailed 75-point account analysis. This covers everything from product listings to backend settings, providing a high-level summary of growth opportunities and specific recommendations for improvement.",
       items: [],
     },
   ]
