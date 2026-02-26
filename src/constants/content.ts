@@ -3455,7 +3455,7 @@ export const advertisingAuditCardData = [
 
 export const advertisingAuditFaqData = {
   mainHeading: "Frequently asked questions",
-  subHeading:"Feel free to contact us for other questions or concerns.",
+  subHeading: "Feel free to contact us for other questions or concerns.",
   questions: [
     {
       id: 1,
@@ -3486,6 +3486,136 @@ export const advertisingAuditFaqData = {
       question: "Will an audit help improve my Brand metrics and Satisfaction numbers?",
       description: "We benchmark your Branded search volume and Detail Page Views against the category to see if you are capturing enough market share. We also analyze your Sales and Satisfaction (S and S) metrics to build a plan that improves your search ranking and long-term customer retention.",
       items: [],
+    },
+  ]
+}
+
+
+// ! Amazon Brand Name Change Data
+
+export const amazonBrandNameChangeHeroData = {
+  heading: "Amazon Brand Name Change",
+
+  subHeading: "",
+
+  description:
+    "Changing your Amazon brand name can be complex, and often rejected if done wrong. We can handle the process ensuring full compliance to avoid errors and lost sales.",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Protect your listing information from other sellers",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Gain access to exclusive Sponsored Brand advertising",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Access brand building tools: A+ content, brand stores, virtual bundles, and more",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/bnChangeImages/hero.png",
+}
+
+export const amazonBrandNameChangeCardsData = [
+  {
+    id: 1,
+    title: "95% success rate",
+    description: "We secure Amazon brand name changes with a 95% success rate in our seven years as a Full Service Amazon agency.",
+    image: "/bnChangeImages/successrate.png"
+  },
+  {
+    id: 2,
+    title: "Full Amazon compliance",
+    description: "Every submission strictly follows Amazon policies to help reduce risk of rejections and ensuring a smooth approval process for your brand name updates.",
+    image: "/bnChangeImages/compilance.png"
+  },
+  {
+    id: 3,
+    title: "Over 400 clients served",
+    description: "We’ve helped over 400 brands with a full range of services, from catalog management to PPC, providing expert guidance and measurable results.",
+    image: "/bnChangeImages/servedpeople.png"
+  },
+]
+
+export const amazonBrandNameChangeFaqsData = {
+  mainHeading: "Frequently asked questions",
+  subHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "What is a Brand Name Change?",
+      description: 'An Amazon brand name change is the process of changing the brand node on your product from one to another.',
+      items: [],
+    },
+    {
+      id: 2,
+      question: "Let's assume we file a new trademark for a new brand name what happens during the period of changing over to the new brand name and brand registry?",
+      description: "There is no impact to your listing. The Brand store needs to be built so your brand name can get linked to the brand store.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Is there an impact on sales?",
+      description: 'In usual conditions there are zero impact to sales during the brand name change process.',
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Do my ads stop running during the brand name change process?",
+      description: "There is zero impact to ads. Ads are done on the SKU level. It has nothing to do with brand. However, Brand ads “could” be slightly affected and may need to be set up again. This work is out of scope but is likely not needed. There will be no issues with Sponsored Products ads.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "How long does the process take?",
+      description: "It depends. On average it takes 3-30 days, but can take much longer. Every case varies",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "Will there be any issues with inventory and the old branding being in amazon's warehouse?",
+      description: "There is zero impact. This is a data point and not a logistics issue.",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "Are there any risks involved in changing a brand name?",
+      description: "Minimal. If there is a parentage involved, the parentage must be rebuilt and reviews may not recombine. But no reviews are ever lost. FBA inventory is untouched. Luckily, we’ve never seen pushback from Amazon on a successful brand name change. Amazon’s public policies and copy-paste support tickets claim you can’t change a brand name but this is simply not true.",
+      items: [],
+    },
+    {
+      id: 8,
+      question: "How long does it take to change a brand name on Amazon?",
+      description: "More simple cases can be completed within 7 days. We pledge 10-30 days as a service level agreement.",
+      items: [],
+    },
+    {
+      id: 9,
+      question: "Will the service work?",
+      description: "We don’t offer a warranty, due to not being able to control Amazon’s response. But we average a 95% success rate and have a very public reputation to uphold. We would not offer this service if we didn’t have the confidence in our abilities.",
+      items: [],
+    },
+    {
+      id: 10,
+      question: "What documents do you recommend to have handy for a brand name change request?",
+      description: "To expedite the brand name change process, you will need to prepare or provide the following documents:",
+      items: [
+        "Real-world images of the product with the desired brand name and/or UPC barcode clearly visible.",
+        "A link to the website where the product is showcased, featuring a visible UPC barcode (not on the product but on the website itself).",
+        "Trademark number",
+        "GS1 Certificate."
+      ],
     },
   ]
 }

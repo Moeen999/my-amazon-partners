@@ -11,6 +11,7 @@ import {
   reInstFaqsData,
   accSuspensionFaqData,
   advertisingAuditFaqData,
+  amazonBrandNameChangeFaqsData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
@@ -54,17 +55,21 @@ const FAQAccordion = () => {
                             : pathname ===
                                 "/services/other-services/advertising-audit"
                               ? advertisingAuditFaqData.mainHeading
-                              : homeFaqData.mainHeading}
+                              : pathname ===
+                                  "/services/listing-optimization/amazon-brand-name-change"
+                                ? amazonBrandNameChangeFaqsData.mainHeading
+                                : homeFaqData.mainHeading}
       </h2>
-      {pathname === "/services/other-services/advertising-audit" && (
-        <p className="m-6">
-          Feel free to{" "}
-          <Link to="/contact" className="underline">
-            Contact Us{" "}
-          </Link>
-          for other questions or concerns.
-        </p>
-      )}
+      <p className="m-6">
+        Feel free to{" "}
+        <Link
+          to="/contact"
+          className="underline transition-colors duration-300 hover:text-orange-400"
+        >
+          Contact Us{" "}
+        </Link>
+        for other questions or concerns.
+      </p>
       <div className="border-t border-gray-200">
         {(pathname === "/services/design"
           ? faqData.questions
@@ -93,7 +98,10 @@ const FAQAccordion = () => {
                             : pathname ===
                                 "/services/other-services/advertising-audit"
                               ? advertisingAuditFaqData.questions
-                              : homeFaqData.questions
+                              : pathname ===
+                                  "/services/listing-optimization/amazon-brand-name-change"
+                                ? amazonBrandNameChangeFaqsData.questions
+                                : homeFaqData.questions
         ).map((item) => (
           <AccordionItem
             key={item.id}
