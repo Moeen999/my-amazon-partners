@@ -4269,3 +4269,278 @@ export const amazonDspFaqsdata = {
     },
   ]
 }
+
+// ! TradeMark Reg Data
+export const tradeMarkHeroData = {
+  heading: "Global trademark registration",
+
+  subHeading: "",
+
+  description:
+    "Protect your brand and grow sales with Amazon Brand Registry. A registered trademark unlocks A+ Content, Brand Stores, and tools to stop unauthorized sellers.",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Get brand registry in seven countries",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Brand Registry and tool access",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Stronger listing protection vs highjackers",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Better visibility and sales on Amazon",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/tradeMarkImages/hero.png",
+}
+
+export const trademarkBenefitsCardsData = [
+  {
+    id: 1,
+    title: "Your claim of ownership",
+    description:
+      "Before you can defend your brand, you must legally own it. Registration is your official and undeniable proof of ownership.",
+  },
+  {
+    id: 2,
+    title: "Control over listings",
+    description:
+      "Trademark holders gain the ability to edit and protect product listings without constant interference.",
+  },
+  {
+    id: 3,
+    title: "Activate Amazon’s shield",
+    description:
+      "Your brand remains invisible to Amazon’s protection tools until it is registered. Trademark registration activates your defenses.",
+  },
+  {
+    id: 4,
+    title: "Act before a crisis",
+    description:
+      "Don’t wait for a hijacker to take over your listing. Secure your trademark early so you have the power to act immediately.",
+  },
+  {
+    id: 5,
+    title: "Build on solid ground",
+    description:
+      "Every successful brand is built on a secure foundation. A trademark is the first essential block for safe and sustainable growth.",
+  },
+  {
+    id: 6,
+    title: "Lock in your asset",
+    description:
+      "Your brand name’s value grows over time. Registration is the critical first step in protecting your most valuable asset.",
+  },
+];
+
+export const tradeMarkhighjackerProtectionCards = [
+  {
+    id: 1,
+    title: "Remove fake sellers fast",
+    description:
+      "A trademark lets you quickly report and get hijackers removed from your listings.",
+    image: "/tradeMarkImages/fakesellers.png",
+  },
+  {
+    id: 2,
+    title: "Block counterfeit listings",
+    description:
+      "A trademark gives you the legal grounds to take down knockoff products.",
+    image: "/tradeMarkImages/counterfeit.png",
+  },
+  {
+    id: 3,
+    title: "Gain Amazon’s backing",
+    description:
+      "Amazon prioritizes cases from sellers with registered trademarks in disputes.",
+    image: "/tradeMarkImages/amazonbacking.png",
+  },
+  {
+    id: 4,
+    title: "Stop price undercutting",
+    description:
+      "Trademark protection helps prevent hijackers from selling cheaper knockoffs.",
+    image: "/tradeMarkImages/undercutting.png",
+  },
+]
+
+export const tradeMarkRegisteredBrandCardData = [
+  {
+    id: 1,
+    title: "Complete the form",
+    description:
+      "Complete our quick questionnaire to begin the process. Submit an image of your name or logo mark, if applicable.",
+    image: "/tradeMarkImages/one.png",
+  },
+  {
+    id: 2,
+    title: "We search and compile",
+    description:
+      "We’ll conduct a search to make sure your trademark isn’t too similar to existing trademarks or already in use. Then, we’ll compile your official application.",
+    image: "/tradeMarkImages/two.png",
+  },
+  {
+    id: 1,
+    title: "Filing at trademark office",
+    description:
+      "Once your trademark application is correctly completed and signed, we’ll file it for you through the appropriate trademark office.",
+    image: "/tradeMarkImages/three.png",
+  },
+]
+
+export const trademarkRegFaqsData = {
+  mainHeading: "Frequently asked questions",
+  subHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "What is a trademark?",
+      description: 'Trademarks give you legal claim over your brand names, slogans, and logos. Trademarks are for protecting brand identity; they do not protect inventions or original works such as art or music. Trademarks give you nationwide protection for your brand. Other sellers will not be able to use your trademarked brand name or logo to sell products, unless it’s with your permission.',
+      items: [],
+    },
+    {
+      id: 2,
+      question: "Should I purchase a word or logo design TM?",
+      description: "We highly recommend word mark. It’s easier and cleaner and best for Amazon. Sometimes Amazon will interpret a design logo mark with slightly different punctuation or spacing. But a word mark gets exact match every time. We can file both a Word and a Logo mark but this requires a 2nd order.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "How long does a trademark last?",
+      description: 'Trademarks can last indefinitely as long as you continue to use the mark in commerce. A statement of use needs to be filed 5 years after the registration of your trademark.',
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Why do you conduct a trademark search?",
+      description: "We run a direct-hit trademark search to make sure that your trademark is not already in use. This saves you the money and trouble of filing and being rejected for “likelihood of confusion”, meaning that your mark is too similar or even identical to an existing trademark. Please be aware that our trademark search is a direct-hit search, and not a comprehensive search.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "How long does trademark registration take?",
+      description: "It can take 6-9 months before your trademark is officially registered. You should receive your initial response from the USPTO within 3 months. You can speed up the process by making sure your application is accurate and responding promptly to any office actions sent to you by the USPTO. Amazon recently started allowing brands to get their brand registry faster with a Pending Trademark and you no longer have to wait until final approval.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "My business is outside the USA (international). Is that okay?",
+      description: "Yes. Any business filing a trademark in the USA from an international location must hire an attorney, which we provide. This is due to an update in 2019 from the USPTO. So this is a great net benefit of using My Amazon Guy!",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "Does this service use a lawyer?",
+      description: "Yes. The lawyer files the trademark directly in your name or business name, domestic or international.",
+      items: [],
+    },
+    {
+      id: 8,
+      question: "Do I need a trademark to list on Amazon?",
+      description: "No. You can upload to Amazon immediately. You do not need a TM to sell on Amazon. You just need the TM to get the brand registry to get access to A+ content and the brand dashboard. It is wise for you to file the TM now so that over the next few months while your items go through the supply chain you’ll have the TM quicker.",
+      items: [],
+    },
+    {
+      id: 9,
+      question: "Does my trademark need to have words?",
+      description: "Yes. We recommend using a word mark for the purposes of Amazon. Design marks don’t need words, but it’s anybody’s guess how they get interpreted by Amazon on brand registry. And the reason you need is it because without a word mark the brand name has to match the TM or you don’t get brand registry recognition. By using a word mark you avoid having a brand name that doesn’t make sense or is truncated in the brand attribute of Seller Central.",
+      items: [],
+    },
+    {
+      id: 10,
+      question: "What's included in the trademark registration service?",
+      description: "You are purchasing a TM from us to do a search on the USPTO, file the mark, get you quick serial number, and then you can file brand registry and complete it in under 7 days. After the TM is on the principal registry, our work is done and managing your TM following the filing is your obligation. If the USPTO requests an action prior to the mark being accepted on the principal registry we will action it on your behalf.",
+      items: [
+        "A USPTO search to make sure the TM will be accepted and isn’t too similar. ",
+        "A review of the wording/mark to make sure it passes UPTO requirements.",
+        "The filing of the TM.",
+        "Any non-complex responses required from the UPSTO to get the mark approved",
+        "If you are not actively selling your product, we can create a page for you to clear USPTO requirements.",
+      ],
+    },
+
+    {
+      id: 11,
+      question: "How fast do I get brand registry after placing an order?",
+      description: 'Within about 7 days. You can go to brandregistry.amazon.com and use the pending TM serial number and file the mark. The fastest we’ve seen is 2 days. But 5-7 days is the average.',
+      items: [],
+    },
+    {
+      id: 12,
+      question: "When should I file my trademark?",
+      description: "We recommend filing for your Trademark as soon as you have a sample on hand with your brand name affixed to it. Just take a cell phone picture and file your mark with us.",
+      items: [],
+    },
+    {
+      id: 13,
+      question: "What is a specimen?",
+      description: 'A specimen is a real-world example of how you are using your trademark on goods or in the offer of services. A specimen is more than just a picture of your trademark or logo. For goods (products), acceptable specimens include labels, tags, packaging material, instruction manuals and containers that display the trademark. Please note that brochures, business cards, catalogs, and stationery are generally not acceptable specimens for goods. Take a cell phone picture of your product in it’s packaging to submit a specimen to My Amazon Partners.',
+      items: [],
+    },
+    {
+      id: 14,
+      question: "Does it matter what category the mark is in?",
+      description: "Yes. If you aren’t sure what category to pick, leave this blank on your application and we will pick a category that broadly meets your item so you can protect it as much as possible.",
+      items: [],
+    },
+    {
+      id: 15,
+      question: "Is an EIN or business number required?",
+      description: "No. EIN is not needed. Just legal name and address are required if filing a mark under a business. If filing under a person, just your name and address are required. No other personal identification required.",
+      items: [],
+    },
+    {
+      id: 16,
+      question: "What paperwork do I receive post order?",
+      description: "We send you the filing paperwork and a serial number in under 1 business day (24 hours). We also send you a full guide to register brand registry step by step on Amazon.",
+      items: [],
+    },
+    {
+      id: 17,
+      question: "What if my item is not in use?",
+      description: "Legally you need to have an item available for sale, and your brand name in use, to file on the principal registry with the USPTO. For Amazon Brand Registry requirements we’ve seen the ability to place a sticker on an item with a brand name affixed. It is ideal if you also have a website page with the item listed (on or off Amazon). ",
+      items: [],
+    },
+    {
+      id: 18,
+      question: "I sell my product in 2 color variations, would you need photos of both colors?",
+      description: "Just photos of 1 of the variation would be good enough.",
+      items: [],
+    },
+    {
+      id: 19,
+      question: "Is there any difference if I register the trademark under my own name or my business name for example regarding liability?",
+      description: "Liability is not a play here. You should go with company because IP owned by a company makes the company more valuable.",
+      items: [],
+    },
+    {
+      id: 20,
+      question: "What is the 'approximate first date of use anywhere' and 'approximate first date of Use in commerce'?",
+      description: "You can input the date on which the listing was created on Amazon for both approximate first date of use anywhere and approximate first date of use in commerce.",
+      items: [],
+    },
+    {
+      id: 21,
+      question: "I'm looking to file a trademark - at what point in the process should I do this? Right before launch with all of my units ready, or while my manufacturer is making it for me?",
+      description: "The moment you have a product with packaging that has the logo on it. You want to reserve the name to protect it. But you also need a cell phone picture of said item to file the TM easily.",
+      items: [],
+    },
+  ]
+}

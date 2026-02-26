@@ -15,6 +15,7 @@ import {
   barcodeChangeServiceFaqsData,
   otherServicesFaqsData,
   amazonDspFaqsdata,
+  trademarkRegFaqsData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
@@ -67,7 +68,8 @@ const FAQAccordion = () => {
                                   : pathname === "/services/other-services"
                                     ? otherServicesFaqsData.mainHeading
                                     : pathname === "/amazon-dsp"
-                                      ? amazonDspFaqsdata.mainHeading
+                                      ? amazonDspFaqsdata.mainHeading : pathname === "/services/trademark-registration"
+                                      ? trademarkRegFaqsData.mainHeading
                                       : homeFaqData.mainHeading}
       </h2>
       <p className="m-6">
@@ -117,7 +119,8 @@ const FAQAccordion = () => {
                                   : pathname === "/services/other-services"
                                     ? otherServicesFaqsData.questions
                                     : pathname === "/amazon-dsp"
-                                      ? amazonDspFaqsdata.questions
+                                      ? amazonDspFaqsdata.questions : pathname === "/services/trademark-registration"
+                                      ? trademarkRegFaqsData.questions
                                       : homeFaqData.questions
         ).map((item) => (
           <AccordionItem

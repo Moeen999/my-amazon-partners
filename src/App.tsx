@@ -35,6 +35,7 @@ import BrandNameChange from "./pages/BrandNameChange";
 import BarcodeChangeService from "./pages/BarcodeChangeService";
 import OtherServices from "./pages/OtherServices";
 import AmazonDsp from "./pages/AmazonDsp";
+import TrademarkReg from "./pages/TrademarkReg";
 
 const queryClient = new QueryClient();
 
@@ -82,6 +83,7 @@ const App = () => (
               <Route path="/services/listing-optimization/listing-optimization/upc-change-gs1-amazon" element={<BarcodeChangeService />} />
               <Route path="/amazon-dsp" element={<AmazonDsp />} />
               <Route path="/services/other-services" element={<OtherServices />} />
+              <Route path="/services/trademark-registration" element={<TrademarkReg />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
