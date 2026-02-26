@@ -97,10 +97,10 @@ const TrademarkReg = () => {
 
       {/* FAQS Container */}
       <div className="w-full px-2 md:px-8 flex flex-col md:flex-row justify-between items-start gap-4">
-        <div className="w-2/4">
+        <div className="wfull md:w-2/4">
           <FAQAccordion />
         </div>
-        <div className="flex flex-col gap-2 mt-16 w-2/4">
+        <div className="flex flex-col gap-2 md:mt-16 w-full md:w-2/4">
           <h2 className="text-xl font-semibold">
             Upgrade your Amazon listings
           </h2>
