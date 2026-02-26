@@ -3,7 +3,10 @@ import CommonHeader from "@/components/CommonHeader";
 import CommonHeading from "@/components/CommonHeading";
 import FAQAccordion from "@/components/FAQAccordion";
 import ServiceCard from "@/components/ServiceCard";
-import { amazonBrandNameChangeCardsData as cardsData, amazonBrandNameChangeHeroData as heroData } from "@/constants/content";
+import {
+  amazonBrandNameChangeCardsData as cardsData,
+  amazonBrandNameChangeHeroData as heroData,
+} from "@/constants/content";
 
 const BrandNameChange = () => {
   return (
@@ -40,7 +43,9 @@ const BrandNameChange = () => {
         </div>
       </div>
 
-      <FAQAccordion/>
+      <div id="faqs">
+        <FAQAccordion />
+      </div>
     </div>
   );
 };
