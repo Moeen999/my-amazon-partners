@@ -3953,3 +3953,319 @@ export const otherServicesFaqsData = {
     },
   ]
 }
+
+// ! Amazon DSP Content
+export const amazonDspHeroData = {
+  heading: "Smarter ads, better sales with Amazon DSP",
+
+  subHeading: "Buy and manage display, video, and audio ads both on and off Amazon. We optimize Amazon DSP campaigns to deliver smarter ads, increase listing visibility, and boost your sales using Amazon’s powerful audience data and insights.",
+
+  description:
+    "Let’s build an Amazon DSP strategy that works for you.",
+
+  ctaText: "Schedule Your Discovery Call",
+
+  checklist: [],
+
+  rightImageSrc: "/amazonDspImages/hero.png",
+}
+
+export const amazonDspFeatureCardsData = [
+  {
+    id: 1,
+    title: "Video ads",
+    description:
+      "Shown on Streaming TV (OTT/Over-The-Top) and third-party sites (OLV – online video) to boost brand awareness. OLV ads are clickable, while OTT ads are not.",
+  },
+  {
+    id: 2,
+    title: "Dynamic eCommerce ads (RECs)",
+    description:
+      "Auto-generated ads featuring up to 20 in-stock products, optimized using machine learning for better performance.",
+  },
+  {
+    id: 3,
+    title: "Audio ads",
+    description:
+      "Non-skippable ads played on Amazon Music, Alexa devices, and Fire TV to increase brand awareness.",
+  },
+  {
+    id: 4,
+    title: "Static ads (image and mobile banners)",
+    description:
+      "Clickable image ads with CTAs like “Shop Now,” displayed across websites and mobile apps.",
+  },
+];
+
+export const amazonDspSalesContent = {
+  id: 1,
+  heading: "How Amazon DSP helps generate sales",
+  intro:
+    "Amazon DSP offers unique and powerful tools that are a step up from conventional PPC ads on Amazon, with results that generate more sales.",
+
+  left: {
+    id: 2,
+    sections: [
+      {
+        id: 3,
+        title: "Advanced targeting",
+        description:
+          "Amazon’s self-serve ad types—Sponsored Products, Sponsored Brands, and Sponsored Display—offer some level of targeting, but they lack the granular controls that drive true performance optimization. That’s where Amazon DSP (Demand-Side Platform) comes in. With advanced targeting capabilities, sellers can refine their advertising strategy and reach high-intent shoppers with greater precision.",
+        bulletsIntro:
+          "Our DSP specialists leverage a suite of advanced targeting features that go beyond basic keyword and product targeting, allowing sellers to:",
+        bullets: [
+          "Reach shoppers in specific cities, states, or even ZIP codes",
+          "Adjust campaigns based on age, income, or other demographic factors",
+          "Ensure ads run when targeted audiences are most active",
+          "Retarget high-value shoppers based on their browsing and purchase behavior",
+          "Serve different creatives for mobile and desktop users",
+          "Compare multiple ad variations to optimize performance",
+          "Limit impressions per unique visitor to avoid ad fatigue",
+          "Ensure ads appear above or below the fold based on engagement goals",
+          "Exclude or include specific websites for better ad placement",
+          "Reach shoppers who are actively looking for similar products",
+        ],
+      },
+      {
+        id: 4,
+        title: "Dynamic targeting",
+        description:
+          "With dynamic targeting, we ensure your ads adapt in real time to market changes, trends, and unexpected shifts. Whether it’s an influencer shoutout, a stockout issue, or changing algorithms, our Amazon agency fine-tunes your campaigns to keep them effective.",
+        bulletsIntro: "How we optimize with dynamic targeting:",
+        bullets: [
+          "Shift ad placements and budgets based on performance trends",
+          "Test and adjust ad formats, messaging, and call-to-action elements to maximize conversions",
+          "Adapt targeting to ensure your ads reach the right shoppers at the right time",
+        ],
+      },
+    ],
+  },
+
+  right: {
+    id: 5,
+    sections: [
+      {
+        id: 6,
+        title: "Custom audiences",
+        description:
+          "At My Amazon Partners, we leverage Amazon DSP’s powerful audience-building capabilities to deliver highly customized advertising strategies. By tapping into Amazon’s vast first- and third-party data, we help sellers and brands reach their ideal customers at every stage of the funnel.",
+        bulletsIntro: "Here’s how we build high-impact custom audiences:",
+        bullets: [
+          "Engage shoppers based on their buying habits and interests to reach those most likely to convert",
+          "Attract high-intent shoppers who have recently searched for or purchased similar products",
+          "Capture real-time demand by placing ads on relevant content or targeting competitor shoppers",
+          "Re-engage visitors who viewed your product but didn’t purchase",
+          "Encourage repeat purchases from past buyers",
+        ],
+      },
+      {
+        id: 7,
+        title: "Maintaining repeat customers",
+        description:
+          "We help brands retain customers and drive repeat purchases through Amazon DSP’s powerful retargeting tools. Retaining existing customers is more cost-effective than acquiring new ones, and we optimize campaigns to encourage loyalty and repeat sales.",
+        bullets: [
+          "Re-engage past buyers by showing them relevant ads based on their purchase history",
+          "Track site visitors and remind them of your products on and off Amazon",
+          "Promote complementary products to past customers for higher lifetime value",
+          "Time ads strategically to prompt reorders when customers are likely to buy again",
+        ],
+      },
+    ],
+  },
+};
+
+export const amazonAdReachData = {
+  heading: "Maximize ad reach with Amazon DSP",
+
+  subHeading: "Amazon Demand-Side Platform (DSP) is the ultimate tool for brands looking to scale beyond PPC. With DSP, you can target high-intent shoppers, retarget lost customers, and expand your brand’s visibility—both on and off Amazon.",
+
+  description:
+    "Amazon DSP works best for brands already seeing success with PPC. If you’re generating strong PPC sales, DSP can take your advertising to the next level—driving long-term growth and increasing brand dominance. Tap into Amazon’s massive shopper network Reach millions of active Amazon shoppers—buyers who are already searching for products like yours. Amazon DSP puts your brand in front of the right audience at the right time.",
+
+  ctaText: "Schedule Your Discovery Call",
+
+  checklist: [],
+
+  rightImageSrc: "/amazonDspImages/adReach.png",
+}
+
+export const amazonDspBenefitsCardsData = [
+  {
+    id: 1,
+    title: "Hyper-targeted advertising for maximum impact",
+    description:
+      "Leverage Amazon’s first-party data to precisely target the shoppers who matter most. Reach audiences based on demographics, shopping behavior, and interests to drive higher engagement and conversions.",
+    image: "/amazonDspImages/maxImpact.png",
+  },
+  {
+    id: 2,
+    title: "Seamless cross-device reach",
+    description:
+      "Connect with customers wherever they are—desktop, mobile, or connected TVs—so your brand stays top-of-mind across every screen.",
+    image: "/amazonDspImages/crossdevice.png",
+  },
+  {
+    id: 3,
+    title: "Engaging, high-impact ad formats",
+    description:
+      "Capture attention using display, video, and audio ads to build compelling campaigns that stand out and drive action.",
+    image: "/amazonDspImages/formats.png",
+  },
+  {
+    id: 4,
+    title: "Data-driven insights and real-time optimization",
+    description:
+      "Access precise reporting and analytics to monitor campaign performance and continuously optimize for the best possible ROI.",
+    image: "/amazonDspImages/optimization.png",
+  },
+  {
+    id: 5,
+    title: "A fully integrated Amazon advertising solution",
+    description:
+      "Integrate DSP campaigns with Sponsored Products and Sponsored Brands to create a cohesive strategy that maximizes reach and sales.",
+    image: "/amazonDspImages/amazonadsol.png",
+  },
+  {
+    id: 6,
+    title: "Full control and brand safety",
+    description:
+      "Maintain brand integrity by controlling where your ads appear. Amazon DSP gives you placement and targeting control to ensure alignment with your brand values.",
+    image: "/amazonDspImages/brandsafty.png",
+  },
+];
+
+export const amazonPpcVsDspContent = {
+  id: 1,
+  heading: "Amazon PPC vs. Amazon DSP",
+  intro:
+    "Amazon PPC and DSP are both powerful advertising tools, but they serve different purposes. Understanding their differences will help you decide which one fits your business needs.",
+
+  left: {
+    id: 2,
+    title: "What is Amazon DSP?",
+    description:
+      "Amazon DSP allows advertisers to target audiences on and off Amazon using behavioral data. While PPC is the main tool for all sellers, DSP is a strong next step if you already have a solid PPC foundation and want to expand your reach. If your goal is growth beyond keyword targeting, DSP can be a game-changer.",
+    listIntro: "Amazon DSP is best used for:",
+    list: [
+      {
+        id: 3,
+        title: "Retargeting",
+        text: "People who viewed your product but didn’t buy.",
+      },
+      {
+        id: 4,
+        title: "Loyalty campaigns",
+        text: "Re-engaging past customers (great for consumables).",
+      },
+      {
+        id: 5,
+        title: "Competitor targeting",
+        text: "Showing ads to users who visited competitor listings.",
+      },
+      {
+        id: 6,
+        title: "Top-of-funnel awareness",
+        text: "Reaching new audiences beyond search results.",
+      },
+    ],
+  },
+
+  right: {
+    id: 7,
+    title: "What is Amazon PPC?",
+    description:
+      "Amazon PPC (Pay-Per-Click) is the foundation of Amazon advertising. PPC is essential before considering DSP. If your PPC campaigns are profitable, well-optimized, and converting at a strong rate, then you can consider adding DSP.",
+    listIntro: "There are three major types of PPC ads:",
+    list: [
+      {
+        id: 8,
+        title: "Sponsored Products",
+        text: "Appear in search results and product detail pages (best for conversions).",
+      },
+      {
+        id: 9,
+        title: "Sponsored Brands",
+        text: "Banner ads and video ads that increase brand visibility.",
+      },
+      {
+        id: 10,
+        title: "Sponsored Display",
+        text: "Retargeting ads shown on and off Amazon.",
+      },
+    ],
+  },
+};
+
+export const amazonDspFaqsdata = {
+  mainHeading: "Frequently asked questions",
+  subHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "Who can use Amazon DSP?",
+      description: 'Amazon DSP is available to advertisers who meet certain eligibility criteria, such as having a registered business entity and complying with Amazon’s advertising policies. Both large and small advertisers can use Amazon DSP to reach their target audience and drive sales.',
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How do I target my ads on Amazon DSP?",
+      description: "Advertisers can target their ads on Amazon DSP using Amazon’s rich customer data, which includes information on demographics, shopping behavior, and interests. Advertisers can create custom audience segments and use advanced targeting options to reach their ideal audience effectively.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Can I split my DSP budget across multiple hero products?",
+      description: 'Yes, let us know how you’d like to allocate your budget between different products for optimized ad performance.',
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Do I need a Seller Central or Vendor Central account to use Amazon DSP?",
+      description: "No, you don’t need a Seller or Vendor Central account to use Amazon DSP, but having one helps optimize your campaigns with first-party data.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "What information do I need to provide to start Amazon DSP with My Amazon Partners?",
+      description: "We need the following information to get started:",
+      items: ["Seller Central Display Name & Business Name",
+        "Merchant Token (if applicable)",
+        "Selling Category",
+        "Brand Name & Brand Store Link",
+        "Hero Products & Competitor List",
+        "Monthly DSP Budget",
+        "Access to Creative Assets (videos, banners, etc.)"
+      ],
+    },
+    {
+      id: 6,
+      question: "Will I receive real-time updates on my Amazon DSP campaigns?",
+      description: "Yes, we offer the option to create a dedicated Slack channel for DSP updates and email correspondence for your team.",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "Can I target my competitors’ customers with Amazon DSP?",
+      description: "Yes! We can run campaigns targeting shoppers who viewed or purchased from your competitors.",
+      items: [],
+    },
+    {
+      id: 8,
+      question: "I have run Amazon DSP ads before. Can you optimize my existing campaigns?",
+      description: "Yes. Provide us with past DSP performance reports, campaign structures, audience segments, and creatives, and we’ll improve your results.",
+      items: [],
+    },
+    {
+      id: 9,
+      question: "What creative assets do I need for Amazon DSP?",
+      description: "Videos, banners, and high-quality images help maximize engagement. If you have existing assets, share them, or we can help create new ones.",
+      items: [],
+    },
+    {
+      id: 10,
+      question: "How do I get started with Amazon DSP through My Amazon Partners?",
+      description: "Get started with Amazon DSP by contacting the My Amazon Partners",
+      items: [],
+    },
+  ]
+}

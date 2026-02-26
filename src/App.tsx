@@ -34,6 +34,7 @@ import AdvertisingAudit from "./pages/AdvertisingAudit";
 import BrandNameChange from "./pages/BrandNameChange";
 import BarcodeChangeService from "./pages/BarcodeChangeService";
 import OtherServices from "./pages/OtherServices";
+import AmazonDsp from "./pages/AmazonDsp";
 
 const queryClient = new QueryClient();
 
@@ -79,6 +80,7 @@ const App = () => (
               <Route path="/services/other-services/advertising-audit" element={<AdvertisingAudit />} />
               <Route path="/services/listing-optimization/amazon-brand-name-change" element={<BrandNameChange />} />
               <Route path="/services/listing-optimization/listing-optimization/upc-change-gs1-amazon" element={<BarcodeChangeService />} />
+              <Route path="/amazon-dsp" element={<AmazonDsp />} />
               <Route path="/services/other-services" element={<OtherServices />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
