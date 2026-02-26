@@ -1,5 +1,6 @@
 import { FaCheck } from "react-icons/fa6";
-import { Search, BarChart3, ShieldCheck, FileWarning, ListRestart, Palette, Wrench, Stamp, Globe, Package, Monitor } from "lucide-react"
+import { FaExclamation } from "react-icons/fa6";
+
 
 export const growthAreaContent = [
   {
@@ -3616,6 +3617,216 @@ export const amazonBrandNameChangeFaqsData = {
         "Trademark number",
         "GS1 Certificate."
       ],
+    },
+  ]
+}
+
+// ! Barcode Name Change Data
+
+export const barcodeChangeServiceHeroData = {
+  heading: "UPC to GS1 Barcode Change Service",
+
+  subHeading: "",
+
+  description:
+    "It’s estimated that 100,000’s of listings are suppressed every day, worldwide, on Amazon, at times with no warning or explanation. If your UPCs don’t match GS1’s database, your listing could be taken down. Amazon is cracking down hard. Using incompatible barcodes on Amazon can lead to:",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaExclamation,
+      text: "Listing suppression",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaExclamation,
+      text: "Denied Brand Registry or A+ Content submissions",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaExclamation,
+      text: "Erasing rankings and reviews after catalog merges",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaExclamation,
+      text: "Drastic revenue drops during peak sales periods",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/barcodeChangeServiceImages/hero.png",
+}
+
+export const barcodeChangeIssuesCardsData = [
+  {
+    id: 1,
+    title: "Amazon's bulldog at work",
+    description:
+      "A new AI system automatically flags and suppresses listings with non-compliant barcodes, creating chaos for sellers.",
+    image: '/barcodeChangeServiceImages/bulldog.png'
+  },
+  {
+    id: 2,
+    title: "Daily listing suppressions",
+    description:
+      "Hundreds of thousands of listings are suppressed daily with no warning; just gone because of invalid UPCs.",
+    image: '/barcodeChangeServiceImages/listingsuppressions.png'
+  },
+  {
+    id: 3,
+    title: "Brand Registry denied",
+    description:
+      "Amazon rejects A+ Content and Brand Story updates when your UPC doesn’t prove you are the rightful brand owner.",
+    image: '/barcodeChangeServiceImages/brandregistry.png'
+  },
+  {
+    id: 4,
+    title: "Lost reviews and rankings",
+    description:
+      "Forced catalog merges can wipe out your product reviews and sales history, destroying years of your hard work instantly.",
+    image: '/barcodeChangeServiceImages/lostRR.png'
+  },
+  {
+    id: 5,
+    title: "Sudden revenue drops",
+    description:
+      "A single suppressed ASIN means an instant halt in sales. This can cripple your cash flow and destroy your product rank.",
+    image: '/barcodeChangeServiceImages/revenuedrops.png'
+  },
+  {
+    id: 6,
+    title: "Vulnerable old listings",
+    description:
+      "Even listings active for years are at risk. Amazon’s AI is auditing the entire catalog for GS1 compliance right now.",
+    image: '/barcodeChangeServiceImages/oldlistings.png'
+  },
+];
+
+export const barcodeChangeServiceInfoCards = [
+  {
+    id: 1,
+    title: "Time Frame",
+    description:
+      "My Amazon Guy will work on your listing and update the existing UPC barcode to your registered GS1 barcode within 5–45 days.",
+    note:
+      "*Time frame might vary depending on specific factors such as brand registry on Amazon, etc.",
+    list: [],
+  },
+  {
+    id: 1,
+    title: "Experience",
+    description:
+      "Besides a deep understanding of the Amazon Catalog System, we’ve also worked on thousands of listing updates including:",
+    note: "",
+    list: [
+      "Brand Name Change",
+      "Manufacturer Change",
+      "Title, Size/Color Name Changes",
+    ],
+  },
+  {
+    id: 1,
+    title: "Process",
+    description:
+      "We will merge and do a full update on your listings for the GS1 code to reflect instead of the old UPC. In 90% of the cases we handled, there is no downtime in the process and you can still sell while we’re making the changes. Inventory will not be affected.",
+    note: "*Please check FAQs",
+    list: [],
+  },
+];
+
+export const barcodeChangeServiceFaqsData = {
+  mainHeading: "Barcode Change FAQs",
+  subHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "What documents or information should I provide ordering?",
+      description: 'GS1 Certified UPC Barcodes',
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How long does it take to make the change on Amazon?",
+      description: "Generally, it would take 3 to 4 weeks. It might change depending on several factors. It usually involves filing a lot of tickets.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "If the original ASINs change, will the new ASIN have different inventory?",
+      description: 'No. The inventory will not be affected by the ASIN change.',
+      items: [],
+    },
+    {
+      id: 4,
+      question: "Is the service guaranteed to work?",
+      description: "Our proven track record speaks for itself. We have been helping clients successfully change their UPCs. We’re confident in our ability to deliver results.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "What impact does changing the UPC have?",
+      description: " Minimal. There are no impacts to Reviews and BSR.Labels – We recommend changing your UPC barcodes on your boxes, but you can also simply print Amazon barcode labels (FNSKU oklabels). From our experience, the old UPCs still associate with the ASINs, and still scan into FBA. But as a proactive measure in case this changes, we suggest you update your labels. Inventory – All current inventory at FBA is unaffected.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "What is the scope of work for this service?",
+      description: "We will only change the UPC field for this service. Any issues such as a removed or yanked ASIN that needs reinstatement require an additional purchase from our website",
+      items: [],
+    },
+    {
+      id: 7,
+      question: "Will my listings be down while the change is being made?",
+      description: "We don’t need to take down an ASIN to change a UPC, but there are times when Amazon will create a new ASIN to remove the incorrect UPC from the original listing. We rarely encounter this nowadays. But should this happen, we would just re-list your ASIN with everything intact and a very small chance of 24 hours of downtime.",
+      items: [],
+    },
+    {
+      id: 8,
+      question: "Will the old UPC section just update to the new GS1 in Seller Central?",
+      description: "Yes.",
+      items: [],
+    },
+    {
+      id: 9,
+      question: "After the conversion , do we just send in our products with the new GS1 code and it will scan through as well with no FNSKU?",
+      description: "Yes. We recommend updating labels to new GS1 on next manufacturing run.",
+      items: [],
+    },
+    {
+      id: 10,
+      question: "Will the mix of products that have the old UPC barcodes and the same products with the new GS1 barcodes cause any inventory issues? Will any inventory in FBA warehouses that still use the old UPC barcodes be discarded?",
+      description: "No. The old UPC and new GS1 will exist on the same ASIN and both are usable. They can check both in and it won’t cause any stock or inventory issues. Just remember to use the new GS1 barcodes in succeeding manufacturing runs.",
+      items: [],
+    },
+    {
+      id: 11,
+      question: "Will updating the UPC in the US market automatically update the UPC in the Canada market?",
+      description: "Yes. UPC is universal, and changing it in the US market will cause it to update in other markets as well, but the update in other markets may take some time to take effect .",
+      items: [],
+    },
+    {
+      id: 12,
+      question: "When going through the UPC to GS 1 change process, will it interrupt my listing placement?",
+      description: "Since a UPC change is done by merger into another ASIN it does not disrupt the listing. Any inventory at FBA and all data will be transferred to the new ASIN and the Product Detail Page will remain live throughout the process.",
+      items: [],
+    },
+    {
+      id: 13,
+      question: "After the change is made, will I be able to use my printed GS1 barcode and no longer apply the Amazon barcode sticker to each box? Or should I still apply the Amazon barcode sticker to each box?",
+      description: "You can use the old bar code but we advise swapping it with the new one on the next manufacturer run. FNSKU also works, but it’s best to use use the new one. Most importantly, make sure only 1 barcode is scannable, do not use both printed GS1 barcode and Amazon barcode.",
+      items: [],
+    },
+    {
+      id: 14,
+      question: "When I put stickers on the box in the meantime with the Amazon barcode, do I need to cover the GS1 barcode until the process is done?",
+      description: "If Amazon has not accepted your GS1 barcode, yes, you do need to cover that with the amazon barcode. Amazon requires that there is only one scannable barcode on incoming units.",
+      items: [],
     },
   ]
 }

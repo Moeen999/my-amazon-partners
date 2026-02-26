@@ -32,6 +32,7 @@ import ListingReinstatement from "./pages/ListingReinstatement";
 import AccSuspension from "./pages/AccSuspension";
 import AdvertisingAudit from "./pages/AdvertisingAudit";
 import BrandNameChange from "./pages/BrandNameChange";
+import BarcodeChangeService from "./pages/BarcodeChangeService";
 
 const queryClient = new QueryClient();
 
@@ -76,6 +77,7 @@ const App = () => (
               <Route path="/services/account-suspension-reinstatement" element={<AccSuspension />} />
               <Route path="/services/other-services/advertising-audit" element={<AdvertisingAudit />} />
               <Route path="/services/listing-optimization/amazon-brand-name-change" element={<BrandNameChange />} />
+              <Route path="/services/listing-optimization/listing-optimization/upc-change-gs1-amazon" element={<BarcodeChangeService />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

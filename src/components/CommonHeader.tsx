@@ -1,6 +1,8 @@
+import { useLocation } from "react-router-dom";
 import ArrowIcon from "./ArrowIcon";
 
 const CommonHeader = ({ content }) => {
+  const { pathname } = useLocation();
   const {
     heading,
     subHeading,
@@ -38,7 +40,9 @@ const CommonHeader = ({ content }) => {
                     className="flex items-center gap-3"
                   >
                     {Icon ? (
-                      <span className="text-green-600">
+                      <span
+                        className={`text-green-600 ${pathname === "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon" && "bg-red-500 text-white rounded-full"}`}
+                      >
                         <Icon />
                       </span>
                     ) : (

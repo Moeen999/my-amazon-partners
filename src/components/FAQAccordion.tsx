@@ -12,6 +12,7 @@ import {
   accSuspensionFaqData,
   advertisingAuditFaqData,
   amazonBrandNameChangeFaqsData,
+  barcodeChangeServiceFaqsData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
@@ -57,7 +58,9 @@ const FAQAccordion = () => {
                               ? advertisingAuditFaqData.mainHeading
                               : pathname ===
                                   "/services/listing-optimization/amazon-brand-name-change"
-                                ? amazonBrandNameChangeFaqsData.mainHeading
+                                ? amazonBrandNameChangeFaqsData.mainHeading : pathname ===
+                                  "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon"
+                                ? barcodeChangeServiceFaqsData.mainHeading
                                 : homeFaqData.mainHeading}
       </h2>
       <p className="m-6">
@@ -100,7 +103,9 @@ const FAQAccordion = () => {
                               ? advertisingAuditFaqData.questions
                               : pathname ===
                                   "/services/listing-optimization/amazon-brand-name-change"
-                                ? amazonBrandNameChangeFaqsData.questions
+                                ? amazonBrandNameChangeFaqsData.questions : pathname ===
+                                  "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon"
+                                ? barcodeChangeServiceFaqsData.questions
                                 : homeFaqData.questions
         ).map((item) => (
           <AccordionItem
