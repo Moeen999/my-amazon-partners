@@ -17,6 +17,7 @@ import {
   amazonDspFaqsdata,
   trademarkRegFaqsData,
   vendroCentralFaqsData,
+  walmartAccAuditFaqsData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
@@ -75,7 +76,9 @@ const FAQAccordion = () => {
                                         ? trademarkRegFaqsData.mainHeading
                                         : pathname ===
                                             "/services/other-services/vendor-central"
-                                          ? vendroCentralFaqsData.mainHeading
+                                          ? vendroCentralFaqsData.mainHeading : pathname ===
+                                            "/services/other-services/walmart-account-audit"
+                                          ? walmartAccAuditFaqsData.mainHeading
                                           : homeFaqData.mainHeading}
       </h2>
       <p className="m-6">
@@ -131,7 +134,9 @@ const FAQAccordion = () => {
                                         ? trademarkRegFaqsData.questions
                                         : pathname ===
                                             "/services/other-services/vendor-central"
-                                          ? vendroCentralFaqsData.questions
+                                          ? vendroCentralFaqsData.questions: pathname ===
+                                            "/services/other-services/walmart-account-audit"
+                                          ? walmartAccAuditFaqsData.questions
                                           : homeFaqData.questions
         ).map((item) => (
           <AccordionItem

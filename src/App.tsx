@@ -37,6 +37,7 @@ import OtherServices from "./pages/OtherServices";
 import AmazonDsp from "./pages/AmazonDsp";
 import TrademarkReg from "./pages/TrademarkReg";
 import VendorCentral from "./pages/VendorCentral";
+import WalmartAccAudit from "./pages/WalmartAccAudit";
 
 const queryClient = new QueryClient();
 
@@ -86,6 +87,7 @@ const App = () => (
               <Route path="/services/other-services" element={<OtherServices />} />
               <Route path="/services/trademark-registration" element={<TrademarkReg />} />
               <Route path="/services/other-services/vendor-central" element={<VendorCentral />} />
+              <Route path="/services/other-services/walmart-account-audit" element={<WalmartAccAudit />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

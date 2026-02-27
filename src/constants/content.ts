@@ -4774,3 +4774,160 @@ export const vendroCentralFaqsData = {
     },
   ]
 }
+
+// ! Walmart Account Audit
+export const walmartAccountAuditHeroData = {
+  heading: "Walmart Account Audit",
+
+  subHeading: "",
+
+  description:
+    "Have our Walmart experts conduct a full review your Walmart account to know the strengths and weaknesses of your account and how you stack against competitors.",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Advertising: segmentation, structure, and bidding",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "Search engine optimization (SEO): indexing and rankings",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Product listings: merchandising and design",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Account health",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "Growth areas",
+      href: ""
+    },
+    {
+      id: 6,
+      icon: FaCheck,
+      text: "Logistics gaps and opportunities",
+      href: ""
+    },
+    {
+      id: 7,
+      icon: FaCheck,
+      text: "Customer service review health",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/walmartAccAuditImages/hero.png",
+}
+
+export const walmartAccAuditAmazonAuditFeatureCardData = [
+  {
+    id: 1,
+    image: "/walmartAccAuditImages/compilance.png",
+    title: "Account health and compliance",
+    description: "Review of performance metrics, spotting and addressing policy violations, ensuring compliance, and checking documentation and legal requirements."
+  },
+  {
+    id: 2,
+    image: "/walmartAccAuditImages/optimization.png",
+    title: "Detailed listing optimization",
+    description: "Evaluation of product titles, descriptions, bullet points, images, SEO effectiveness, and more."
+  },
+  {
+    id: 3,
+    image: "/walmartAccAuditImages/inventory.png",
+    title: "Inventory management",
+    description: "Assess inventory levels to avoid stockouts or overstocking and identify slow-moving or unsellable inventory."
+  },
+  {
+    id: 4,
+    image: "/walmartAccAuditImages/performance.png",
+    title: "Advertising performance",
+    description: "Review of PPC campaigns and other advertising efforts to optimize ad spend and assess ROI."
+  },
+  {
+    id: 5,
+    image: "/walmartAccAuditImages/experience.png",
+    title: "Customer experience",
+    description: "Analyze reviews and feedback. Address negative reviews or issues impacting customer satisfaction."
+  },
+  {
+    id: 6,
+    image: "/walmartAccAuditImages/analysis.png",
+    title: "Analysis of profitability",
+    description: "Review fees, costs, and pricing strategies to spot areas to reduce expenses or increase margins."
+  }
+];
+
+export const walmartAccAuditComparisonContent = {
+  success: {
+    title: "Strategy That Strengthens Walmart Results",
+    description: "Our experts go through your account to spot areas of improvement to help drive more sales for your listings.",
+    points: [
+      "Listings gain consistent visibility and keyword reach",
+      "Ads are optimized for ROAS, not wasted spend",
+      "Content is conversion-focused and mobile-friendly",
+      "Account health stays compliant and scalable",
+      "Performance is tracked with clear, actionable data"
+    ]
+  },
+  failure: {
+    title: "Growth Stalls Without a Walmart Strategy",
+    description: "Sellers often face issues that limit growth and waste resources, making it hard to maximize sales and account potential.",
+    points: [
+      "Advertising: segmentation, structure, and bidding",
+      "Ads spend increases with little to no return",
+      "Weak content reduces conversion rates",
+      "Account issues block scaling opportunities",
+      "No clear visibility into what drives sales"
+    ]
+  }
+};
+
+export const walmartAccAuditFaqsData = {
+  mainHeading: "Frequently asked questions",
+  subHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "What is a Walmart account audit?",
+      description: "A Walmart account audit is a thorough review of your seller account, listings, ads, and performance metrics to identify growth opportunities and fix issues limiting sales.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "What does your Walmart account audit include?",
+      description: "Our audit covers all critical aspects of your Walmart account, including the following:",
+      items: [
+        "Account Health Check – Review performance metrics and resolve policy warnings.",
+        "Detailed Listing Optimization – Evaluate titles, descriptions, bullet points, images, and SEO effectiveness.",
+        "Inventory Management – Prevent stockouts, overstocking, and identify slow-moving inventory.",
+        "Advertising Performance – Assess PPC campaigns and ad ROI for better returns.",
+        "Customer Experience – Analyze reviews, address negative feedback, and improve satisfaction.",
+        "Profitability Analysis – Review fees, costs, and pricing strategies to increase margins.",
+        "Full Compliance Review – Ensure all Walmart policies and documentation are up-to-date."
+      ],
+    },
+    {
+      id: 3,
+      question: "How many accounts can you audit at once?",
+      description: 'We typically audit one account per service order to provide a detailed and customized analysis. If you have multiple accounts, please email us at sales@myamazonpartners.com for a custom quote.',
+      items: [],
+    },
+
+  ]
+}

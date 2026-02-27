@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 
 const VendorCentral = () => {
   return (
-    <div className="w-full px-4 md:px-20 py-4 md:py-12 ">
+    <div className="w-full px-4 md:px-20 py-4 md:py-12">
       <CommonHeader content={vendorCentralHeroData} />
       <div className="w-full px-16 md:relative bottom-16">
         <Link
