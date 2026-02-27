@@ -5,7 +5,6 @@ const ServicesSection = () => {
   return (
     <section className="bg-white py-24 px-6">
       <div className="max-w-7xl mx-auto">
-        
         {/* Top Header Row */}
         <div className="flex flex-col lg:flex-row justify-between items-start mb-16 gap-8">
           <div className="lg:w-2/3">
@@ -17,14 +16,18 @@ const ServicesSection = () => {
             </div>
             <h2 className="text-5xl md:text-7xl font-medium text-[#1A1A1A] leading-tight">
               {homeServicesData.headingMain} <br />
-              <span className="text-[#F1A529] font-serif italic">{homeServicesData.headingItalic}</span>
+              <span className="text-[#F1A529] font-serif italic">
+                {homeServicesData.headingItalic}
+              </span>
             </h2>
           </div>
-          
-          <div className="lg:w-1/3 lg:pt-12">
-            <p className="text-gray-400 text-lg leading-relaxed">
-              {homeServicesData.description}
-            </p>
+
+          <div className="lg:w-2/3 w-full h-full">
+            <img
+            className="w-full bg-transparent"
+              src={homeServicesData.logoImage}
+            >
+            </img>
           </div>
         </div>
 
@@ -36,12 +39,11 @@ const ServicesSection = () => {
         </div>
 
         {/* Bottom Link */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <a href="#" className="text-gray-400 font-bold text-sm hover:text-[#F1A529] transition-colors">
             {homeServicesData.footerLink}
           </a>
-        </div>
-
+        </div> */}
       </div>
     </section>
   );

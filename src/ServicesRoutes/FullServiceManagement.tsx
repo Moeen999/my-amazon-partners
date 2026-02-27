@@ -9,6 +9,7 @@ import {
   growthAreaContent,
   servicesCards,
 } from "@/constants/content";
+import { Link } from "react-router-dom";
 
 const FullServiceManagement = () => {
   return (
@@ -32,7 +33,9 @@ const FullServiceManagement = () => {
           </p>
 
           <button className="bg-yellow-400 px-8 py-4 rounded-full font-semibold">
-            Request a Quote
+            <Link to="/contact">
+            Contact Us
+            </Link>
           </button>
         </div>
 
@@ -88,7 +91,7 @@ const FullServiceManagement = () => {
 
           <div className="md:w-2/4">
             <img
-              src="/agency.png"
+              src="/agency.jpeg"
               alt=""
               className="w-full h-full object-contain"
             />

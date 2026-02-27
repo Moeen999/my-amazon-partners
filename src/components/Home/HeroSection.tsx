@@ -21,12 +21,12 @@ const HeroSection = () => {
           {/* LEFT SIDE CONTENT */}
           <div className="lg:w-1/2">
             {/* Live Badge */}
-            <div className="inline-flex items-center gap-2 bg-[#FFF4E0] border border-orange-200 px-3 py-2 rounded-full mb-8">
+            {/* <div className="inline-flex items-center gap-2 bg-[#FFF4E0] border border-orange-200 px-3 py-2 rounded-full mb-8">
               <span className="flex h-2 w-2 rounded-full bg-orange-500 animate-pulse"></span>
               <span className="text-[10px] font-bold text-[#B08A4D] uppercase tracking-wider">
                 {homeHeroData.badge}
               </span>
-            </div>
+            </div> */}
 
             {/* Main Heading */}
             <h1 className="text-6xl md:text-8xl font-medium text-[#1A1A1A] leading-[1.05] tracking-tight mb-8">

@@ -1,5 +1,5 @@
-import { homeServicesData } from "@/constants/content";
 import { Activity, Search, Layout, Pencil } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HomeServiceCard = ({ service }) => {
   // Mapping icons to strings for the dynamic object
@@ -26,12 +26,12 @@ const HomeServiceCard = ({ service }) => {
       </p>
 
       {/* Learn More Link */}
-      <button className="flex items-center text-[#F1A529] font-bold text-xs uppercase tracking-wider group">
+      <Link to={service.sectionLink} className="flex items-center text-[#F1A529] font-bold text-xs uppercase tracking-wider group">
         Learn more{" "}
         <span className="ml-2 transition-transform group-hover:translate-x-1">
           →
         </span>
-      </button>
+      </Link>
     </div>
   );
 };

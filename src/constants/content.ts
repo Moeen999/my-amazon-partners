@@ -736,8 +736,8 @@ export const resultsStats = [
   },
   {
     id: 3,
-    value: "460+",
-    label: "Employees",
+    value: "500+",
+    label: "Succesfull Launches",
   },
 ];
 
@@ -877,7 +877,7 @@ export const testimonialAgencyData = {
 export const testimonialStatsData = [
   { value: "450+", label: "Brands Managed" },
   { value: "$1.2B+", label: "Revenue on Amazon Annually" },
-  { value: "460+", label: "Team Members" },
+  { value: "500+", label: "Succesfull Launches" },
   { value: "★★★★★", label: "5-Star Rated Agency" }
 ];
 
@@ -1312,19 +1312,19 @@ export const brandGlQsData = {
 //! HOME PAGE CONTENT
 
 export const homeHeroData = {
-  badge: "Full-Service Amazon Agency · Atlanta, GA",
+  // badge: "Full-Service Amazon Agency · Atlanta, GA",
   headingMain: "Your Amazon",
   headingItalic: "growth",
   headingEnd: "starts right here.",
-  subtext: "Have great products but sluggish sales? Our 460+ Amazon specialists handle PPC, SEO, design & platform management — so you scale faster, with less stress.",
+  subtext: "Have great products but sluggish sales? Our Amazon specialists handle PPC, SEO, design & platform management — so you scale faster, with less stress.",
   brandsTrustText: "450+ brands trust us including Nestlé & Honeywell",
   statsCards: [
     {
       label: "AGENCY OVERVIEW",
       metric: "$1.2B+",
       subMetric: "Revenue generated on Amazon",
-      specialists: "460+",
-      specialistsLabel: "Full-time Amazon specialists"
+      specialists: "500+",
+      specialistsLabel: "Succesfull Launches"
     },
     {
       type: "STAMP HUB — CLIENT WIN",
@@ -1347,38 +1347,43 @@ export const homeServicesData = {
   label: "WHAT WE DO",
   headingMain: "Your Amazon presence,",
   headingItalic: "fully handled.",
-  description: "A holistic approach that drives traffic, boosts conversions, and builds long-term brand equity on Amazon.",
+  logoImage:"/logoIcon4.jpeg",
+  // description: "A holistic approach that drives traffic, boosts conversions, and builds long-term brand equity on Amazon.",
   services: [
     {
       id: 1,
       title: "Amazon PPC",
       desc: "Higher revenue, lower ACOS, fully transparent ad management. We build campaigns that actually convert and scale.",
       icon: "Pulse",
-      bgColor: "bg-[#FFF4E0]"
+      bgColor: "bg-[#FFF4E0]",
+      sectionLink:"/services/advertising-management",
     },
     {
       id: 2,
       title: "SEO",
       desc: "Our 4-phase SEO plan is best-in-class and delivers dramatic search ranking improvements within 90 days.",
       icon: "Search", // Magnifying glass icon
-      bgColor: "bg-[#FFF9F0]"
+      bgColor: "bg-[#FFF9F0]",
+      sectionLink:"/services/amazon-seo",
     },
     {
       id: 3,
       title: "Design",
       desc: "Top-tier A+ content, Brand Stores, and product graphics that make customers stop scrolling and start buying.",
       icon: "Layout", // Dashboard/Layout icon
-      bgColor: "bg-[#FFF9F0]"
+      bgColor: "bg-[#FFF9F0]",
+      sectionLink:"/services/design",
     },
     {
       id: 4,
       title: "Platform Management",
       desc: "We optimize your brand continuously — maintaining gains and building forward momentum month after month.",
       icon: "Pencil", // Edit/Pencil icon
-      bgColor: "bg-[#FFF9F0]"
+      bgColor: "bg-[#FFF9F0]",
+      sectionLink:"/services/full-service-management",
     }
   ],
-  footerLink: "Explore all 7 services →"
+  // footerLink: "Explore all 7 services →"
 };
 
 export const homeProcessData = {
@@ -1731,8 +1736,8 @@ export const caseStudiesStats = [
     label: "Revenue Generated on Amazon Annually",
   },
   {
-    value: "460+",
-    label: "Employees",
+    value: "500+",
+    label: "Succesfull Launches",
   },
   {
     value: "95%",
@@ -3004,7 +3009,7 @@ export const tsHeroContent = {
     }
   ],
 
-  rightImageSrc: "/troubleshootingImages/hero.png",
+  rightImageSrc: "/troubleshootingImages/hero.jpeg",
 }
 
 export const tsIssuesCardsData = [

@@ -48,8 +48,8 @@ const Footer = () => (
             </a>
           </div>
           <div className="space-y-2 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2"><MapPin size={14} />London United Kingdom</div>
-            <div className="flex items-center gap-2"><Phone size={14} /> 00447824760953 </div>
+            <div className="flex items-center gap-2"><MapPin size={14} />London, England</div>
+            <div className="flex items-center gap-2"><Phone size={14} /> +447824760953 </div>
             <div className="flex items-center gap-2"><Mail size={14} /> sales@myamazonpartners.com</div>
           </div>
         </div>

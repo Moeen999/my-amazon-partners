@@ -90,7 +90,7 @@ const ContactPage = () => {
                       Phone:{" "}
                     </span>
                     <span className="font-semibold text-foreground">
-                      00447824760953{" "}
+                      +447824760953{" "}
                     </span>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ const ContactPage = () => {
                       Address:{" "}
                     </span>
                     <span className="font-semibold text-foreground">
-                      London United Kingdom
+                      London, England
                     </span>
                   </div>
                 </div>
