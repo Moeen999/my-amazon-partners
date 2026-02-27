@@ -4775,7 +4775,7 @@ export const vendroCentralFaqsData = {
   ]
 }
 
-// ! Walmart Account Audit
+// ! Walmart Account Audit Page Data
 export const walmartAccountAuditHeroData = {
   heading: "Walmart Account Audit",
 
@@ -4929,5 +4929,156 @@ export const walmartAccAuditFaqsData = {
       items: [],
     },
 
+  ]
+}
+
+
+// ! Walmart Ad Audit Page data
+export const walmartAdAuditHeroData = {
+  heading: "Walmart Advertising Audit",
+
+  subHeading: "",
+
+  description:
+    "Get a clear, data-driven evaluation of your Walmart PPC campaigns. Our experts analyze your campaigns, ad spend, and targeting to uncover wasted spend, missed opportunities, and clear paths to improved performance with actionable insights to increase ROI, conversions, and achieve profitable growth.",
+
+  ctaText: "",
+
+  checklist: [
+    {
+      id: 1,
+      icon: FaCheck,
+      text: "Full Walmart PPC campaigns review",
+      href: ""
+    },
+    {
+      id: 2,
+      icon: FaCheck,
+      text: "In-depth SKU and product performance analysis",
+      href: ""
+    },
+    {
+      id: 3,
+      icon: FaCheck,
+      text: "Ad dpend breakdown and efficiency review",
+      href: ""
+    },
+    {
+      id: 4,
+      icon: FaCheck,
+      text: "Keyword and targeting audit (identify waste and opportunities)",
+      href: ""
+    },
+    {
+      id: 5,
+      icon: FaCheck,
+      text: "Ad type and placement coverage check",
+      href: ""
+    },
+  ],
+
+  rightImageSrc: "/walmartAdAuditImages/hero.png",
+}
+
+export const walmartAdAuditCampaignAuditFeatureCardsData = [
+  {
+    id: 1,
+    image: "/walmartAdAuditImages/review.png",
+    title: "Campaign Performance Review",
+    description: "Analyze CPC, impressions, clicks, and conversions to identify performance trends and inefficiencies."
+  },
+  {
+    id: 2,
+    image: "/walmartAdAuditImages/analysis.png",
+    title: "Keyword and Targeting Analysis",
+    description: "Evaluate which keywords and targets drive conversions and which drain budget."
+  },
+  {
+    id: 3,
+    image: "/walmartAdAuditImages/audit.png",
+    title: "Bid, Budget and ROAS Audit",
+    description: "Evaluate bid strategy, budget allocation, and true return on ad spend to improve profitability."
+  },
+  {
+    id: 4,
+    image: "/walmartAdAuditImages/evaluation.png",
+    title: "Ad Creative Evaluation",
+    description: "Assess titles, images, and copy to identify areas that could boost CTR and conversions."
+  },
+  {
+    id: 5,
+    image: "/walmartAdAuditImages/benchmarking.png",
+    title: "Competitive Benchmarking",
+    description: "Compare your ad performance to your closest competitors to identify gaps and opportunities."
+  },
+  {
+    id: 6,
+    image: "/walmartAdAuditImages/recommendations.png",
+    title: "Actionable Recommendations",
+    description: "Receive a step-by-step plan for optimizing campaigns and scaling efficiently based on audit findings."
+  }
+];
+
+export const walmartAdsAuditContent = {
+  mainTitle: "Turn Walmart Ads Into Profit, Not Loss",
+  mainDescription: "A focused Walmart strategy brings clarity to what drives sales. Our audit highlights gaps across listings, ads, and content that often go unchecked.",
+  positiveAudit: {
+    title: "Profit-Driven Walmart Advertising Audit",
+    subtitle: "We analyze your Walmart PPC campaigns to make every ad dollar more effective.",
+    points: [
+      "Identify high-intent, high-converting opportunities",
+      "Bid and spend reviewed for ROAS improvements",
+      "Scalability and efficiency of campaigns",
+      "Every find backed by performance data, not guesswork",
+      "Ad spend checked for ranking, visibility, and long-term growth potential"
+    ]
+  },
+  negativeAudit: {
+    title: "Growth Stalls Without a Walmart Strategy",
+    subtitle: "Most sellers unknowingly burn money every single day.",
+    points: [
+      "Budgets drained by low-quality clicks",
+      "Poor targeting sending traffic that never converts",
+      "Campaigns running unchecked with no data-driven plan",
+      "ROAS stays weak or unpredictable",
+      "Sellers have no insight into which ads actually make money"
+    ]
+  }
+};
+
+export const walmartAdAuditFaqsData = {
+  mainHeading: "Frequently asked questions",
+  subHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "Why should I get a Walmart Advertising (PPC) Audit?",
+      description: "A Walmart Advertising Audit identifies wasted ad spend, underperforming campaigns, and low-converting keywords. It provides a clear, data-driven roadmap to improve ROAS, uncover missed opportunities, and make smarter decisions for profitable growth.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How do I know if my budget is being spent efficiently?",
+      description: "We evaluate your budget allocation across Sponsored Products, Sponsored Brands, and targeting types to ensure spend is focused on high-performing keywords and products—not wasted on broad or inefficient campaigns. Campaign structure is also reviewed to identify potential inefficiencies.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Can an audit help improve inconsistent ad performance?",
+      description: 'Yes. We identify large fluctuations in CPC, CTR, and conversion rate to pinpoint underperforming campaigns or keywords that drain your budget. The audit highlights areas where adjustments could significantly improve performance.',
+      items: [],
+    },
+    {
+      id: 4,
+      question: "How does product coverage and listing quality affect my ads?",
+      description: 'We review campaign coverage for all key products and evaluate listing quality to determine whether it supports conversions. The audit provides recommendations for content optimization so your ad spend is not wasted on traffic that doesn’t convert.',
+      items: [],
+    },
+    {
+      id: 5,
+      question: "Will an audit help improve my brand metrics and growth?",
+      description: 'Yes. We benchmark impressions, click share, sales trends, and category performance to highlight areas where your ads could capture more market share. The audit provides actionable insights to improve visibility, ad efficiency, and long-term growth on Walmart.',
+      items: [],
+    },
   ]
 }

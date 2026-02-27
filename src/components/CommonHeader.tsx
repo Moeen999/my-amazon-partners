@@ -15,7 +15,9 @@ const CommonHeader = ({ content }) => {
     <section className="w-full max-w-7xl mx-auto px-6">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
-          <h1 className={`text-2xl md:text-4xl font-semibold text-foreground leading-tight ${pathname === "/services/other-services/walmart-account-audit" ? "text-white" : ""}`}>
+          <h1
+            className={`text-2xl md:text-4xl font-semibold text-foreground leading-tight ${pathname === "/services/other-services/walmart-account-audit" || pathname === "/services/other-services/walmart-advertising-audit" ? "text-white" : ""}`}
+          >
             {heading}
           </h1>
 
@@ -24,7 +26,9 @@ const CommonHeader = ({ content }) => {
           )}
 
           {description && (
-            <p className={`mt-2 text-muted-foreground max-w-xl leading-relaxed  ${pathname === "/services/other-services/walmart-account-audit" ? "text-white" : ""}`}>
+            <p
+              className={`mt-2 text-muted-foreground max-w-xl leading-relaxed  ${pathname === "/services/other-services/walmart-account-audit" || pathname === "/services/other-services/walmart-advertising-audit" ? "text-white" : ""}`}
+            >
               {description}
             </p>
           )}
@@ -41,14 +45,18 @@ const CommonHeader = ({ content }) => {
                   >
                     {Icon ? (
                       <span
-                        className={`text-green-600 ${pathname === "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon" ? "bg-red-500 text-white rounded-full" : ""} ${pathname === "/services/other-services/walmart-account-audit" ? "text-yellow-400" : ""}`}
+                        className={`text-green-600 ${pathname === "/services/listing-optimization/listing-optimization/upc-change-gs1-amazon" ? "bg-red-500 text-white rounded-full" : ""} ${pathname === "/services/other-services/walmart-account-audit" || pathname === "/services/other-services/walmart-advertising-audit" ? "text-yellow-400" : ""}`}
                       >
                         <Icon />
                       </span>
                     ) : (
                       <ArrowIcon />
                     )}
-                    <span className={`text-foreground text-sm ${pathname === "/services/other-services/walmart-account-audit" ? "text-white" : ""}`}>{text}</span>
+                    <span
+                      className={`text-foreground text-sm ${pathname === "/services/other-services/walmart-account-audit" || pathname === "/services/other-services/walmart-advertising-audit" ? "text-white" : ""}`}
+                    >
+                      {text}
+                    </span>
                   </a>
                 );
               })}
