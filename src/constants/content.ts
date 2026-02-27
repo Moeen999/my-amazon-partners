@@ -1316,7 +1316,7 @@ export const homeHeroData = {
   headingMain: "Your Amazon",
   headingItalic: "growth",
   headingEnd: "starts right here.",
-  subtext: "Have great products but sluggish sales? Our Amazon specialists handle PPC, SEO, design & platform management — so you scale faster, with less stress.",
+  subtext: "Have great products but sluggish sales? Our Amazon specialists handle PPC, SEO, design & platform management so you scale faster, with less stress.",
   brandsTrustText: "450+ brands trust us including Nestlé & Honeywell",
   statsCards: [
     {
@@ -1404,7 +1404,7 @@ export const homeProcessData = {
     {
       id: "02",
       title: "Optimization",
-      description: "A never-ending cycle of improvement across your catalog, PPC campaigns, SEO, and creative — always pushing the needle forward.",
+      description: "A never-ending cycle of improvement across your catalog, PPC campaigns, SEO, and creative always pushing the needle forward.",
       rightSide: {
         stepLabel: "Step 02 — Optimization",
         heading: "A never-ending cycle of improvement.",
@@ -1414,7 +1414,7 @@ export const homeProcessData = {
     {
       id: "03",
       title: "Results",
-      description: "Watch your traffic, conversion rates, and sales climb — with fully transparent reporting so you always know exactly what's happening.",
+      description: "Watch your traffic, conversion rates, and sales climb with fully transparent reporting so you always know exactly what's happening.",
       rightSide: {
         stepLabel: "Step 03 — Results",
         heading: "Watch your sales climb and scale.",
@@ -1431,7 +1431,7 @@ export const homeCaseStudies = [
     badge: "Revenue Growth",
     title: "293% higher monthly revenue after creative + PPC overhaul",
     description:
-      "A dramatic jump in sales driven by a complete revamp of creative assets — improved listing images, A+ content, and a fully restructured PPC strategy that finally put them in front of the right buyers.",
+      "A dramatic jump in sales driven by a complete revamp of creative assets improved listing images, A+ content, and a fully restructured PPC strategy that finally put them in front of the right buyers.",
   },
   {
     brand: "CHIRP",
@@ -1439,7 +1439,7 @@ export const homeCaseStudies = [
     badge: "Market Growth",
     title: "519% growth for a well-known brand in a saturated market",
     description:
-      "We were able to produce more success for a recognizable brand in a highly competitive category — proving our full-service strategy works even when the marketplace is crowded and the odds are stacked.",
+      "We were able to produce more success for a recognizable brand in a highly competitive category proving our full-service strategy works even when the marketplace is crowded and the odds are stacked.",
   },
 ];
 
@@ -1447,7 +1447,7 @@ export const homeTestimonialsData = [
   {
     rating: 5,
     text:
-      "I thought it was time for a little thank you. I'm just feeling extra grateful — I sent the survey over, just tens all across the board. You guys are incredible.",
+      "I thought it was time for a little thank you. I'm just feeling extra grateful. I sent the survey over, just tens all across the board. You guys are incredible.",
     name: "Chad Littlefield",
     role: "Co-Founder, We and Me",
     initials: "CL",
@@ -1463,7 +1463,7 @@ export const homeTestimonialsData = [
   {
     rating: 5,
     text:
-      "We started to make 80% growth in just four months — over 200% compared to the previous period. Results we never thought were possible so quickly.",
+      "We started to make 80% growth in just four months over 200% compared to the previous period. Results we never thought were possible so quickly.",
     name: "Cynthia Li",
     role: "Founder & Co-owner, Whole Parts",
     initials: "CL",
@@ -1488,7 +1488,7 @@ export const homeFaqData = {
     {
       id: 1,
       question: "What is an Amazon Agency?",
-      description: "An Amazon agency specializes in managing and growing brands on Amazon — handling advertising, SEO, design, and strategy. Hiring one simplifies selling, boosts growth, and frees you to focus on building your business.",
+      description: "An Amazon agency specializes in managing and growing brands on Amazon handling advertising, SEO, design, and strategy. Hiring one simplifies selling, boosts growth, and frees you to focus on building your business.",
       items: [],
     },
     {
@@ -1500,7 +1500,7 @@ export const homeFaqData = {
     {
       id: 3,
       question: "How do you manage advertising campaigns?",
-      description: "Our PPC team builds and continuously optimizes Sponsored Products, Sponsored Brands, and Sponsored Display campaigns — targeting higher revenue and lower ACOS with full transparency.",
+      description: "Our PPC team builds and continuously optimizes Sponsored Products, Sponsored Brands, and Sponsored Display campaigns targeting higher revenue and lower ACOS with full transparency.",
       items: [],
     },
     {
@@ -1512,13 +1512,13 @@ export const homeFaqData = {
     {
       id: 5,
       question: "How do I get started?",
-      description: "Start with a free listing audit — we'll review your Amazon presence and provide actionable suggestions. Then we'll schedule an icebreaker call to understand your goals and build a tailored plan.",
+      description: "Start with a free listing audit. We'll review your Amazon presence and provide actionable suggestions. Then we'll schedule an icebreaker call to understand your goals and build a tailored plan.",
       items: [],
     },
     {
       id: 6,
       question: "Do you provide reporting and analytics?",
-      description: "Yes — you'll receive detailed, fully transparent reporting on all efforts. You'll always know exactly what we're doing, why we're doing it, and what results it's generating.",
+      description: "Yes you'll receive detailed, fully transparent reporting on all efforts. You'll always know exactly what we're doing, why we're doing it, and what results it's generating.",
       items: [],
     },
   ]

@@ -17,7 +17,7 @@ const HomeCaseStudies = () => {
         </h2>
 
         <p className="mt-6 max-w-xl text-gray-600">
-          We've helped hundreds of businesses grow on Amazon — we want you to be
+          We've helped hundreds of businesses grow on Amazon. We want you to be
           our next success story.
         </p>
 
@@ -52,7 +52,7 @@ const HomeCaseStudies = () => {
               </p>
 
               <button className="mt-6 text-orange-500 font-semibold hover:underline">
-                <Link to="/case-studeis">
+                <Link to="/case-studies">
                 Read full case study →
                 </Link>
               </button>
