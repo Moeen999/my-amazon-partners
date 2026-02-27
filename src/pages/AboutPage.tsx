@@ -93,7 +93,7 @@ const AboutPage = () => (
             with over 500 employees, servicing over 400 Amazon brands.
           </p>
         </div>
-        <div>
+        {/* <div>
           <p className="text-center text-sm text-muted-foreground mb-4">
             As featured in:
           </p>
@@ -107,7 +107,7 @@ const AboutPage = () => (
               </span>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
 

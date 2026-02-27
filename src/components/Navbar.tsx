@@ -61,7 +61,10 @@ const Navbar = () => {
               <div className="w-1 h-6 bg-accent rounded-sm" />
               <div className="w-1 h-6 bg-accent rounded-sm" />
             </div>
-            <span className="text-xl font-heading font-bold ml-1">
+            <span
+              className="text-xl font-heading font-bold ml-1"
+              onClick={() => setMobileOpen(!mobileOpen)}
+            >
               My Amazon Partners
             </span>
           </Link>
