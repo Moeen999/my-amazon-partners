@@ -167,6 +167,7 @@ const Navbar = () => {
                 <Link
                   to="/services/design"
                   className="flex items-center gap-3 font-bold mb-2 p-2 hover:bg-gray-100 rounded-md"
+                  onClick={() => setServicesOpen(!servicesOpen)}
                 >
                   <ArrowIcon /> Design
                 </Link>
@@ -220,6 +221,7 @@ const Navbar = () => {
                 <Link
                   to="/services/other-services/amazon-troubleshooting"
                   className="flex items-center gap-3 font-bold mb-2 p-2 hover:bg-gray-100 rounded-md"
+                  onClick={() => setServicesOpen(!servicesOpen)}
                 >
                   <ArrowIcon /> Troubleshooting
                 </Link>
@@ -262,9 +264,13 @@ const Navbar = () => {
 
               {/* Column 4: Others */}
               <div className="space-y-3 pl-6">
-                <div className="flex items-center gap-3 font-bold mb-2 p-2">
+                <Link
+                  to="/services/other-services"
+                  className="flex items-center gap-3 font-bold mb-2 p-2"
+                  onClick={() => setServicesOpen(!servicesOpen)}
+                >
                   <ArrowIcon /> Other Services
-                </div>
+                </Link>
                 {[
                   { title: "Amazon DSP", link: "/amazon-dsp" },
                   {
