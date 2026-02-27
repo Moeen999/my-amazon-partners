@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ArrowIcon from "./ArrowIcon";
 
 const CommonHeader = ({ content }) => {

@@ -36,6 +36,7 @@ import BarcodeChangeService from "./pages/BarcodeChangeService";
 import OtherServices from "./pages/OtherServices";
 import AmazonDsp from "./pages/AmazonDsp";
 import TrademarkReg from "./pages/TrademarkReg";
+import VendorCentral from "./pages/VendorCentral";
 
 const queryClient = new QueryClient();
 
@@ -84,6 +85,7 @@ const App = () => (
               <Route path="/amazon-dsp" element={<AmazonDsp />} />
               <Route path="/services/other-services" element={<OtherServices />} />
               <Route path="/services/trademark-registration" element={<TrademarkReg />} />
+              <Route path="/services/other-services/vendor-central" element={<VendorCentral />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

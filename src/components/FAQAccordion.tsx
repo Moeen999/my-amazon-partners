@@ -16,6 +16,7 @@ import {
   otherServicesFaqsData,
   amazonDspFaqsdata,
   trademarkRegFaqsData,
+  vendroCentralFaqsData,
 } from "@/constants/content";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
@@ -68,9 +69,14 @@ const FAQAccordion = () => {
                                   : pathname === "/services/other-services"
                                     ? otherServicesFaqsData.mainHeading
                                     : pathname === "/amazon-dsp"
-                                      ? amazonDspFaqsdata.mainHeading : pathname === "/services/trademark-registration"
-                                      ? trademarkRegFaqsData.mainHeading
-                                      : homeFaqData.mainHeading}
+                                      ? amazonDspFaqsdata.mainHeading
+                                      : pathname ===
+                                          "/services/trademark-registration"
+                                        ? trademarkRegFaqsData.mainHeading
+                                        : pathname ===
+                                            "/services/other-services/vendor-central"
+                                          ? vendroCentralFaqsData.mainHeading
+                                          : homeFaqData.mainHeading}
       </h2>
       <p className="m-6">
         Feel free to{" "}
@@ -119,9 +125,14 @@ const FAQAccordion = () => {
                                   : pathname === "/services/other-services"
                                     ? otherServicesFaqsData.questions
                                     : pathname === "/amazon-dsp"
-                                      ? amazonDspFaqsdata.questions : pathname === "/services/trademark-registration"
-                                      ? trademarkRegFaqsData.questions
-                                      : homeFaqData.questions
+                                      ? amazonDspFaqsdata.questions
+                                      : pathname ===
+                                          "/services/trademark-registration"
+                                        ? trademarkRegFaqsData.questions
+                                        : pathname ===
+                                            "/services/other-services/vendor-central"
+                                          ? vendroCentralFaqsData.questions
+                                          : homeFaqData.questions
         ).map((item) => (
           <AccordionItem
             key={item.id}

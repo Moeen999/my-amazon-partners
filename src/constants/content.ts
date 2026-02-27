@@ -4442,7 +4442,7 @@ export const trademarkRegFaqsData = {
     {
       id: 6,
       question: "My business is outside the USA (international). Is that okay?",
-      description: "Yes. Any business filing a trademark in the USA from an international location must hire an attorney, which we provide. This is due to an update in 2019 from the USPTO. So this is a great net benefit of using My Amazon Guy!",
+      description: "Yes. Any business filing a trademark in the USA from an international location must hire an attorney, which we provide. This is due to an update in 2019 from the USPTO. So this is a great net benefit of using My Amazon Partners!",
       items: [],
     },
     {
@@ -4540,6 +4540,236 @@ export const trademarkRegFaqsData = {
       id: 21,
       question: "I'm looking to file a trademark - at what point in the process should I do this? Right before launch with all of my units ready, or while my manufacturer is making it for me?",
       description: "The moment you have a product with packaging that has the logo on it. You want to reserve the name to protect it. But you also need a cell phone picture of said item to file the TM easily.",
+      items: [],
+    },
+  ]
+}
+
+// ! Vendor Central Data
+export const vendorCentralHeroData = {
+  heading: "Amazon Vendor Central Full Service",
+
+  subHeading: "",
+
+  description:
+    "From preparing your Seller Central account for Vendor Central eligibility to fixing vendor-side issues like chargebacks and delivery claims, we’re here to give you expert management to keep your operations running smoothly.",
+
+  ctaText: "Contact us to get started",
+
+  checklist: [],
+
+  rightImageSrc: "/vendorCntralImages/hero.png",
+}
+
+export const vendorCentralContent = {
+  mainHeading: "What is Vendor Central?",
+  description1: "Unlike Seller Central, Vendor Central is used by first-party sellers. This invite-only program allows you to directly sell your products to Amazon in bulk to be \"shipped and sold by Amazon\", which displays on the product listing.",
+  description2: "This can be a great option to increase confidence in your brand, access more powerful advertising strategies, and deal with fewer merchandising issues, since Amazon is your primary buyer.",
+  ctaText: "Talk to us about Vendor Central",
+  services: [
+    "A+ Content",
+    "Full listing optimization",
+    "Catalog management",
+    "Chargebacks",
+    "Open statements",
+    "Cases",
+    "Reports",
+    "Advertising",
+    "VC Brand Store creation",
+    "Compliance document filing",
+    "Coupons and promotion",
+    "Setup and management",
+    "Vine program setup",
+    "AB testing",
+    "Dispute management",
+    "Product upload",
+    "VC PPC management",
+    "VC Transfer to SC",
+    "Purchase order management assistance",
+    "Direct fulfillment setup and management"
+  ]
+};
+
+export const vendorCentralFeatures = [
+  {
+    id: 1,
+    title: "Competitor Research",
+    description: "Launching more products generates more sales. You bring us any category or item, and we can tell you how it stacks up against the competition.",
+    image: "/vendorCntralImages/research.png",
+  },
+  {
+    id: 2,
+    image: "/vendorCntralImages/caselogs.png",
+    title: "Managing Case Logs",
+    description: "We can manage your Amazon cases and talk to Amazon’s seller support for you."
+  },
+  {
+    id: 3,
+    image: "/vendorCntralImages/inventory.png",
+    title: "PO Tracking and Inventory",
+    description: "We monitor incoming purchase orders, analyze demand trends, and help you stay stocked so you never miss Amazon’s buying cycles."
+  },
+  {
+    id: 4,
+    image: "/vendorCntralImages/conferencecall.png",
+    title: "Regular Conference Calls",
+    description: "You will have an open line of communication with your Amazon Account Specialist, whether you prefer to communicate through e-mail, phone calls, or video calls."
+  },
+  {
+    id: 5,
+    image: "/vendorCntralImages/salesreporting.png",
+    title: "PPC and Sales Reporting",
+    description: "Our weekly reports will give you the fastest snapshot of your Amazon performance, including your sales, conversion rates, and advertising performance."
+  },
+  {
+    id: 6,
+    image: "/vendorCntralImages/additionalitems.png",
+    title: "Additional Items within VC",
+    description: "We can assist with anything that will help your sales grow, including generating FBA reports, inventory reports and generating FBA shipments, and monitoring suppressed listings."
+  }
+];
+
+export const vendorCentralPpcManagementContent = {
+  title: "Expert Amazon PPC Management",
+  mainDescription: "The key to driving traffic to your listings lies in Amazon PPC. We've helped hundreds of clients set up proper advertising campaigns that produce impressive results. Our PPC management involves a series of techniques combined with advanced macros to optimize current advertising efforts. We'll update your advertising faster, more frequently, and more holistically. In addition, we store bid adjustments for your viewing pleasure at any time. Everything we do prioritizes transparency.",
+  sections: [
+    {
+      heading: "Top-Tier Expertise",
+      points: [
+        "Accredited & Certified: Benefit from our Sponsored Ads and DSP certifications.",
+        "Ahead of the Curve: We deploy new ad types before they're publicly available."
+      ]
+    },
+    {
+      heading: "Effective Campaign Management",
+      points: [
+        "Custom Strategies: Tailored campaigns to target all potential customers.",
+        "Advanced Optimization: Cutting-edge techniques and regular updates for peak performance.",
+        "Full Transparency: Access bid adjustments and detailed performance insights anytime."
+      ]
+    }
+  ],
+  footerText: "Choose us for impactful, transparent Amazon PPC management.",
+  btnText: "Talk to Us"
+};
+
+export const vendorCentralAmazonSEOContent = {
+  title: "Amazon SEO",
+  mainDescription: "With years of knowledge and experience behind us, SEO has become second nature to us. We've unearthed the ins and outs when it comes to selecting and implementing keywords for your product listings. Our best-in-class 4-phase SEO plan will help your products rank on the first page and sell in just a few clicks.",
+  sections: [
+    {
+      heading: "Proven Expertise",
+      points: [
+        "Years of Experience: Our deep knowledge turns Amazon SEO into a science.",
+        "4-Phase SEO Plan: A strategic approach to push your products to the first page."
+      ]
+    },
+    {
+      heading: "Comprehensive SEO Services",
+      points: [
+        "Keyword & Competitor Research: Identify the best keywords and understand your competition.",
+        "Targeted Keyword Selection: Choose the most effective keywords for optimal results.",
+        "Ongoing Rank Tracking: Monitor keyword performance to ensure continuous improvement."
+      ]
+    }
+  ],
+  footerText: "Elevate your product visibility and sales with our expert Amazon SEO.",
+  btnText: "Talk to Us"
+};
+
+export const vendorCentralAmazonDesignContent = {
+  title: "Amazon Design",
+  mainDescription: "Stunning visuals to help increase click-through rates, drive conversions, and stand out from all the competition. Quality content has been proven to catch the attention of customers, always. With hundreds of copy projects under our belts, we know what it takes to create and publish gold standard content.",
+  services: [
+    {
+      label: "Brand Storefront",
+      description: "Showcase Products to Attract customers and highlight your product range."
+    },
+    {
+      label: "Enhanced Brand Content (A+)",
+      description: "Drive Conversions with Engaging A+ Content enhances product appeal."
+    },
+    {
+      label: "Brand Story",
+      description: "Build Connection. Share your brand's story to engage and convert customers."
+    },
+    {
+      label: "Main Image Amazon CTR Hack",
+      description: "Increase Clicks with Optimized main images for higher visibility."
+    },
+    {
+      label: "Listing Images",
+      description: "We create professional listing images that inform and engage shoppers."
+    }
+  ],
+  footerNote: "Make your listings stand out. Contact us for top-tier Amazon design services.",
+  btnText: "Talk to Us"
+};
+export const vendorCentralLogisticsContent = {
+  title: "Logistics",
+  services: [
+    {
+      heading: "Shipping Plan Generation",
+      description: "We'll generate a shipping plan to keep your business on track and your customers satisfied."
+    },
+    {
+      heading: "Restock Suggestions",
+      description: "Keep your Inventory Performance Index (IPI) healthy, which is the metric used by Amazon that measures how efficiently sellers manage their inventory in FBA."
+    }
+  ],
+  checkPoints: [
+    "Manage restock limitations",
+    "Keep your IPI healthy"
+  ],
+  btnText: "Talk to Us"
+};
+
+export const vendorCentralReportingContent = {
+  title: "Reporting and Monitoring",
+  subHeading: "Weekly reporting so you know how your traffic and conversion rates are growing market share.",
+  monitoringTitle: "Monitoring",
+  monitoringDescription: "We continuously keep an eye out for stranded inventory, hijacker alerts, and issues related to Account Health Management to avoid interruptions and make sure our strategies are effective and avoid setbacks.",
+  btnText: "Talk to Us"
+};
+
+export const vendroCentralFaqsData = {
+  mainHeading: "Frequently asked questions",
+  subHeading: "",
+  questions: [
+    {
+      id: 1,
+      question: "What is a trademark?",
+      description: "We act as your dedicated account manager for Amazon’s 1P platform, handling all daily operations—from catalog troubleshooting to logistics—so you don't need an in-house team.",
+      items: [],
+    },
+    {
+      id: 2,
+      question: "How do you handle Purchase Orders and logistics?",
+      description: "We manage the entire order lifecycle, including confirming Purchase Orders, overseeing Direct Fulfillment, and ensuring accurate delivery documentation to prevent friction.",
+      items: [],
+    },
+    {
+      id: 3,
+      question: "Do you assist with financial disputes?",
+      description: 'Yes. We aggressively fight Chargebacks and Shortage Claims by investigating discrepancies and submitting "Proof of Delivery" to recover your revenue.',
+      items: [],
+    },
+    {
+      id: 4,
+      question: "What marketing strategies do you offer?",
+      description: "We drive growth through A+ Content creation, PPC advertising, Brand Store optimization, and managing the Amazon Vine program for reviews.",
+      items: [],
+    },
+    {
+      id: 5,
+      question: "How do you manage catalog health?",
+      description: "We take ownership of Item Management, fixing complex errors like variations 'twisters' and suppressed listings while handling compliance documentation to keep you live.",
+      items: [],
+    },
+    {
+      id: 6,
+      question: "What reporting do I get?",
+      description: "You receive daily account health checks, weekly sales and advertising reports, and full management of all Amazon Support case logs.",
       items: [],
     },
   ]
