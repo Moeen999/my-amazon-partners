@@ -16,6 +16,7 @@ import emailjs from "@emailjs/browser";
 import { FaAddressBook } from "react-icons/fa6";
 
 const ContactPage = () => {
+  const [loading, setLoading] = useState(false);
   const { toast } = useToast();
   const [form, setForm] = useState({
     firstName: "",
@@ -37,7 +38,7 @@ const ContactPage = () => {
       message: form.message,
       listing_link: form.listingLink,
     };
-
+    setLoading(true);
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -58,9 +59,11 @@ const ContactPage = () => {
           message: "",
           listingLink: "",
         });
+        setLoading(false);
       })
       .catch(() => {
         alert("Failed to send message");
+        setLoading(false);
       });
   };
 
@@ -258,8 +261,14 @@ const ContactPage = () => {
                   By clicking Submit, you agree to our Privacy Policy and Terms
                   & Conditions.
                 </p>
-                <Button type="submit" variant="cta" size="lg">
-                  Submit <Send className="ml-2 h-4 w-4" />
+                <Button
+                  type="submit"
+                  variant="cta"
+                  size="lg"
+                  disabled={loading}
+                >
+                  {loading ? "Submitting..." : "Submit"}{" "}
+                  <Send className="ml-2 h-4 w-4" />
                 </Button>
               </form>
             </div>
